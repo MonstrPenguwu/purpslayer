@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cairn — Slayer Loadout Planner</title>
+<title>PurpSlayer — Slayer Loadout Planner</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -293,7 +293,7 @@
 <div class="app">
   <header class="top">
     <div class="brand">
-      <h1>Cairn</h1>
+      <h1>PurpSlayer</h1>
       <span class="sub">Slayer Loadout Planner</span>
     </div>
     <p class="tagline">Pick your task, tick what's in your bank, and save a loadout you can pull up next time you're assigned the same task.</p>
@@ -442,11 +442,11 @@ let editingLoadoutId = null;
 
 /* ============ LOCAL STORAGE (works on GitHub Pages, no backend needed) ============ */
 function loadLocal(){
-  try{ ownedItems = new Set(JSON.parse(localStorage.getItem('cairn_ownedItems') || '[]')); }catch(e){ ownedItems = new Set(); }
-  try{ loadouts = JSON.parse(localStorage.getItem('cairn_loadouts') || '[]'); }catch(e){ loadouts = []; }
+  try{ ownedItems = new Set(JSON.parse(localStorage.getItem('purpslayer_ownedItems') || '[]')); }catch(e){ ownedItems = new Set(); }
+  try{ loadouts = JSON.parse(localStorage.getItem('purpslayer_loadouts') || '[]'); }catch(e){ loadouts = []; }
 }
-function persistOwned(){ localStorage.setItem('cairn_ownedItems', JSON.stringify([...ownedItems])); }
-function persistLoadouts(){ localStorage.setItem('cairn_loadouts', JSON.stringify(loadouts)); }
+function persistOwned(){ localStorage.setItem('purpslayer_ownedItems', JSON.stringify([...ownedItems])); }
+function persistLoadouts(){ localStorage.setItem('purpslayer_loadouts', JSON.stringify(loadouts)); }
 
 function esc(str){
   return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');

@@ -43,7 +43,7 @@ API_URL = "https://oldschool.runescape.wiki/api.php"
 # The wiki asks bots/tools to identify themselves with a descriptive UA
 # and contact method -- be a good API citizen.
 HEADERS = {
-    "User-Agent": "Cairn-SlayerLoadoutPlanner/1.0 (github pages project; contact: set-your-contact-here)"
+    "User-Agent": "PurpSlayer/1.0 (github pages project; contact: set-your-contact-here)"
 }
 REQUEST_DELAY_SECONDS = 1.2  # be gentle with the wiki's servers
 

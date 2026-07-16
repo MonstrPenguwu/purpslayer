@@ -1,4 +1,4 @@
-# Cairn — Slayer Loadout Planner
+# PurpSlayer — Slayer Loadout Planner
 
 A static gear-recommendation tool for OSRS Slayer tasks. Pick a monster, tick
 the gear you own per equipment slot, save it as a named loadout, and pull it
@@ -112,7 +112,7 @@ scripts/fetch_recommended_gear.py     pulls gear loadout suggestions from wiki S
 
 ## Loadout persistence
 
-Named loadouts are stored in `localStorage` under the key `cairn_loadouts` as
+Named loadouts are stored in `localStorage` under the key `purpslayer_loadouts` as
 a JSON object keyed by loadout name. Inventory tags are stored per-loadout as
 a plain string array. Clearing site data in the browser will erase all saved
 loadouts.
