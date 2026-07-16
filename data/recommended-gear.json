@@ -1,0 +1,1125 @@
+{
+  "generatedAt": "2026-07-13T20:21:32Z",
+  "source": "https://oldschool.runescape.wiki",
+  "tasks": {
+    "gargoyles": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Gargoyles",
+      "melee": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Torva full helm / Inquisitor's great helm / Blood moon helm / Neitiznot faceguard / Oathplate helm / Serpentine helm / Helm of neitiznot"
+          },
+          {
+            "slot": "Neck",
+            "item": "Amulet of rancour / Amulet of torture / Amulet of blood fury / Amulet of fury / Amulet of glory / Amulet of strength"
+          },
+          {
+            "slot": "Cape",
+            "item": "Infernal cape / Fire cape / Mythical cape / Ardougne cloak 4 / Cape of Accomplishment (t)"
+          },
+          {
+            "slot": "Body",
+            "item": "Torva platebody / Inquisitor's hauberk / Oathplate chest / Sunfire fanatic cuirass / Justiciar chestguard / Proselyte hauberk"
+          },
+          {
+            "slot": "Legs",
+            "item": "Torva platelegs / Inquisitor's plateskirt / Oathplate legs / Obsidian platelegs / Eclipse moon tassets / Blue moon tassets / Sunfire fanatic chausses / Proselyte cuisse / Verac's plateskirt"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Scythe of vitur / Granite hammer / Soulreaper axe / Inquisitor's mace / Dual macuahuitl / Abyssal bludgeon / Ursine chainmace (u) / Zamorakian hasta / Saradomin sword / Sarachnis cudgel / Glacial temotli / Zombie axe / Osmumten's fang / Barronite mace / Dragon mace"
+          },
+          {
+            "slot": "Shield",
+            "item": "Avernic defender / Dragon defender / Dragonfire shield / Antler guard / Book of war / Unholy book"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Ferocious gloves / Barrows gloves / Dragon gloves / Rune gloves / Regen bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Primordial boots / Dragon boots / Guardian boots / Rune boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Ultor ring / Berserker ring (i) / Lightbearer / Brimstone ring / Tyrannical ring (i) / Ring of shadows / Ring of wealth"
+          }
+        ]
+      },
+      "ranged": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Masori mask (f) / Crystal helm"
+          },
+          {
+            "slot": "Neck",
+            "item": "Necklace of rupture / Necklace of anguish / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Dizana's quiver / Ava's assembler / Ava's accumulator / Ranging cape(t)"
+          },
+          {
+            "slot": "Body",
+            "item": "Masori body (f) / Crystal body / Hueycoatl hide body / Eclipse moon chestplate / Black d'hide body"
+          },
+          {
+            "slot": "Legs",
+            "item": "Masori chaps (f) / Crystal legs / Hueycoatl hide chaps / Eclipse moon tassets / Black d'hide chaps"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Toxic blowpipe / Hunters' sunlight crossbow / Bow of faerdhinen / Eclipse atlatl"
+          },
+          {
+            "slot": "Shield",
+            "item": "Twisted buckler / Dragonfire ward / Antler guard / Ancient d'hide shield"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / Moonlight antler bolts / Atlatl dart / God blessing / Rada's blessing 3 / Sunlight antler bolts"
+          },
+          {
+            "slot": "Hands",
+            "item": "Zaryte vambraces / Barrows gloves"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Pegasian boots / Aranea boots / Devout boots / Mixed hide boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Venator ring / Lightbearer / Ring of the gods (i) / Ring of wealth"
+          }
+        ]
+      }
+    },
+    "jellies": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Jellies",
+      "melee": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Torva full helm / Neitiznot faceguard / Serpentine helm / Helm of neitiznot"
+          },
+          {
+            "slot": "Neck",
+            "item": "Amulet of rancour / Amulet of torture / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Infernal cape / Fire cape / Ardougne cloak 4 / Mythical cape / Cape of Accomplishment"
+          },
+          {
+            "slot": "Body",
+            "item": "Torva platebody / Bandos chestplate / Proselyte hauberk / Karil's leathertop / Blessed body"
+          },
+          {
+            "slot": "Legs",
+            "item": "Torva platelegs / Bandos tassets / Proselyte cuisse / Karil's leatherskirt / Elite void robe"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Ghrazi rapier / Inquisitor's mace / Blade of saeldor / Abyssal tentacle / Abyssal whip / Abyssal dagger"
+          },
+          {
+            "slot": "Shield",
+            "item": "Avernic defender / Dragon defender / Blessed shield / Black d'hide shield / Mind shield"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing"
+          },
+          {
+            "slot": "Hands",
+            "item": "Expeditious bracelet / Ferocious gloves / Barrows gloves / Regen bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Primordial boots / Dragon boots / Guardian boots / Rune boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Ultor ring / Berserker ring (i) / Brimstone ring / Lightbearer / Warrior ring (i)"
+          }
+        ]
+      },
+      "magic": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Virtus mask / Ancestral hat / Mitre / Proselyte sallet"
+          },
+          {
+            "slot": "Neck",
+            "item": "Occult necklace / Amulet of fury / Amulet of glory / Amulet of power / Amulet of magic"
+          },
+          {
+            "slot": "Cape",
+            "item": "God capes / Ardougne cloak 4 / Ardougne cloak 3 / Ardougne cloak 2"
+          },
+          {
+            "slot": "Body",
+            "item": "Virtus robe top / Ancestral robe top / Vestment robe top / Monk's robe top"
+          },
+          {
+            "slot": "Legs",
+            "item": "Virtus robe bottom / Ancestral robe bottom / Vestment robe legs / Monk's robe"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Kodai wand / Nightmare staff / Dragon hunter wand / Ice ancient sceptre / Ancient sceptre / Master wand / Ancient staff"
+          },
+          {
+            "slot": "Shield",
+            "item": "Elidinis' ward (f) / Elidinis' ward / Book of darkness / Book of balance / Arcane spirit shield"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Bracelet of slaughter / Confliction gauntlets / Tormented bracelet / Barrows gloves / Dragon gloves / Infinity gloves"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Devout boots / Holy sandals / Echo boots / Guardian boots / Zealot's boots / Ancient ceremonial boots / White boots / Blessed boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Magus ring / Lightbearer / Ring of the gods (i) / Ring of suffering (i) / Explorer's ring 4 / Ring of wealth"
+          }
+        ]
+      },
+      "ranged": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Black mask (i)"
+          },
+          {
+            "slot": "Neck",
+            "item": "Necklace of rupture / Necklace of anguish / Bonecrusher necklace / Dragonbone necklace / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Dizana's quiver / Ava's assembler / Ava's accumulator / Ranging cape"
+          },
+          {
+            "slot": "Body",
+            "item": "Masori body (f) / Masori body / Armadyl chestplate / Blessed body / Black d'hide body"
+          },
+          {
+            "slot": "Legs",
+            "item": "Masori chaps (f) / Masori chaps / Armadyl chainskirt / Blessed chaps / Black d'hide chaps"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Venator bow"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Amethyst arrow / Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Expeditious bracelet / Bracelet of slaughter / Zaryte vambraces / Barrows gloves / Blessed vambraces / Black d'hide vambraces"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Pegasian boots / Ranger boots / Blessed boots / Aranea boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Venator ring / Archers ring (i) / Brimstone ring / Ring of wealth"
+          }
+        ]
+      }
+    },
+    "kurask": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Kurasks",
+      "melee": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Torva full helm / Inquisitor's great helm / Blood moon helm / Neitiznot faceguard / Oathplate helm / Serpentine helm / Helm of neitiznot"
+          },
+          {
+            "slot": "Neck",
+            "item": "Amulet of rancour / Amulet of torture / Amulet of blood fury / Amulet of fury / Amulet of glory / Amulet of strength"
+          },
+          {
+            "slot": "Cape",
+            "item": "Infernal cape / Fire cape / Mythical cape / Ardougne cloak 4 / Cape of Accomplishment (t)"
+          },
+          {
+            "slot": "Body",
+            "item": "Torva platebody / Inquisitor's hauberk / Oathplate chest / Sunfire fanatic cuirass / Justiciar chestguard / Proselyte hauberk"
+          },
+          {
+            "slot": "Legs",
+            "item": "Torva platelegs / Inquisitor's plateskirt / Oathplate legs / Obsidian platelegs / Eclipse moon tassets / Blue moon tassets / Sunfire fanatic chausses / Proselyte cuisse / Verac's plateskirt"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Leaf-bladed battleaxe / Leaf-bladed sword / Leaf-bladed spear"
+          },
+          {
+            "slot": "Shield",
+            "item": "Avernic defender / Dragon defender / Dragonfire shield / Antler guard / Book of war / Unholy book"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Ferocious gloves / Barrows gloves / Dragon gloves / Rune gloves / Regen bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Primordial boots / Dragon boots / Guardian boots / Rune boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Ultor ring / Berserker ring (i) / Lightbearer / Brimstone ring / Tyrannical ring (i) / Ring of shadows / Ring of wealth"
+          }
+        ]
+      },
+      "ranged": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Masori mask (f)"
+          },
+          {
+            "slot": "Neck",
+            "item": "Necklace of rupture / Necklace of anguish / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Dizana's quiver / Ava's assembler / Ava's accumulator / Ranging cape(t)"
+          },
+          {
+            "slot": "Body",
+            "item": "Masori body (f) / Hueycoatl hide body / Black d'hide body"
+          },
+          {
+            "slot": "Legs",
+            "item": "Masori chaps (f) / Hueycoatl hide chaps / Black d'hide chaps"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Zaryte crossbow / Armadyl crossbow / Scorching bow / Rune crossbow / Magic shortbow (i)"
+          },
+          {
+            "slot": "Shield",
+            "item": "Twisted buckler / Dragonfire ward / Antler guard / Book of law"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Amethyst broad bolts / Broad bolts / Broad arrows"
+          },
+          {
+            "slot": "Hands",
+            "item": "Zaryte vambraces / Barrows gloves"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Pegasian boots / Aranea boots / Devout boots / Mixed hide boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Venator ring / Lightbearer / Ring of the gods (i) / Ring of wealth"
+          }
+        ]
+      }
+    },
+    "nechryael": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Nechryael",
+      "magic": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Virtus mask"
+          },
+          {
+            "slot": "Neck",
+            "item": "Occult necklace / Bonecrusher necklace / Dragonbone necklace / Stole / Holy symbol / Unholy symbol"
+          },
+          {
+            "slot": "Cape",
+            "item": "God capes / Ardougne cloak 4 / Ardougne cloak 3 / Ghostly cloak / Ardougne cloak 2"
+          },
+          {
+            "slot": "Body",
+            "item": "Virtus robe top / Ancestral robe top / Ahrim's robetop / Vestment robe top"
+          },
+          {
+            "slot": "Legs",
+            "item": "Virtus robe bottom / Ancestral robe bottom / Ahrim's robeskirt / Vestment robe legs"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Kodai wand / Nightmare staff / Dragon hunter wand / Ancient sceptre / Blue moon spear / Master wand / Ancient staff"
+          },
+          {
+            "slot": "Shield",
+            "item": "Elidinis' ward (f) / Arcane spirit shield / Elidinis' ward / Mage's book / Book of darkness"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Bracelet of slaughter / Confliction gauntlets / Tormented bracelet / Barrows gloves / Regen bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Eternal boots / Devout boots / Holy sandals / Echo boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Magus ring / Lightbearer / Seers ring (i) / Ring of the gods (i) / Ring of suffering (i) / Brimstone ring / Ring of shadows / Explorer's ring 4 / Ring of wealth"
+          }
+        ]
+      },
+      "melee": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i)"
+          },
+          {
+            "slot": "Neck",
+            "item": "Amulet of rancour / Amulet of torture / Amulet of strength / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Infernal cape / Fire cape / Mythical cape / Ardougne cloak 4 / Max cape / Hitpoints cape"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3 / Rada's blessing 2"
+          },
+          {
+            "slot": "Body",
+            "item": "Torva platebody / Oathplate chest / Bandos chestplate / Obsidian platebody / Eclipse moon chestplate / Mixed hide top"
+          },
+          {
+            "slot": "Legs",
+            "item": "Torva platelegs / Oathplate legs / Bandos tassets / Blood moon tassets / Obsidian platelegs / Eclipse moon tassets / Blue moon tassets / Mixed hide legs"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Emberlight / Soulreaper axe / Arclight / Abyssal whip"
+          },
+          {
+            "slot": "Shield",
+            "item": "Avernic defender / Dragon defender / Rune defender"
+          },
+          {
+            "slot": "Hands",
+            "item": "Ferocious gloves / Bracelet of slaughter / Barrows gloves / Regen bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Primordial boots / Dragon boots / Spiked manacles / Aranea boots / Echo boots / Mixed hide boots / Climbing boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Ultor ring / Berserker ring (i) / Ring of shadows / Ring of suffering (ri)"
+          }
+        ]
+      }
+    },
+    "trolls": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Trolls",
+      "magic": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i)"
+          },
+          {
+            "slot": "Neck",
+            "item": "Occult necklace / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Imbued guthix cape / Guthix cape / Ardougne cloak 4 / Ardougne cloak 3"
+          },
+          {
+            "slot": "Body",
+            "item": "Ancestral robe top / Virtus robe top / Ahrim's robetop / Mystic robe top"
+          },
+          {
+            "slot": "Legs",
+            "item": "Ancestral robe bottom / Virtus robe bottom / Ahrim's robeskirt / Mystic robe bottom"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Eternal boots / Aranea boots / Infinity boots"
+          },
+          {
+            "slot": "Hands",
+            "item": "Confliction gauntlets / Tormented bracelet / Barrows gloves / Regen bracelet"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Harmonised nightmare staff / Nightmare staff / Kodai wand / Staff of the dead / Mystic smoke staff / Twinflame staff / Ancient sceptre / Master wand / Ancient staff"
+          },
+          {
+            "slot": "Shield",
+            "item": "Tome of fire / Elidinis' ward (f) / Elidinis' ward / Arcane spirit shield / Mage's book / Book of darkness"
+          }
+        ]
+      }
+    },
+    "wyrms": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Wyrms",
+      "ranged": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Masori mask (f) / Crystal helm / Blessed coif"
+          },
+          {
+            "slot": "Neck",
+            "item": "Necklace of rupture / Necklace of anguish / Amulet of fury / Amulet of glory / Bonecrusher necklace"
+          },
+          {
+            "slot": "Cape",
+            "item": "Dizana's quiver / Ava's assembler / Ranging cape(t) / Ava's accumulator"
+          },
+          {
+            "slot": "Body",
+            "item": "Masori body (f) / Crystal body / Karil's leathertop / Blessed body / Black d'hide body"
+          },
+          {
+            "slot": "Legs",
+            "item": "Masori chaps (f) / Crystal legs / Karil's leatherskirt / Blessed chaps / Black d'hide chaps"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Toxic blowpipe / Dragon hunter crossbow / Rune knife / Bow of faerdhinen / Rune crossbow"
+          },
+          {
+            "slot": "Shield",
+            "item": "Twisted buckler / Dragonfire ward / Odium ward / Book of law"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Diamond dragon bolts (e) / Moonlight antler bolts / Atlatl dart / Runite bolts / Sunlight antler bolts / Broad bolts / Adamant bolts / Rada's blessing 4 / God blessing"
+          },
+          {
+            "slot": "Hands",
+            "item": "Zaryte vambraces / Barrows gloves / Dragon gloves / Combat bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Pegasian boots / Blessed boots / Boots of brimstone / Boots of stone"
+          },
+          {
+            "slot": "Ring",
+            "item": "Venator ring / Archers ring (i) / Lightbearer / Brimstone ring"
+          }
+        ]
+      },
+      "melee": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Torva full helm / Neitiznot faceguard / Blood moon helm / Helm of neitiznot"
+          },
+          {
+            "slot": "Neck",
+            "item": "Amulet of rancour / Amulet of torture / Amulet of fury / Amulet of glory / Amulet of strength"
+          },
+          {
+            "slot": "Cape",
+            "item": "Infernal cape / Fire cape / Ardougne cloak 4"
+          },
+          {
+            "slot": "Body",
+            "item": "Torva platebody / Bandos chestplate / Blood moon chestplate / Eclipse moon chestplate / Fighter torso"
+          },
+          {
+            "slot": "Legs",
+            "item": "Torva platelegs / Bandos tassets / Blood moon tassets / Eclipse moon tassets / Obsidian platelegs"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Soulreaper axe / Scythe of vitur / Dragon hunter lance / Ghrazi rapier / Zamorakian hasta / Abyssal tentacle / Abyssal dagger / Abyssal whip / Arkan blade / Belle's folly / Dual macuahuitl"
+          },
+          {
+            "slot": "Shield",
+            "item": "Avernic defender / Dragon defender / Rune defender"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3 / Rada's blessing 2"
+          },
+          {
+            "slot": "Hands",
+            "item": "Ferocious gloves / Barrows gloves / Regen bracelet / Combat bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Primordial boots / Dragon boots / Boots of brimstone / Granite boots / Boots of stone"
+          },
+          {
+            "slot": "Ring",
+            "item": "Ultor ring / Berserker ring (i) / Brimstone ring"
+          }
+        ]
+      },
+      "magic": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Ancestral hat / Virtus mask / Ahrim's hood / Bloodbark helm"
+          },
+          {
+            "slot": "Neck",
+            "item": "Occult necklace / Dragonbone necklace / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Imbued god cape / Soul cape / Ardougne cloak"
+          },
+          {
+            "slot": "Body",
+            "item": "Ancestral robe top / Virtus robe top / Ahrim's robetop / Bloodbark body / Proselyte hauberk / Monk's robe top"
+          },
+          {
+            "slot": "Legs",
+            "item": "Ancestral robe bottom / Virtus robe bottom / Ahrim's robeskirt / Bloodbark legs / Proselyte cuisse / Monk's robe"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Dragon hunter wand / Twinflame staff"
+          },
+          {
+            "slot": "Shield",
+            "item": "Tome of earth / Tome of water / Elidinis' ward / Mage's book / Book of darkness"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / Blessing"
+          },
+          {
+            "slot": "Hands",
+            "item": "Confliction gauntlets / Tormented bracelet / Barrows gloves"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Eternal boots / Devout boots / Holy sandals / Boots of stone"
+          },
+          {
+            "slot": "Ring",
+            "item": "Magus ring / Ring of the gods (i) / Seers ring (i) / Ring of shadows / Explorer's ring / Ring of wealth"
+          }
+        ]
+      }
+    },
+    "abyssaldemons": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Abyssal_demons",
+      "magic": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Virtus mask / Ancestral hat / Mitre"
+          },
+          {
+            "slot": "Neck",
+            "item": "Occult necklace / Dragonbone necklace / Bonecrusher necklace / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "God capes / Soul cape / Ardougne cloak 4 / Ardougne cloak 3 / Cape of Accomplishment (t) / Ardougne cloak 2"
+          },
+          {
+            "slot": "Body",
+            "item": "Virtus robe top / Ancestral robe top / Sunfire fanatic cuirass / Proselyte hauberk / Zealot's robe top / Vestment robe top"
+          },
+          {
+            "slot": "Legs",
+            "item": "Virtus robe bottom / Ancestral robe bottom / Sunfire fanatic chausses / Zealot's robe bottom / Proselyte cuisse / Vestment robe legs"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Kodai wand / Nightmare staff / Dragon hunter wand / Ancient sceptre / Blue moon spear / Master wand"
+          },
+          {
+            "slot": "Shield",
+            "item": "Elidinis' ward (f) / Arcane spirit shield / Elidinis' ward / Mage's book / Tome of fire / Tome of water"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Bracelet of slaughter / Confliction gauntlets / Tormented bracelet / Barrows gloves / Dragon gloves / Infinity gloves"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Devout boots / Holy sandals / Echo boots / Guardian boots / Zealot's boots / Ancient ceremonial boots / White boots / Blessed boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Lightbearer / Magus ring / Ring of the gods (i) / Ring of suffering (i) / Ring of shadows / Ring of wealth / Explorer's ring 4 / Seers ring (i) / Brimstone ring"
+          }
+        ]
+      },
+      "ranged": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Masori mask (f) / Armadyl helmet / Void ranger helm"
+          },
+          {
+            "slot": "Neck",
+            "item": "Necklace of rupture / Necklace of anguish / Dragonbone necklace / Bonecrusher necklace / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Dizana's quiver / Ava's assembler / Ava's accumulator / Ranging cape(t)"
+          },
+          {
+            "slot": "Body",
+            "item": "Masori body (f) / Armadyl chestplate / Crystal body / Elite void top / Blessed body"
+          },
+          {
+            "slot": "Legs",
+            "item": "Masori chaps (f) / Armadyl chainskirt / Crystal legs / Elite void robe / Blessed chaps"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Venator bow"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Dragon arrow / Amethyst arrow / Rune arrow"
+          },
+          {
+            "slot": "Hands",
+            "item": "Zaryte vambraces / Barrows gloves / Blessed bracers / Void knight gloves"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Pegasian boots / Ranger boots / Blessed boots / Devout boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Venator ring / Archers ring (i) / Ring of the gods (i) / Ring of shadows / Brimstone ring / Ring of suffering (i) / Explorer's ring 4 / Ring of wealth"
+          }
+        ]
+      },
+      "melee": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i)"
+          },
+          {
+            "slot": "Neck",
+            "item": "Amulet of rancour / Amulet of torture / Amulet of strength / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Infernal cape / Fire cape / Mythical cape"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3 / Rada's blessing 2"
+          },
+          {
+            "slot": "Body",
+            "item": "Torva platebody / Oathplate chest / Bandos chestplate / Obsidian platebody / Eclipse moon chestplate / Mixed hide top"
+          },
+          {
+            "slot": "Legs",
+            "item": "Torva platelegs / Oathplate legs / Bandos tassets / Blood moon tassets / Obsidian platelegs / Eclipse moon tassets / Blue moon tassets / Mixed hide legs"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Emberlight / Soulreaper axe / Arclight"
+          },
+          {
+            "slot": "Shield",
+            "item": "Avernic defender / Dragon defender"
+          },
+          {
+            "slot": "Hands",
+            "item": "Ferocious gloves / Bracelet of slaughter / Barrows gloves"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Primordial boots / Dragon boots / Spiked manacles / Aranea boots / Echo boots / Mixed hide boots / Climbing boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Ultor ring / Berserker ring (i)"
+          }
+        ]
+      }
+    },
+    "darkbeasts": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Dark_beast",
+      "melee": {
+        "gear": [
+          {
+            "slot": "Shield",
+            "item": "Avernic defender / Dragon defender"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Ferocious gloves / Barrows gloves / Regen bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Primordial boots / Dragon boots / Aranea boots / Echo boots / Guardian boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Ultor ring / Berserker ring (i) / Lightbearer"
+          },
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i)"
+          },
+          {
+            "slot": "Cape",
+            "item": "Infernal cape / Fire cape / Ardougne cloak 4 / Ardougne cloak 3 / Cape of Accomplishment (t)"
+          },
+          {
+            "slot": "Body",
+            "item": "Oathplate chest / Torva platebody / Bandos chestplate / Mixed hide top"
+          },
+          {
+            "slot": "Legs",
+            "item": "Oathplate legs / Torva platelegs / Bandos tassets / Mixed hide legs"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Scythe of vitur / Soulreaper axe / Ghrazi rapier / Osmumten's fang / Zamorakian hasta"
+          },
+          {
+            "slot": "Neck",
+            "item": "Amulet of rancour / Amulet of torture / Amulet of strength / Amulet of fury / Amulet of glory"
+          }
+        ]
+      }
+    },
+    "drakes": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Drake",
+      "melee": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Torva full helm / Neitiznot faceguard / Helm of neitiznot / Berserker helm"
+          },
+          {
+            "slot": "Neck",
+            "item": "Amulet of rancour / Amulet of torture / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Infernal cape / Fire cape / Ardougne cloak 4 / Ardougne cloak 3 / Cape of Accomplishment (t)"
+          },
+          {
+            "slot": "Body",
+            "item": "Torva platebody / Bandos chestplate / Blood moon chestplate / Verac's brassard"
+          },
+          {
+            "slot": "Legs",
+            "item": "Torva platelegs / Bandos tassets / Justiciar legguards / Verac's plateskirt / Proselyte cuisse"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Dragon hunter lance / Osmumten's fang / Ghrazi rapier / Blade of saeldor / Noxious halberd / Zamorakian hasta / Abyssal tentacle"
+          },
+          {
+            "slot": "Shield",
+            "item": "Avernic defender / Dragon defender / Dragonfire shield / Anti-dragon shield"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Ferocious gloves / Barrows gloves / Dragon gloves / Rune gloves / Regen bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Primordial boots / Dragon boots / Guardian boots / Granite boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Ultor ring / Berserker ring (i) / Brimstone ring / Lightbearer / Ring of suffering (ri)"
+          }
+        ]
+      },
+      "ranged": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Masori mask (f) / Blessed coif / Karil's coif / Archer helm"
+          },
+          {
+            "slot": "Neck",
+            "item": "Necklace of rupture / Necklace of anguish / Bonecrusher necklace / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "Dizana's quiver / Ava's assembler / Ava's accumulator / Ranging cape(t)"
+          },
+          {
+            "slot": "Body",
+            "item": "Masori body (f) / Crystal body / Blessed body / Black d'hide body"
+          },
+          {
+            "slot": "Legs",
+            "item": "Masori chaps (f) / Crystal legs / Blessed chaps / Black d'hide chaps"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Dragon hunter crossbow / Toxic blowpipe / Hunters' sunlight crossbow / Bow of faerdhinen / Zaryte crossbow"
+          },
+          {
+            "slot": "Shield",
+            "item": "Twisted buckler / Dragonfire ward / Odium ward / Anti-dragon shield"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Dragonstone dragon bolts (e) / Diamond dragon bolts (e) / Moonlight antler bolts / Diamond bolts (e) / Sunlight antler bolts / Runite bolts"
+          },
+          {
+            "slot": "Hands",
+            "item": "Zaryte vambraces / Barrows gloves / Blessed vambraces / Black d'hide vambraces"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Pegasian boots / Ranger boots / Blessed boots / Boots of brimstone"
+          },
+          {
+            "slot": "Ring",
+            "item": "Venator ring / Archers ring (i) / Ring of shadows / Brimstone ring / Ring of the gods (i) / Ring of suffering (ri)"
+          }
+        ]
+      },
+      "magic": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Ancestral hat / Virtus mask / Ahrim's hood / Infinity hat / Dagon'hai hat"
+          },
+          {
+            "slot": "Neck",
+            "item": "Occult necklace / Bonecrusher necklace / Amulet of fury / Amulet of glory"
+          },
+          {
+            "slot": "Cape",
+            "item": "God capes / Ardougne cloak 4 / Ardougne cloak 3"
+          },
+          {
+            "slot": "Body",
+            "item": "Ancestral robe top / Virtus robe top / Ahrim's robetop / Dagon'hai robe top / Mystic robe top"
+          },
+          {
+            "slot": "Legs",
+            "item": "Ancestral robe bottom / Virtus robe bottom / Ahrim's robeskirt / Dagon'hai robe bottom / Mystic robe bottom"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Eye of ayak / Tumeken's shadow / Dragon hunter wand / Harmonised nightmare staff / Sanguinesti staff / Trident of the swamp"
+          },
+          {
+            "slot": "Shield",
+            "item": "Tome of water / Ancient wyvern shield / Mage's book / Book of darkness / Anti-dragon shield"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Confliction gauntlets / Tormented bracelet / Barrows gloves / Dragon gloves"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Eternal boots / Boots of brimstone / Boots of stone"
+          },
+          {
+            "slot": "Ring",
+            "item": "Magus ring / Seers ring (i) / Brimstone ring / Ring of the gods (i)"
+          }
+        ]
+      }
+    },
+    "fossilwyverns": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Fossil_Island_wyverns",
+      "melee": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Torva full helm / Black mask (i) / Justiciar faceguard / Neitiznot faceguard / Oathplate helm / Serpentine helm / Verac's helm / Helm of neitiznot"
+          },
+          {
+            "slot": "Neck",
+            "item": "Amulet of blood fury / Amulet of rancour / Amulet of torture / Amulet of fury / Amulet of glory / Amulet of power"
+          },
+          {
+            "slot": "Cape",
+            "item": "Infernal cape / Fire cape / Ardougne cloak 4 / Mythical cape / Cape of Accomplishment (t)"
+          },
+          {
+            "slot": "Body",
+            "item": "Torva platebody / Bandos chestplate / Justiciar chestguard / Fighter torso / Barrows equipment / Obsidian platebody"
+          },
+          {
+            "slot": "Legs",
+            "item": "Torva platelegs / Barrows equipment / Bandos tassets / Justiciar legguards / Obsidian platelegs"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Dragon hunter lance / Osmumten's fang / Ghrazi rapier / Abyssal whip / Zamorakian hasta"
+          },
+          {
+            "slot": "Shield",
+            "item": "Ancient wyvern shield / Dragonfire shield / Mind shield / Elemental shield"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Ferocious gloves / Expeditious bracelet / Barrows gloves / Dragon gloves / Rune gloves / Regen bracelet"
+          },
+          {
+            "slot": "Feet",
+            "item": "Echo boots / Guardian boots / Avernic treads (max) / Primordial boots / Bandos boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Ultor ring / Berserker ring (i) / Ring of suffering (i) / Ring of the gods (i) / Treasonous ring (i)"
+          }
+        ]
+      },
+      "magic": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Black mask (i) / Ancestral hat / Virtus mask / Ahrim's hood"
+          },
+          {
+            "slot": "Neck",
+            "item": "Occult necklace / Amulet of fury / Amulet of glory / Amulet of magic"
+          },
+          {
+            "slot": "Cape",
+            "item": "God capes / Ardougne cloak 4 / Ardougne cloak 3 / Ghostly cloak / Ardougne cloak 2"
+          },
+          {
+            "slot": "Body",
+            "item": "Ancestral robe top / Virtus robe top / Ahrim's robetop"
+          },
+          {
+            "slot": "Legs",
+            "item": "Ancestral robe bottom / Virtus robe bottom / Ahrim's robeskirt"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Eye of ayak / Sanguinesti staff / Trident of the swamp / Trident of the seas"
+          },
+          {
+            "slot": "Shield",
+            "item": "Ancient wyvern shield / Mind shield / Elemental shield / Dragonfire shield"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+          },
+          {
+            "slot": "Hands",
+            "item": "Confliction gauntlets / Expeditious bracelet / Tormented bracelet / Barrows gloves / Regen bracelet / Rune gloves"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Eternal boots / Infinity boots / Aranea boots / Bloodbark boots / Wizard boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Magus ring / Seers ring (i) / Brimstone ring / Ring of shadows / Ring of the gods (i) / Ring of suffering (i)"
+          }
+        ]
+      },
+      "ranged": {
+        "gear": [
+          {
+            "slot": "Head",
+            "item": "Slayer helmet (i) / Black mask (i) / Masori mask (f) / Masori mask / Hueycoatl hide coif / Karil's coif"
+          },
+          {
+            "slot": "Neck",
+            "item": "Necklace of rupture / Necklace of anguish / Amulet of fury / Amulet of glory / Amulet of power"
+          },
+          {
+            "slot": "Cape",
+            "item": "Dizana's quiver / Ava's assembler / Ava's accumulator / Ranging cape / Ava's attractor"
+          },
+          {
+            "slot": "Body",
+            "item": "Masori body (f) / Masori body / Eclipse moon chestplate / Karil's leathertop / Hueycoatl hide body"
+          },
+          {
+            "slot": "Legs",
+            "item": "Masori chaps (f) / Masori chaps / Eclipse moon tassets / Karil's leatherskirt / Hueycoatl hide chaps"
+          },
+          {
+            "slot": "Weapon",
+            "item": "Dragon hunter crossbow / Dragon knife / Hunters' sunlight crossbow / Rune knife / Zaryte crossbow / Dragon crossbow"
+          },
+          {
+            "slot": "Shield",
+            "item": "Dragonfire ward / Mind shield / Elemental shield / Dragonfire shield / Ancient wyvern shield"
+          },
+          {
+            "slot": "Ammo",
+            "item": "Dragonstone dragon bolts (e) / Moonlight antler bolts / Dragonstone bolts (e) / Diamond bolts (e) / Broad bolts"
+          },
+          {
+            "slot": "Hands",
+            "item": "Zaryte vambraces / Expeditious bracelet / Barrows gloves / Hueycoatl hide vambraces / Blessed vambraces / Black d'hide vambraces"
+          },
+          {
+            "slot": "Feet",
+            "item": "Avernic treads (max) / Pegasian boots / Blessed boots / Aranea boots / Mixed hide boots"
+          },
+          {
+            "slot": "Ring",
+            "item": "Venator ring / Archers ring (i) / Ring of the gods (i) / Ring of suffering (i) / Ring of shadows / Brimstone ring / Explorer's ring 4"
+          }
+        ]
+      }
+    }
+  },
+  "warnings": []
+}

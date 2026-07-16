@@ -1,0 +1,988 @@
+{
+  "generatedAt": "2026-07-13T20:05:45Z",
+  "source": "https://oldschool.runescape.wiki",
+  "locations": {
+    "Ardougne Zoo": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ardougne_Zoo",
+      "methods": [
+        "Ardougne cloak 1 teleport to the Ardougne Monastery and run north",
+        "Fairy ring code DJP to teleport near the Tower of Life and run north-west",
+        "BIS can be used to go directly inside the unicorn pen",
+        "Spirit tree to the Khazard Battlefield and run east",
+        "Ardougne teleport and run south-west from the city centre",
+        "Charter a ship to Ardougne (run south-west) or Port Khazard and run (north-west)"
+      ]
+    },
+    "Avium Savannah": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Avium_Savannah",
+      "methods": [
+        "The fairy ring AJP is located in the centre of the savannah.",
+        "The Quetzal Transport System, unlocked during Twilight's Promise, has several landing zones in the savannah: one by the entrance to the Hunter Guild, one in Outer Fortis, and one by the Colossal Wyrm Remains. The latter two require a landing site to be built.",
+        "The Hunter cape or max cape teleports players inside the Hunter Guild. Speak to Guildmaster Apatura with either cape equipped or in your inventory and she will unlock the teleport, after a brief conversation.",
+        "A quetzal whistle takes players to the Hunter Guild's landing site. Quetzal whistles can be unlocked after completing 10 Hunters' Rumours.",
+        "Civitas illa Fortis Teleport can be used after Twilight's Promise, and is near a quetzal landing site."
+      ]
+    },
+    "Barrows": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Barrows",
+      "methods": [
+        "Casting Barrows Teleport in the Arceuus spellbook (requires level 83 Magic), or using a Barrows teleport tablet or house portal to teleport right next to the entrance.",
+        "Using the Mort'ton teleport scroll and then running east to Barrows.",
+        "Using the Morytania legs 3 or 4 to Burgh de Rott and running north through Mort'ton towards Barrows.",
+        "Using the Minigame Teleport to Shades of Mort'ton (requires completion of the Shades of Mort'ton quest). This method is free and takes up no inventory or equipment spaces, though there is a 20-minute cooldown between uses.",
+        "Casting Kharyrll Teleport in the Ancient spellbook (requires level 66 Magic and completion of Desert Treasure I), or using a Kharyrll teleport tablet or house portal to teleport to Canifis, then using the Myreque Hideout shortcut south of the pub and running south, crossing the rope bridge, continuing south and using the swamp boaty to travel to Mort'ton, then running east.",
+        "Using the fairy ring code BKR, running south-east and using the swamp boaty to travel to Mort'ton, then running east.",
+        "Using the fairy ring code BIP, hopping across the stepping stone shortcut (requires level 50 Agility), then going east and south, following the path through Mort'ton.",
+        "Using Drakan's medallion to teleport to Ver Sinhaza (requires completion of A Taste of Hope), leaving through the western door, running south-west to board the boat to Burgh de Rott, and running north through Mort'ton to Barrows.",
+        "Running east from Canifis, then south through the swamp, turning east at the northmost hunter spot, looping around to the other nearby hunter spot, then running south-west to the swamp exit."
+      ]
+    },
+    "Boneyard Hunter area": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Boneyard_Hunter_area",
+      "methods": [
+        "Burning amulet teleport to the Chaos Temple and run north-east from there.",
+        "Teleport to the level 19 Wilderness Obelisk.",
+        "Carrallanger Teleport (tablet) and run east from there.",
+        "Games necklace teleport to the Corporeal Beast lair and run east.",
+        "Enter the Wilderness from Varrock and run north-east."
+      ]
+    },
+    "Brimhaven Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Brimhaven_Dungeon",
+      "methods": [
+        "Teleport to House if the player-owned house is in Brimhaven or if using a Scroll of redirection. This is by far the quickest way to get to the dungeon, and best to get items lost on death back if the player dies.",
+        "Using a Tai bwo wannai teleport scroll and running west to the alternate entrance. This requires paying Banisoch a one-time fee of 5,000 trading sticks, and takes players to the bronze dragon area.",
+        "Spirit tree if the player has a fully grown spirit tree behind the Brimhaven Agility Arena.",
+        "Amulet of glory to Karamja, then run west then south.",
+        "Fairy ring code CKR and then north to the dungeon.",
+        "Ardougne Teleport, take Captain Barnaby's ship to Brimhaven (costs 30 coins). Walk south to the dungeon."
+      ]
+    },
+    "Burgh de Rott": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Burgh_de_Rott",
+      "methods": [
+        "\u2014 entrance to the town. Requires hard Morytania diary.",
+        "\u2014 Mort'ton town centre, slightly north of Burgh de Rott.",
+        "\u2014 Barrows, northeast of the town.",
+        "\u2014 Ver Sinhaza, from which players can run to the Icyene Graveyard and take the boat to town.",
+        "\u2014 Shades of Mort'ton entrance north of the town. Usable once every 20 minutes.",
+        "BIP \u2014 the island east of the Mage Training Arena. Requires 50 Agility."
+      ]
+    },
+    "Catacombs of Kourend": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Catacombs_of_Kourend",
+      "methods": [
+        "Achievement diary cape to the Kourend & Kebos option, which puts the player next to Elise.",
+        "A portal in the portal chamber or portal nexus of a player-owned house attuned to Kourend Castle.",
+        "Using the Hosidius page(Lunch by the Lancalliums) in the Kharedst's memoirs; or using the Hosidius page in the Book of the Dead, after completion of A Kingdom Divided",
+        "Fairy ring: DJR.",
+        "Fairy ring: CIS.",
+        "Games necklace to Wintertodt, then Lovakengj Minecart Network to Kingstown",
+        "Rada's blessing to Kourend Woodland, then Lovakengj Minecart Network to Kingstown"
+      ]
+    },
+    "Chaos Druid Tower Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Chaos_Druid_Tower_Dungeon",
+      "methods": [
+        "Teleport to Ardougne with the Achievement diary cape",
+        "Teleport to the Fishing Guild using a skills necklace or Fishing Guild Teleport (Level 85 Magic and Lunar Diplomacy) and run south-west.",
+        "Teleport to the Outpost using a necklace of passage and run east.",
+        "Teleport to the Ardougne farm patch using Ardougne cloak and run west.",
+        "Teleport to Ardougne using the Ardougne Teleport spell or tablet and run north-west to the Chaos Druid Tower, then go to its basement.",
+        "Teleport to West Ardougne using West Ardougne Teleport spell or tab and running east through the gate into East Ardougne and then north."
+      ]
+    },
+    "Chasm of Fire": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Chasm_of_Fire",
+      "methods": [
+        "A chasm teleport scroll brings players inside the dungeon on the bottom floor (only if you've previously been to Great Kourend).",
+        "The Fairy ring code DJR will bring the players just south-east of the Chasm (only if you've previously been to Great Kourend).",
+        "Using Kharedst's memoirs to teleport to the Graveyard of Heroes via reminiscing \"History and Hearsay\". Requires completion of Tale of the Righteous.",
+        "Using Battlefront teleport brings players just north-west of the chasm.",
+        "Using a skills necklace to teleport to the Farming Guild, and then running south-east. A form of antipoison is recommended due to lizardmen on the way."
+      ]
+    },
+    "Chasm of Fire (Bottom level)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Chasm_of_Fire",
+      "methods": [
+        "A chasm teleport scroll brings players inside the dungeon on the bottom floor (only if you've previously been to Great Kourend).",
+        "The Fairy ring code DJR will bring the players just south-east of the Chasm (only if you've previously been to Great Kourend).",
+        "Using Kharedst's memoirs to teleport to the Graveyard of Heroes via reminiscing \"History and Hearsay\". Requires completion of Tale of the Righteous.",
+        "Using Battlefront teleport brings players just north-west of the chasm.",
+        "Using a skills necklace to teleport to the Farming Guild, and then running south-east. A form of antipoison is recommended due to lizardmen on the way."
+      ]
+    },
+    "Combat Training Camp": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Combat_Training_Camp",
+      "methods": [
+        "Achievement diary cape to Two-pints, open the door and run north-west.",
+        "Necklace of passage to The Outpost and run east.",
+        "Spirit tree to the Tree Gnome Stronghold exit the stronghold to the south, and run east.",
+        "Ardougne Teleport to East Ardougne, run north, then run west, take the bridge south and run west past the Chaos Temple."
+      ]
+    },
+    "Corsair Cove": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Corsair_Cove",
+      "methods": [
+        "\u2014 main docks.",
+        "\u2014 Feldip Hills, south-west of the town.",
+        "\u2014 Myths' Guild, west of the town. From the basement"
+      ]
+    },
+    "Corsair Cove Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Corsair_Cove_Dungeon",
+      "methods": [
+        "Talk to Cabin Boy Colin on the western end of Rimmington after completion of The Corsair Curse.",
+        "Spirit tree - Use a spirit tree to teleport to Feldip Hills and run east.",
+        "Charter - You can use a Charter ship to travel to Corsair Cove.",
+        "Teleport to the Myths' Guild with the Mythical cape and run east."
+      ]
+    },
+    "Corsair Cove Dungeon (Myths' Guild Dungeon)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Corsair_Cove_Dungeon",
+      "methods": [
+        "Talk to Cabin Boy Colin on the western end of Rimmington after completion of The Corsair Curse.",
+        "Spirit tree - Use a spirit tree to teleport to Feldip Hills and run east.",
+        "Charter - You can use a Charter ship to travel to Corsair Cove.",
+        "Teleport to the Myths' Guild with the Mythical cape and run east."
+      ]
+    },
+    "Crash Site Cavern": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Crash_Site_Cavern",
+      "methods": [
+        "Use the royal seed pod's teleport option which takes you to the base of the Grand Tree. This is the fastest travel option.",
+        "Use a Spirit tree to the Gnome stronghold and run north and then north-west to the gap in the fence.",
+        "Use the Gnome glider to Ta Quir Priw which will take you to the top of the Grand Tree. Descend the tree and run north-west to the gap in the fence."
+      ]
+    },
+    "Darkmeyer": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Darkmeyer",
+      "methods": [
+        "After exiting the Meiyerditch mine, a crack in the wall just north of the Meiyerditch mine exit leads players to the lower tier of the city.",
+        "After completing Sins of the Father, Drakan's medallion can teleport players to the city's upper tier.",
+        "A shortcut (requiring 63 Agility) becomes available on the eastern wall of Darkmeyer, requiring two long ropes, that can be bought for 104,000 coins (52,000 coins each, at full stock) in the Darkmeyer General Store.",
+        "With 52 Agility, 66 Thieving, and completion of Sins of the Father, hallowed crystal shards, bought with hallowed marks from the Mysterious Hallowed Goods shop (five are given freely at the first visit), teleport the player to the Hallowed Sepulchre lobby in the north-east section of the city."
+      ]
+    },
+    "Deep Wilderness Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Deep_Wilderness_Dungeon",
+      "methods": [
+        "Casting Ice Plateau Teleport and running East, requiring level 89 Magic and costing 3 law, 3 astral and 8 water runes. The dungeon entrance is approximately 90 tiles from the teleport location. Note that the teleport location features aggressive level 57 ice warriors.",
+        "Using the wilderness lever from Edgeville or Ardougne and running West past the Mage Arena, approximately 150 tiles in total. This route requires a knife or a slash weapon to cut the web at the edge of the Deserted Keep.",
+        "Running from the level 44 wilderness obelisk - first North to the gate on the Western edge of the wilderness fence, and then East to the entrance, is approximately 175 tiles."
+      ]
+    },
+    "Demonic Ruins": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Demonic_Ruins",
+      "methods": [
+        "The Annakarl Teleport spell (or its tablet equivalent) can teleport players directly to the ruins. (Needs the completion of Desert Treasure I)",
+        "The level 50 Wilderness Obelisk will also teleport players reasonably close."
+      ]
+    },
+    "Digsite Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Digsite_Dungeon",
+      "methods": [
+        "The Digsite pendant teleports to the north of the Digsite. (Players must play the Varrock Museum miniquest to learn how to enchant ruby necklaces into Digsite pendants.)",
+        "The Gnome glider to Lemanto Andra crashes to the west of the Digsite. Since the glider crashes on arrival, it cannot be used to travel away from the Digsite. (Players can use this glider after completing The Grand Tree quest.)"
+      ]
+    },
+    "Draynor Manor": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Draynor_Manor",
+      "methods": [
+        "Players with access to the Arceuus spellbook can cast a teleport spell that takes them directly to the manor doors. Players can also use the magic tablet equivalent.",
+        "The Amulet of glory can be used to teleport to Draynor Village, and the path to the north leads to the manor",
+        "By using the Chronicle to teleport to the Champions' Guild, and hopping across the stepping stones (31 Agility) near to the manor."
+      ]
+    },
+    "Draynor Manor (floor 1)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Draynor_Manor",
+      "methods": [
+        "Players with access to the Arceuus spellbook can cast a teleport spell that takes them directly to the manor doors. Players can also use the magic tablet equivalent.",
+        "The Amulet of glory can be used to teleport to Draynor Village, and the path to the north leads to the manor",
+        "By using the Chronicle to teleport to the Champions' Guild, and hopping across the stepping stones (31 Agility) near to the manor."
+      ]
+    },
+    "Draynor Sewers": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Draynor_Sewers",
+      "methods": [
+        "Amulet of glory teleport to Draynor Village"
+      ]
+    },
+    "Dwarven Mine": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dwarven_Mine",
+      "methods": [
+        "Main entrance: In the foothills of the Ice Mountain, north of the Falador-to-Barbarian Village road. Using a combat bracelet to teleport to the Edgeville Monastery is a quick way to get to this entrance.",
+        "Alternatively, Lassar Teleport to the top of the Ice Mountain, then run south down to the main entrance.",
+        "Falador entrance: A building in the far north-east of Falador has stairs down to the south end of the mine. A Falador Teleport is a fast way to get here and to get to the next entrance.",
+        "South gate: Entrance to the Mining Guild, level 60 Mining required. Using a skills necklace to teleport directly to the Mining Guild is the quickest way to get here.",
+        "Mine cart: Members may use the Keldagrim mine cart system, to enter the mine in the north-west section. This two-way network allows players to travel between the Dwarven Mine and the bustling dwarven capital of Keldagrim. From the cart station in Keldagrim it is also possible to travel to White Wolf Mountain and the Grand Exchange, provided that the Fishing Contest quest has been completed. One fast way to get to the mine is to take the carts from the Grand Exchange to Keldagrim and then to Ice Mountain."
+      ]
+    },
+    "Edgeville Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Edgeville_Dungeon",
+      "methods": [
+        "One is found in Edgeville, in the ruined house south of the bank. It is a trapdoor by a coffin marked by a dungeon icon (File:Dungeon_map_link_icon.png) on the minimap.",
+        "The other is found in a locked shed west of the Cooks' Guild near Varrock on the east side of the River Lum. To get in, the player must bring a brass key, which can be found in the dungeon.",
+        "An obstacle pipe Agility shortcut from the Varrock Sewers, near Bryophyta's lair."
+      ]
+    },
+    "Edgeville Dungeon mine": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Edgeville_Dungeon_mine",
+      "methods": [
+        "The long way: From the dungeon entrance at Edgeville, through the dungeon.",
+        "The short way: In a small room north of the hill giants but south of the mine, there is the brass key spawn. This key can be used to enter and exit the Edgeville Dungeon via the ladder just north of the hill giants. This is by far the fastest walking route to and from the mine.",
+        "Nearest bank: Varrock west bank, with the brass key. However, if a player has Varrock armour 3, from completing their hard Varrock Diary, they can use the bank within the Cooks' Guild. This bank is closer than Varrock west bank.",
+        "Teleportation: Paddewwa Teleport, from the Ancient Magicks spellbook, teleports the user to the entrance of Edgeville Dungeon. However, this is not recommended for long-term mining due to the distance to the mine from the teleport."
+      ]
+    },
+    "Feldip Hills": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Feldip_Hills",
+      "methods": [
+        "Feldip hills teleport",
+        "Gnome glider, (Lemantolly Undri) unlocked after completing One Small Favour.",
+        "The ogre boat ride, unlocked after completing Freeing Skrach Uglogwee.",
+        "Fairy ring AKS is near the Feldip Hunter area.",
+        "Eagle transport system via jungle eagle.",
+        "Travel to Yanille (using, for example, a Yanille teleport tablet or Watchtower Teleport or the Minigame Teleport to Nightmare Zone) and then walk south.",
+        "Travel to Castle Wars (using, for example, a ring of dueling) and then walk south and east.",
+        "Hunter skillcape",
+        "Spirit tree"
+      ]
+    },
+    "Forthos Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Forthos_Dungeon",
+      "methods": [
+        "Xeric's talisman - Teleporting to Xeric's Glade brings players just east of the eastern dungeon entrance.",
+        "Kharedst's memoirs/Book of the dead - Using the \"Lunch by the lancalliums\" teleport brings the player by the River Hos just north-east of the dungeon entrances.",
+        "Watson teleport - Brings the player to Watson's house, just west of the Forthos Ruin.",
+        "Spirit tree - Brings the player just south of the Ruin.",
+        "Lovakengj Minecart Network - The Hosidius West station of the minecart network brings the player just south of the Ruin.",
+        "Skills necklace - Teleport to the Woodcutting Guild and run north.",
+        "Hosidius player-owned house portal - Teleport to House spell or redirected house tab and run north west."
+      ]
+    },
+    "Fremennik Slayer Cave (AJR)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Fremennik_Slayer_Cave",
+      "methods": [
+        "(Fastest method) Players may use the slayer ring to teleport next to the cave exit.",
+        "Players can get there via the fairy rings (code AJR). This is also a fast way to bank in Zanaris.",
+        "Players can set out from Rellekka and head south-east past the Golden Apple Tree.",
+        "The Rellekka home teleport, Enchanted lyre, or Fremennik sea boots can be used to quickly reach Rellekka, if the player meets the requirements to use them.",
+        "Players can travel south from the entrance to the underground city of Keldagrim.",
+        "The eagle transport system gets the player a bit to the north of the cave.",
+        "Players may teleport to Camelot and travel the road that leads north, taking a left at the first fork, which leads you towards Rellekka. There is a log balance shortcut south-west of the cave, requiring 48 Agility to pass."
+      ]
+    },
+    "Fremennik Slayer Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Fremennik_Slayer_Dungeon",
+      "methods": [
+        "(Fastest method) Players may use the slayer ring to teleport next to the cave exit.",
+        "Players can get there via the fairy rings (code AJR). This is also a fast way to bank in Zanaris.",
+        "Players can set out from Rellekka and head south-east past the Golden Apple Tree.",
+        "The Rellekka home teleport, Enchanted lyre, or Fremennik sea boots can be used to quickly reach Rellekka, if the player meets the requirements to use them.",
+        "Players can travel south from the entrance to the underground city of Keldagrim.",
+        "The eagle transport system gets the player a bit to the north of the cave.",
+        "Players may teleport to Camelot and travel the road that leads north, taking a left at the first fork, which leads you towards Rellekka. There is a log balance shortcut south-west of the cave, requiring 48 Agility to pass."
+      ]
+    },
+    "Giants' Den": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Giants'_Den",
+      "methods": [
+        "Lovakengj Minecart Network to Shayzien West brings you right next to the dungeon",
+        "Kourend Castle Teleport or Xeric's talisman teleport to Xeric's Heart, enter the catacombs of Kourend, run west to the skeletons and climb the vine ladder.",
+        "Fairy ring DJR and run south-west, by the coast. Just south of the dock, there is a cave.",
+        "Kharedst's memoirs or book of the dead to 'History and hearsay' Shayzien teleport, run south-west through the graveyard gate, then north-west."
+      ]
+    },
+    "Giants' Plateau": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Giants'_Plateau",
+      "methods": [
+        "Amulet of glory to teleport to Al Kharid, then run east through the gate.",
+        "Ring of dueling to teleport to the Emir's Arena, then run south-east.",
+        "Minigame Teleport to Giants' Foundry"
+      ]
+    },
+    "Gnome Maze": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Gnome_Maze",
+      "methods": [
+        "Spirit Tree teleport directly to the centre of the maze.",
+        "Fairy ring to (CIQ) and run west and then north.",
+        "Ardougne cloak teleport to Ardougne Monastery and run west.",
+        "Inside the city is a house portal, which can be reached with a House Teleport spell or tablet if your player-owned house is located in Yanille.",
+        "A yanille tablet (made from using a scroll of redirection on a house tablet) can be used to teleport to the Yanille house portal, even if your house is located elsewhere.",
+        "Minigame teleport to fishing trawler and run west.",
+        "Ardougne Teleport (tablet), run south."
+      ]
+    },
+    "God Wars Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/God_Wars_Dungeon",
+      "methods": [
+        "If you have completed Eadgar's Ruse and have level 61 Magic, you may use the Trollheim Teleport (or the equivalent teleport tablet) to land on top of the mountain east of the Troll Stronghold. From there, make your way down to the base of the mountain and go north. There are Agility shortcuts from level 41 to 47 along the mountain that can be used to shorten the walk. If Making Friends with My Arm has been completed, a stony basalt can also be used as it teleports you to the Troll Stronghold, but this is a slightly longer run.",
+        "Players can reach Trollheim without losing additional inventory slots for teleports. This requires using two scrolls of redirection on two house teletabs, creating two Trollheim teletabs. Once players use the first tablet, they can revert the second one back into a house teletab, thus negating the need to perform the drop trick.",
+        "If you cannot use the Trollheim Teleport, teleport to Burthorpe (with a games necklace, for example). This route requires climbing boots, rope, the start of Troll Stronghold and a stamina potion or some super energies will make the trip faster. From there, follow the blue route either up past the wounded soldier and past Death Plateau, making sure to Protect from Range, or go south-west at the fork to Tenzing's house. Make your way north and follow the route through to where Dad is: either you will have to fight him, or he won't be there, depending on how far along the Troll Stronghold quest you are. From there, enter the cave to the north and follow the map route up to the north."
+      ]
+    },
+    "God Wars Dungeon (Bandos' Stronghold)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/God_Wars_Dungeon",
+      "methods": [
+        "If you have completed Eadgar's Ruse and have level 61 Magic, you may use the Trollheim Teleport (or the equivalent teleport tablet) to land on top of the mountain east of the Troll Stronghold. From there, make your way down to the base of the mountain and go north. There are Agility shortcuts from level 41 to 47 along the mountain that can be used to shorten the walk. If Making Friends with My Arm has been completed, a stony basalt can also be used as it teleports you to the Troll Stronghold, but this is a slightly longer run.",
+        "Players can reach Trollheim without losing additional inventory slots for teleports. This requires using two scrolls of redirection on two house teletabs, creating two Trollheim teletabs. Once players use the first tablet, they can revert the second one back into a house teletab, thus negating the need to perform the drop trick.",
+        "If you cannot use the Trollheim Teleport, teleport to Burthorpe (with a games necklace, for example). This route requires climbing boots, rope, the start of Troll Stronghold and a stamina potion or some super energies will make the trip faster. From there, follow the blue route either up past the wounded soldier and past Death Plateau, making sure to Protect from Range, or go south-west at the fork to Tenzing's house. Make your way north and follow the route through to where Dad is: either you will have to fight him, or he won't be there, depending on how far along the Troll Stronghold quest you are. From there, enter the cave to the north and follow the map route up to the north."
+      ]
+    },
+    "Graveyard of Shadows (Wilderness)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Graveyard_of_Shadows",
+      "methods": [
+        "Carrallanger Teleport, part of Ancient Magicks, goes directly to the graveyard.",
+        "Run north from Ferox Enclave."
+      ]
+    },
+    "Harmony Island": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Harmony_Island",
+      "methods": [
+        "\u2014 Mos Le\u2019Harmless docks.",
+        "\u2014 south of the Mos Le'Harmless bank.",
+        "and \u2014 Trouble Brewing on the east side of Mos Le\u2019Harmless.",
+        "\u2014 same as rum, but is only usable once every 20 minutes.",
+        "Speaking to Bill Teach on the east side of the Port Phasmatys docks. Teleports near Bill, and their destinations:",
+        "\u2014 Ectofuntus just north of Port Phasmatys.",
+        "\u2014 Ectofuntus slime pit.",
+        "ALQ \u2014 Haunted Woods west of Port Phasmatys."
+      ]
+    },
+    "Heroes' Guild (basement)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Heroes'_Guild",
+      "methods": [
+        "The Portal of Heroes on the floor 2 of the Myths' Guild can be used to teleport outside the front door of the Heroes' Guild.",
+        "The Teleport to House spell (if the player-owned house is in Taverley), or a redirected Taverley teleport tablet.",
+        "A games necklace or Minigame Teleport to the Burthorpe Games Room.",
+        "A combat bracelet can be used to teleport to the Warriors' Guild, north of the Heroes' Guild."
+      ]
+    },
+    "Hosidius": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Hosidius",
+      "methods": [
+        "Teleport to House or a redirected teleport to house tablet.",
+        "Xeric's talisman - Xeric's Glade Teleport, north-east of farming patch.",
+        "Kharedst's memoirs or Book of the dead - Lunch by the lancalliums teleport (requires completion of The Depths of Despair).",
+        "Kourend Castle Teleport - Run east past Kingstown then south after the bridge.",
+        "Spirit tree planted in a spirit tree patch south-east of the Forthos Ruin.",
+        "Skills necklace - North-east of the Woodcutting Guild teleport.",
+        "Tithe Farm minigame teleport - Requires having entered the minigame at least once.",
+        "Travel south of the Rusty Anchor Inn (and north of the Monks of Entrana) in Port Sarim and find Veos on the dock. Then right-click \"Port Piscarilius Veos\" (don't right-click \"Land's End Veos\"), run west on the dock of Port Piscarilius, keep running west until you get to a pub, then turn left and run south from Port Piscarilius to Hosidius.",
+        "Fairy ring - AKR to Hosidius Vinery, then run north-west."
+      ]
+    },
+    "Ice Mountain": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ice_Mountain",
+      "methods": [
+        "Use a combat bracelet to teleport to the Edgeville Monastery and go south and west. This is the fastest way to reach the ramp to the mountain.",
+        "Cast Lassar Teleport from Ancient Magicks to teleport on top of mountain, or use a Lassar teleport (tablet) or Lassar teleport from a portal in your POH.",
+        "Enter the Dwarven Mine from Falador (either directly or via the Mining Guild) and travel to the mine's exit on the mountain.",
+        "Use the Keldagrim mine cart system to go to the Dwarven Mine and then exit onto the mountain. Players can enter the cart system in Keldagrim or in the tunnel under White Wolf Mountain.",
+        "Use a skull sceptre to teleport to Barbarian Village and then walk west to the mountain.",
+        "Useful for Ironmen: Use the chronicle book, then using an axe cut a canoe behind the champions guild and travel to the Barbarian Village. From there Ice Mountain is a short run."
+      ]
+    },
+    "Iorwerth Camp": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Iorwerth_Camp",
+      "methods": [
+        "\u2014 camp centre.",
+        "\u2014 Prifddinas, a short walk north of the village.",
+        "\u2014 Port Tyras, slightly south of the camp (costs ).",
+        "BJS \u2014 island west of the camp (requires 76 Agility to leave the island).",
+        "\u2014 Zul-Andra, south of the camp.",
+        "\u2014 Lletya, east of the poison waste."
+      ]
+    },
+    "Isle of Souls": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Isle_of_Souls",
+      "methods": [
+        "Entering the Soul Wars Portal near the Edgeville Mausoleum.",
+        "Entering the Soul Wars Portal inside the Ferox Enclave Dungeon.",
+        "Using the Soul Wars Minigame Teleport.",
+        "Using the fairy ring code BJP to reach the northern coast.",
+        "By mooring on the south-east coast with 55 Sailing."
+      ]
+    },
+    "Jiggig": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Jiggig",
+      "methods": [
+        "Ring of dueling teleport to Castle Wars then run south to Jiggig.",
+        "Using Fairy ring code BKP and running east."
+      ]
+    },
+    "Jiggig Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Jiggig_Dungeon",
+      "methods": [
+        "Ring of dueling teleport to Castle Wars then run south to Jiggig.",
+        "Using Fairy ring code BKP and running east."
+      ]
+    },
+    "Kalphite Cave": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Cave",
+      "methods": [
+        "Using a desert amulet 4 teleports the player directly there.",
+        "Using an achievement diary cape to teleport to the Shantay Pass.",
+        "Using an amulet of glory to teleport to Al Kharid, then running south.",
+        "Using fairy ring BIQ to teleport to the Kalphite Lair, then run <!-- Note: This is for the cave, not the lair. The cave is north-east and the lair is north-west of the fairy ring. -->north-east.",
+        "Teleporting to the player's house in Pollnivneach (or using a Pollnivneach teleport) and taking the magic carpet to Shantay Pass.",
+        "Teleport to the Emir's Arena, then run south.",
+        "Using a necklace of passage to teleport to Eagle's Eyrie, running south to the bridge, and then running north-west."
+      ]
+    },
+    "Kalphite Lair": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Lair",
+      "methods": [
+        "Fairy ring - A quick way to access the lair is using the nearby fairy ring with the code BIQ. Then, run north-west towards the lair.",
+        "Shantay Pass - An alternative is entering the desert via Shantay Pass, which is located south of Al Kharid and requires a Shantay pass, and heading westward to the lair.",
+        "Dorgesh-Kaan South Dungeon - Alternatively, those with access to Dorgesh-Kaan will be able to find a blocked tunnel in the Dorgesh-Kaan South Dungeon that leads through to the lair, emerging near some kalphite workers. A light source is necessary to avoid damage from swarming insects.",
+        "Lumbridge swamp - On the southern coast of the Lumbridge swamp, south-west of the the start point for Misthalin Mystery, a shortcut requiring level 66 Agility takes the player just a few tiles from the entrance. As the player will not need a dramen staff, Shantay pass, or light source to reach the entrance this way, it maximizes the number of useful inventory slots."
+      ]
+    },
+    "Karuulm Slayer Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Karuulm_Slayer_Dungeon",
+      "methods": [
+        "Players can get there via the fairy ring CIR. The mountain is a short walk north of this fairy ring.",
+        "The skills necklace (The Farming Guild) will take you just south-west of Mount Karuulm.",
+        "The Battlefront Teleport will take you just south-east of Mount Karuulm.",
+        "Players may use Rada's blessing 3 or higher, which is unlocked after completing the Kourend & Kebos Hard Diary, to teleport straight to the dungeon using \"Mount Karuulm\" option. Rada's blessing 3 offers three daily teleports, while Rada's blessing 4 provides unlimited teleports."
+      ]
+    },
+    "Karuulm Slayer Dungeon (Alchemical Hydra room)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Karuulm_Slayer_Dungeon",
+      "methods": [
+        "Players can get there via the fairy ring CIR. The mountain is a short walk north of this fairy ring.",
+        "The skills necklace (The Farming Guild) will take you just south-west of Mount Karuulm.",
+        "The Battlefront Teleport will take you just south-east of Mount Karuulm.",
+        "Players may use Rada's blessing 3 or higher, which is unlocked after completing the Kourend & Kebos Hard Diary, to teleport straight to the dungeon using \"Mount Karuulm\" option. Rada's blessing 3 offers three daily teleports, while Rada's blessing 4 provides unlimited teleports."
+      ]
+    },
+    "Karuulm Slayer Dungeon (floor 1)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Karuulm_Slayer_Dungeon",
+      "methods": [
+        "Players can get there via the fairy ring CIR. The mountain is a short walk north of this fairy ring.",
+        "The skills necklace (The Farming Guild) will take you just south-west of Mount Karuulm.",
+        "The Battlefront Teleport will take you just south-east of Mount Karuulm.",
+        "Players may use Rada's blessing 3 or higher, which is unlocked after completing the Kourend & Kebos Hard Diary, to teleport straight to the dungeon using \"Mount Karuulm\" option. Rada's blessing 3 offers three daily teleports, while Rada's blessing 4 provides unlimited teleports."
+      ]
+    },
+    "Keldagrim": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Keldagrim",
+      "methods": [
+        "A common method of getting to Keldagrim is by using the trapdoor located in the north-west of the Grand Exchange to take a minecart to the south-eastern section of the city.",
+        "Additionally, Keldagrim can be travelled to via minecart from the underground White Wolf Mountain passageway or the Dwarven Mine under Ice Mountain for a fee of 100 or 150 coins respectively.",
+        "Players can use fairy ring code DKS to teleport right next to the cave entrance to Keldagrim.",
+        "Players can also use an enchanted lyre or Fremennik sea boots, and then walk north-east around the outside of Rellekka to reach the entrance to Keldagrim.",
+        "After completing Another Slice of H.A.M., players can use the Dorgesh-Kaan\u2013Keldagrim train system.",
+        "Players can also use the Minigame Teleport for either the Blast Furnace or the Rat Pits (requiring Ratcatchers to be completed).",
+        "After completion of the quest Between a Rock..., players can use a ring of wealth to teleport to Dondakan's rock which gets players close to the ferry system that can be used to enter Keldagrim. It should be noted that 2 coins will be needed in order to cross the river to travel via the dwarven boatman."
+      ]
+    },
+    "Keldagrim (Entrance tunnel)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Keldagrim",
+      "methods": [
+        "A common method of getting to Keldagrim is by using the trapdoor located in the north-west of the Grand Exchange to take a minecart to the south-eastern section of the city.",
+        "Additionally, Keldagrim can be travelled to via minecart from the underground White Wolf Mountain passageway or the Dwarven Mine under Ice Mountain for a fee of 100 or 150 coins respectively.",
+        "Players can use fairy ring code DKS to teleport right next to the cave entrance to Keldagrim.",
+        "Players can also use an enchanted lyre or Fremennik sea boots, and then walk north-east around the outside of Rellekka to reach the entrance to Keldagrim.",
+        "After completing Another Slice of H.A.M., players can use the Dorgesh-Kaan\u2013Keldagrim train system.",
+        "Players can also use the Minigame Teleport for either the Blast Furnace or the Rat Pits (requiring Ratcatchers to be completed).",
+        "After completion of the quest Between a Rock..., players can use a ring of wealth to teleport to Dondakan's rock which gets players close to the ferry system that can be used to enter Keldagrim. It should be noted that 2 coins will be needed in order to cross the river to travel via the dwarven boatman."
+      ]
+    },
+    "Keldagrim (upstairs in the building west of the bank)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Keldagrim",
+      "methods": [
+        "A common method of getting to Keldagrim is by using the trapdoor located in the north-west of the Grand Exchange to take a minecart to the south-eastern section of the city.",
+        "Additionally, Keldagrim can be travelled to via minecart from the underground White Wolf Mountain passageway or the Dwarven Mine under Ice Mountain for a fee of 100 or 150 coins respectively.",
+        "Players can use fairy ring code DKS to teleport right next to the cave entrance to Keldagrim.",
+        "Players can also use an enchanted lyre or Fremennik sea boots, and then walk north-east around the outside of Rellekka to reach the entrance to Keldagrim.",
+        "After completing Another Slice of H.A.M., players can use the Dorgesh-Kaan\u2013Keldagrim train system.",
+        "Players can also use the Minigame Teleport for either the Blast Furnace or the Rat Pits (requiring Ratcatchers to be completed).",
+        "After completion of the quest Between a Rock..., players can use a ring of wealth to teleport to Dondakan's rock which gets players close to the ferry system that can be used to enter Keldagrim. It should be noted that 2 coins will be needed in order to cross the river to travel via the dwarven boatman."
+      ]
+    },
+    "Kourend Woodland": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kourend_Woodland",
+      "methods": [
+        "The Rada's blessing teleport is the quickest way to get here.",
+        "Take the Lovakengj Minecart Network to Kourend Woodland.",
+        "Use the Xeric's Lookout option on the Xeric's talisman, and run south-west.",
+        "Use the Woodcutting Guild option on the Skills necklace, and run south-west.",
+        "Take the boat from Veos to Land's End."
+      ]
+    },
+    "Laguna Aurorae": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Laguna_Aurorae",
+      "methods": [
+        "Mooring point (requires )",
+        "Mooring point is surrounded by aggressive Pygmy krakens, so it's safest to approach the mooring point fast and dock quickly.",
+        "The nearest port with a shipwright to retrieve a boat to sail over is at Aldarin.",
+        "Spirit tree (requires having moored at the island, but does not require talking to the tree first)"
+      ]
+    },
+    "Lighthouse Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Lighthouse_Dungeon",
+      "methods": [
+        "A games necklace or Minigame Teleport to the Barbarian Outpost.",
+        "Teleport to House, if the player's house is at Rellekka.",
+        "An enchanted lyre teleport to the entrance to Rellekka."
+      ]
+    },
+    "Lizardman Settlement": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Lizardman_Settlement",
+      "methods": [
+        "Using the fairy ring (code BLS) and running north-east towards the bridge and continue into the swamp",
+        "The skills necklace or Farming cape provide teleports to the Farming Guild then running south through the River Molch towards Xeric's Shrine, then continue south"
+      ]
+    },
+    "Lletya": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Lletya",
+      "methods": [
+        ", then navigating the forest (after completing Regicide).",
+        "to Prifddinas, then navigating the forest (after completing Song of the Elves).",
+        "to Port Tyras for, then navigating the forest (after completing Regicide).",
+        "BJS, then navigating the forest (with 76 Agility and completion of Regicide).",
+        "to the Outpost, passing Arandar, and navigating the forest.",
+        ", then traversing the Underground Pass, and finally, navigating the forest."
+      ]
+    },
+    "Lletya (upstairs)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Lletya",
+      "methods": [
+        ", then navigating the forest (after completing Regicide).",
+        "to Prifddinas, then navigating the forest (after completing Song of the Elves).",
+        "to Port Tyras for, then navigating the forest (after completing Regicide).",
+        "BJS, then navigating the forest (with 76 Agility and completion of Regicide).",
+        "to the Outpost, passing Arandar, and navigating the forest.",
+        ", then traversing the Underground Pass, and finally, navigating the forest."
+      ]
+    },
+    "Lovakengj": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Lovakengj",
+      "methods": [
+        "Xeric's Talisman - Xeric's Inferno teleport (by the lovakite furnace south of the blast mine)",
+        "Fairy ring CIS and run West",
+        "Kharedst's memoirs or Book of the dead - Jewellery of jubilation teleport (requires completion of The Forsaken Tower)",
+        "Games necklace - Wintertodt teleport and run south-west",
+        "Fairy ring - DJR and run north",
+        "Lovakengj Minecart Network"
+      ]
+    },
+    "Lovakengj (floor 1 Buildings)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Lovakengj",
+      "methods": [
+        "Xeric's Talisman - Xeric's Inferno teleport (by the lovakite furnace south of the blast mine)",
+        "Fairy ring CIS and run West",
+        "Kharedst's memoirs or Book of the dead - Jewellery of jubilation teleport (requires completion of The Forsaken Tower)",
+        "Games necklace - Wintertodt teleport and run south-west",
+        "Fairy ring - DJR and run north",
+        "Lovakengj Minecart Network"
+      ]
+    },
+    "Marim": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Marim",
+      "methods": [
+        "A Fairy ring (CLR) will take players to the Ape Atoll Agility Course, just south of Marim. 48 Agility and a ninja monkey greegree<ref>Without a ninja monkey greegree, jumping over the river with the rope will cause the player to fail the obstacle, take some damage and return to the start of the agility course. This will put players in jail if Monkey Madness II is not completed. </ref> are required to exit the course safely and travel to Marim.",
+        "The level 64 Ape Atoll Teleport is available in the normal spellbook after Freeing King Awowogei during Recipe for Disaster. The spell takes the player to the safe upstairs section of the Temple of Marimbo, on the eastern edge of Marim.",
+        "The level 90 Ape Atoll Teleport in the Arceuus spellbook, as well as the equivalent magic tablet, takes players to the inside of the entrance to Ape Atoll Dungeon, a little ways south from the entrance gates to Marim.",
+        "The Gnome glider network can take players to the western edge of Marim after completion of Monkey Madness II. The fastest way to access the glider network is by climbing to the top floor of the Grand Tree."
+      ]
+    },
+    "Meiyerditch": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Meiyerditch",
+      "methods": [
+        "Boarding the boat south of Burgh de Rott, on the eastern dock.",
+        "Taking the rowboat to Slepe north of Port Phasmatys for 10,000 coins and running to Ver Sinhaza.",
+        "After completing A Taste of Hope, the Drakan's medallion, can be used to teleport to Ver Sinhaza in the south-eastern part of Meiyerditch."
+      ]
+    },
+    "Meiyerditch Laboratories": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Meiyerditch_Laboratories",
+      "methods": [
+        "One of the fastest ways to reach the Meiyerditch Laboratories is to ask the closest Vyrewatch to be sent to the mines, and then exiting. Once you exit, follow the path to the house with the slashed tapestry and climb down the stairs to enter the Meiyerditch Laboratories (See image: \"Route to the Meiyerditch Laboratories\").",
+        "To exit the mine immediately, players who haven't completed The Blood Moon Rises will need to equip three pieces of Vyre noble clothing when speaking with a Vampyre Juvinate. Otherwise, one must mine 15 daeyalt ore to exit; bring the best pickaxe you can use, or ask the Meiyerditch miners for a spare bronze pickaxe.",
+        "Access to the bloodvelds is only possible after killing the mutated bloodveld that appears during the Sins of the Father quest, as otherwise the door will not open.",
+        "After Sins of the Father, players can also do the following:",
+        "Use a Hallowed crystal shard and exit the Hallowed Sepulchre. Run south and west to reach the cracked wall, follow the path to the house with slashed tapestry, then climb down the stairs.",
+        "Use a Drakan's medallion and teleport to Darkmeyer. Run north, east, south, and west to reach the cracked wall, follow the path to the house with slashed tapestry, climb down the stairs.",
+        "Teleport to Canifis, go down the Myreque Hideout trapdoor (south of Hair of the Dog Inn), go south through the secret wall, take the first cave east, travel directly south through the next cave entrance shortcut until you reach the Meiyerditch Laboratories cave system. This shortcut requires 93 Agility and 78 Mining along with a pickaxe the first time it is used. The shortcut must first be cleared by bringing a pickaxe to the laboratory side of the shortcut specifically and clearing the shortcut's tunnel. Subsequent uses just require 93 Agility and can be entered from either side. Alternatively, fairy ring code DLS can also be used to access the Myreque tunnels before the shortcut."
+      ]
+    },
+    "Mort'ton": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Mort'ton",
+      "methods": [
+        "\u2014 centre of the town.",
+        "\u2014 Flamtaer. Usable once every 20 minutes.",
+        "\u2014 Barrows entrance.",
+        "\u2014 Burgh de Rott, south of the town.",
+        "BIP \u2014 the island west of the Nature Grotto. Requires 50 Agility.",
+        "BKR \u2014 near the swamp boaty, a small boat that Cyreg will let players ride to the Hollows for."
+      ]
+    },
+    "Morytania Spider Cave": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Morytania_Spider_Cave",
+      "methods": [
+        "Teleporting directly to the cave via use of a spider cave teleport",
+        "Teleporting to Hallowed Sepulchre using a hallowed crystal shard, then exiting and using the wall shortcut just south east. Requires 63 Agility and installing 2 long ropes.",
+        "Teleporting via ectophial or fairy ring code ALQ, then running south past the small bridge. Ectophial can be used for convenient banking at Port Phasmatys as well."
+      ]
+    },
+    "Mos Le'Harmless": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Mos_Le'Harmless",
+      "methods": [
+        "Talk to Bill Teach on the eastern boat in Port Phasmatys. (Fastest way there is the ectophial.)",
+        "Use the Minigame Teleport to Trouble Brewing (requires completion of the quest and 40 Cooking).",
+        "Teleport to Harmony Island and talk to Brother Tranquility.",
+        "Mos le'harmless teleport scrolls (brings you to the north gate).",
+        "Charter ship (can be used once the quest is complete).",
+        "Red or blue rum to teleport to Trouble Brewing (costs 20 pieces of eight each)."
+      ]
+    },
+    "Mourner Headquarters (downstairs)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Mourner_Headquarters",
+      "methods": [
+        "West Ardougne Teleport spell or tablet",
+        "Ardougne Teleport spell or tablet",
+        "Spirit tree to the Battlefield of Khazard",
+        "Minigame teleport to the Ardougne Rat Pit",
+        "Slayer ring teleport to the Dark Beasts in the Mourner Tunnels (requires completion of Mourning's End Part II)"
+      ]
+    },
+    "Neypotzli": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Neypotzli",
+      "methods": [
+        "Teleporting with a calcified moth.",
+        "Taking the Quetzal Transport System to the entrance of Cam Torum, then running all the way north once inside. Requires having built the landing site there.",
+        "Taking the Quetzal Transport System to the Teomat, and then running around the west side of the mountain.",
+        "Players with level 47 Agility may run south-east to the agility shortcut, then crossing the bridge west to the city entrance."
+      ]
+    },
+    "Ogre Enclave": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ogre_Enclave",
+      "methods": [
+        "Teleport to your house in Yanille (requires 50 Construction) and run west, then south to the entrance of Gu'Tanoth. Alternatively, if you have 39 Agility, 38 Strength and 21 Ranged, you can use a Mith grapple on the wall in south-west Yanille to take you right to the entrance of the city.",
+        "Teleport to Castle Wars using a ring of dueling and run south over the bridge and then east to the entrance.",
+        "If you have completed the Watchtower Quest, teleport to the Watchtower using the spell, run east and use the shortcut requiring level 16 Agility to get inside Yanille. Run south and use a Mith Grapple if you are able to.",
+        "Use the Minigame interface to teleport to the Nightmare Zone and then run west through Yanille or over the south-east corner of the city to get to the entrance.",
+        "There are two fairy rings fairly close to the entrance. The one north-west of Yanille CIQ and running south, or the one in Feldip Hills AKS and running north (beware of Ogres and wolves).",
+        "If you have completed One Small Favour, you can use a gnome glider in the Feldip Hills and run north to the entrance."
+      ]
+    },
+    "Port Piscarilius": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Port_Piscarilius",
+      "methods": [
+        "Veos or Cabin Boy Herbert - ship from Port Sarim or Land's End, then run west and north.",
+        "Kharedst's memoirs or Book of the dead - The Fisher's Flute teleport (requires completion of The Queen of Thieves).",
+        "Lovakengj Minecart Network - Travel to the Port Piscarilius station (20 coins per ride, or completion of The Forsaken Tower).",
+        "Kourend Castle Teleport or Xeric's talisman to Xeric's Heart - Run east past Kingstown, then north along the coast.",
+        "The fairy ring code AKR to Hosidius near the Tithe Farm minigame, then run north. A faster alternative is to run south instead and take the Lovakengj Minecart Network cart to Port Piscarillius for 20 coins, located just south of Tithe Farm.",
+        "Tithe Farm Minigame Teleport, then run north. Must have entered the minigame at least once before, which requires Lvl 34 Farming."
+      ]
+    },
+    "Port Sarim": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Port_Sarim",
+      "methods": [
+        "\u2014 northern Port Sarim.",
+        "\u2014 Port Sarim docks.",
+        "\u2014 Rat Pits or Void Knights' Outpost. Usable once every 20 minutes.",
+        "\u2014 Void Knights' Outpost, where the squire can take players to Port Sarim for free.",
+        "\u2014 the farm just north of the pub.",
+        "\u2014 Draynor Village, east of the port.",
+        "\u2014 Draynor Manor, north-east of the port.",
+        "\u2014 Air Altar entrance, north of the port.",
+        "\u2014 Rimmington house portal. Requires a POH in Rimmington.",
+        "AIQ \u2014 Mudskipper Point, well south of the port.",
+        "\u2014 centre of Falador, well north of the port."
+      ]
+    },
+    "Prifddinas (outside the city)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Prifddinas",
+      "methods": [
+        "Teleport crystal or eternal teleport crystal to get to the centre of Prifddinas, south of the Tower of Voices",
+        "Breaking a Prifddinas teleport tablet made by using a scroll of redirection on a teleport to house tablet",
+        "Casting Teleport to House or breaking an unredirected teleport to house tablet if your player-owned house is located in Prifddinas",
+        "Construction cape Teleport option, choosing Prifddinas",
+        "Ring of returning, ring of life, Defence cape, or death if your spawn point is located in Prifddinas",
+        "Spirit tree close to the northern bank",
+        "Charter ship",
+        "At 70 Sailing, docking at the mooring point west of the city (requires an adamant keel or better to traverse the crystal-flecked waters)",
+        "Iorwerth camp teleport and run south-east through the dense forest",
+        "Necklace of passage to Jorral's outpost and then walk west over the mountain pass of Arandar"
+      ]
+    },
+    "Revenant Caves": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Revenant_Caves",
+      "methods": [
+        "Revenant cave teleport, which teleports the player to the level 40 entrance.",
+        "Burning amulet, can take players to two entrances:",
+        "Bandit Camp option - head east for the level 17 entrance.",
+        "Lava Maze option - head east for the level 40 entrance.",
+        "Wilderness Obelisks can take players to two entrances:",
+        "Level 27 obelisk - head east to the level 26 entrance.",
+        "Level 35 obelisk - head north-east to the level 40 entrance.",
+        "Carrallanger Teleport, or the equivalent teleport tablet, takes players to the Graveyard of Shadows, close to the level 17 entrance.",
+        "Canoeing to the Wilderness will take players close to the level 40 entrance."
+      ]
+    },
+    "Ruins (east) (Wilderness)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ruins_(east)",
+      "methods": [
+        "\u2014 Corporeal Beast, slightly south-east of the cave.",
+        "\u2014 Graveyard of Shadows, directly south of the ruins.",
+        "\u2014 the hill just north of the ruins.",
+        "\u2014 the pond slightly north of the ruins.",
+        "\u2014 Ferox Enclave, south of the ruins.",
+        "\u2014 Revenant Caves, fairly north-west of the ruins.",
+        "\u2014 the King Black Dragon lair, well north-west of the ruins."
+      ]
+    },
+    "Ruins of Tapoyauik": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ruins_of_Tapoyauik",
+      "methods": [
+        "The pendant of ates can teleport directly to the Twilight Temple, near the lift.",
+        "Quetzal Transport System to Salvager Overlook (requires the Landing site to be built) and run South towards the Twilight Temple.",
+        "Quetzal Transport System to Quetzacalli Gorge (unlocked by default) and run North-East through the gate followed by a turn to the South around The Proudspire mountain."
+      ]
+    },
+    "Sisterhood Sanctuary": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Sisterhood_Sanctuary",
+      "methods": [
+        "Using the \"Slepe\" option on Drakan's medallion, which brings players directly to the Sisterhood Sanctuary. This requires having used a Slepey tablet on the medallion.",
+        "Using the \"Ver Sinhaza\" option on Drakan's medallion, then running north. Once players pass the small dock, run east to arrive at Slepe.",
+        "Using the Ectophial to teleport to the Ectofuntus, then heading north to the small dock and paying Andras 10,000 coins to row to Slepe (or for free after paying him a one-off fee of 1,000,000 coins). The player will arrive at a dock just south-west of Slepe.",
+        "Using the Morytania Legs teleport to Burgh de Rott, then take the southern boat to Slepe (after Sins of the Father)."
+      ]
+    },
+    "Slayer Tower (Basement)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+      "methods": [
+        "The Slayer ring can be used to teleport to the main entrance of the tower.",
+        "Fairy ring code CKS lands you in the west of Canifis, just south of the tower.",
+        "The Salve Graveyard Teleport (requires Arceuus spellbook) will take you to the graveyard just south of the tower.",
+        "The Kharyrll teleport (requires completion of Desert Treasure I) (spell, tablet, POH portal) will take the player to Canifis, where it is a short run north-west.",
+        "Go west after casting Fenkenstrain's Castle Teleport or using the tablet.",
+        "The player can use the Ectophial to teleport to Port Phasmatys, and walk from there.",
+        "You can walk from Varrock or the digsite through Paterdomus, though this is by far the longest route."
+      ]
+    },
+    "Slayer Tower (basement)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+      "methods": [
+        "The Slayer ring can be used to teleport to the main entrance of the tower.",
+        "Fairy ring code CKS lands you in the west of Canifis, just south of the tower.",
+        "The Salve Graveyard Teleport (requires Arceuus spellbook) will take you to the graveyard just south of the tower.",
+        "The Kharyrll teleport (requires completion of Desert Treasure I) (spell, tablet, POH portal) will take the player to Canifis, where it is a short run north-west.",
+        "Go west after casting Fenkenstrain's Castle Teleport or using the tablet.",
+        "The player can use the Ectophial to teleport to Port Phasmatys, and walk from there.",
+        "You can walk from Varrock or the digsite through Paterdomus, though this is by far the longest route."
+      ]
+    },
+    "Slayer Tower (floor 0)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+      "methods": [
+        "The Slayer ring can be used to teleport to the main entrance of the tower.",
+        "Fairy ring code CKS lands you in the west of Canifis, just south of the tower.",
+        "The Salve Graveyard Teleport (requires Arceuus spellbook) will take you to the graveyard just south of the tower.",
+        "The Kharyrll teleport (requires completion of Desert Treasure I) (spell, tablet, POH portal) will take the player to Canifis, where it is a short run north-west.",
+        "Go west after casting Fenkenstrain's Castle Teleport or using the tablet.",
+        "The player can use the Ectophial to teleport to Port Phasmatys, and walk from there.",
+        "You can walk from Varrock or the digsite through Paterdomus, though this is by far the longest route."
+      ]
+    },
+    "Slayer Tower (floor 1)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+      "methods": [
+        "The Slayer ring can be used to teleport to the main entrance of the tower.",
+        "Fairy ring code CKS lands you in the west of Canifis, just south of the tower.",
+        "The Salve Graveyard Teleport (requires Arceuus spellbook) will take you to the graveyard just south of the tower.",
+        "The Kharyrll teleport (requires completion of Desert Treasure I) (spell, tablet, POH portal) will take the player to Canifis, where it is a short run north-west.",
+        "Go west after casting Fenkenstrain's Castle Teleport or using the tablet.",
+        "The player can use the Ectophial to teleport to Port Phasmatys, and walk from there.",
+        "You can walk from Varrock or the digsite through Paterdomus, though this is by far the longest route."
+      ]
+    },
+    "Slayer Tower (floor 2)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+      "methods": [
+        "The Slayer ring can be used to teleport to the main entrance of the tower.",
+        "Fairy ring code CKS lands you in the west of Canifis, just south of the tower.",
+        "The Salve Graveyard Teleport (requires Arceuus spellbook) will take you to the graveyard just south of the tower.",
+        "The Kharyrll teleport (requires completion of Desert Treasure I) (spell, tablet, POH portal) will take the player to Canifis, where it is a short run north-west.",
+        "Go west after casting Fenkenstrain's Castle Teleport or using the tablet.",
+        "The player can use the Ectophial to teleport to Port Phasmatys, and walk from there.",
+        "You can walk from Varrock or the digsite through Paterdomus, though this is by far the longest route."
+      ]
+    },
+    "Slayer Tower (roof)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+      "methods": [
+        "The Slayer ring can be used to teleport to the main entrance of the tower.",
+        "Fairy ring code CKS lands you in the west of Canifis, just south of the tower.",
+        "The Salve Graveyard Teleport (requires Arceuus spellbook) will take you to the graveyard just south of the tower.",
+        "The Kharyrll teleport (requires completion of Desert Treasure I) (spell, tablet, POH portal) will take the player to Canifis, where it is a short run north-west.",
+        "Go west after casting Fenkenstrain's Castle Teleport or using the tablet.",
+        "The player can use the Ectophial to teleport to Port Phasmatys, and walk from there.",
+        "You can walk from Varrock or the digsite through Paterdomus, though this is by far the longest route."
+      ]
+    },
+    "Slayer Tower (top floor)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+      "methods": [
+        "The Slayer ring can be used to teleport to the main entrance of the tower.",
+        "Fairy ring code CKS lands you in the west of Canifis, just south of the tower.",
+        "The Salve Graveyard Teleport (requires Arceuus spellbook) will take you to the graveyard just south of the tower.",
+        "The Kharyrll teleport (requires completion of Desert Treasure I) (spell, tablet, POH portal) will take the player to Canifis, where it is a short run north-west.",
+        "Go west after casting Fenkenstrain's Castle Teleport or using the tablet.",
+        "The player can use the Ectophial to teleport to Port Phasmatys, and walk from there.",
+        "You can walk from Varrock or the digsite through Paterdomus, though this is by far the longest route."
+      ]
+    },
+    "Slepe": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slepe",
+      "methods": [
+        "Teleporting to Slepe via Drakan's medallion after using a Slepey tablet on it.",
+        "Teleporting to Ver Sinhaza via Drakan's medallion, then running north. Once players pass the small dock, run east to arrive at Slepe.",
+        "Using the Ectophial to teleport to the Ectofuntus, then heading north to the small dock and paying Andras 10,000 coins to row to Slepe. The player will arrive at a dock just south-west of Slepe.",
+        "Teleporting to Darkmeyer via Drakan's medallion, then use the shortcut on the eastern wall of Darkmeyer.",
+        "Teleport to Burgh de Rott with the Morytania legs 3 or 4 or to the Shades of Mort'ton minigame teleport after completing the Shades of Mort'ton quest which has a 20 minute cooldown then go south to Burgh de Rott. Go to the southern shore and use the boat to go to Meiyerditch. Traverse the wall obstacles, run east along the shore and then enter Ver Sinhaza. Go north through the opening in the wall to arrive at Slepe.",
+        "After partial completion of Sins of the Father, the boat south of Burgh de Rott goes directly to Slepe and the Icyene Graveyard."
+      ]
+    },
+    "Smoke Devil Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Smoke_Devil_Dungeon",
+      "methods": [
+        "The fairy ring code BKP will bring the players just south-west of the dungeon.",
+        "Using a ring of dueling to teleport to Castle Wars, then running south-west."
+      ]
+    },
+    "Smoke Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Smoke_Dungeon",
+      "methods": [
+        "Teleport to House (if house is in Pollnivneach)",
+        "Scroll of redirection on a Teleport to house (tablet) for a Pollnivneach teleport",
+        "Using a Nardah teleport and then taking a magic carpet to Pollnivneach<ref name=\"n\">The carpet costs 200 coins to use, reduced to 100 coins after doing the Rogue Trader miniquest. With a ring of charos (a), the price is further reduced to 75 coins. If the ring of charos (a) is used without completing The Feud quest, the price is 100 coins. If the Hard Desert Diary is complete, all magic carpet rides are free of charge.</ref>",
+        "Using a desert amulet 2 or higher and then taking a magic carpet to Pollnivneach<ref name=\"n\" />",
+        "From Al Kharid, go through the Shantay Pass and take a magic carpet to Pollnivneach",
+        "Teleport to the Jaldraocht Pyramid with the Pharaoh's sceptre, then running north-east.",
+        "Fairy Ring DLQ will take you North of Nardah"
+      ]
+    },
+    "Stronghold Slayer Cave": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Stronghold_Slayer_Cave",
+      "methods": [
+        "Use a Slayer ring to teleport directly to the entrance by Nieve.",
+        "Use the gnome glider to Ta Quir Priw, which will take you to the Grand Tree. Exit the Grand Tree and run south-west to the entrance.",
+        "Use the spirit tree to the Gnome Stronghold and run south-west.",
+        "Use the necklace of passage to Teleport to 'Outpost' and then run north-east.",
+        "Use the royal seed pod to Teleport to the Grand Tree, then run south-west.",
+        "Use the Achievement diary cape to Teleport to Elder Gnome child, then run south-west."
+      ]
+    },
+    "Stronghold Slayer Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Stronghold_Slayer_Dungeon",
+      "methods": [
+        "Use a Slayer ring to teleport directly to the entrance by Nieve.",
+        "Use the gnome glider to Ta Quir Priw, which will take you to the Grand Tree. Exit the Grand Tree and run south-west to the entrance.",
+        "Use the spirit tree to the Gnome Stronghold and run south-west.",
+        "Use the necklace of passage to Teleport to 'Outpost' and then run north-east.",
+        "Use the royal seed pod to Teleport to the Grand Tree, then run south-west.",
+        "Use the Achievement diary cape to Teleport to Elder Gnome child, then run south-west."
+      ]
+    },
+    "Tarn's Lair": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Tarn's_Lair",
+      "methods": [
+        "The fastest way to get to Tarn is to teleport to Tarn's Lair via a Slayer ring. This will bring you directly outside of the room with Tarn.",
+        "The fastest way to get to the entrance through the Abandoned Mine is using the Morytania legs 3 to teleport to Burgh de Rott and hop over the Agility shortcut west of the town.",
+        "Using the Minigame Teleport to Shades of Mort'ton or the Mort'ton teleport scroll will place you directly in Mort'ton, which is north-east of the Abandoned Mine.",
+        "By fairy ring BIP (50 Agility needed) and then walking south."
+      ]
+    },
+    "Taverley Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Taverley_Dungeon",
+      "methods": [
+        "Teleport to House if your house is in Taverley, or Taverley teleport tablet.",
+        "Falador Teleport spell or tablet.",
+        "Balloon transport system to Taverley.",
+        "The south portal in the Wizards' Guild (requires 66 Magic) of Yanille brings the player to the Dark Wizards' Tower located just south.",
+        "Skills necklace teleport to Crafting Guild, then run north.",
+        "Burthorpe Games Room Minigame Teleport or games necklace to Burthorpe, then run south."
+      ]
+    },
+    "Taverley Dungeon (upper level)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Taverley_Dungeon",
+      "methods": [
+        "Teleport to House if your house is in Taverley, or Taverley teleport tablet.",
+        "Falador Teleport spell or tablet.",
+        "Balloon transport system to Taverley.",
+        "The south portal in the Wizards' Guild (requires 66 Magic) of Yanille brings the player to the Dark Wizards' Tower located just south.",
+        "Skills necklace teleport to Crafting Guild, then run north.",
+        "Burthorpe Games Room Minigame Teleport or games necklace to Burthorpe, then run south."
+      ]
+    },
+    "The Forgotten Cemetery": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/The_Forgotten_Cemetery",
+      "methods": [
+        "Use Cemetery Teleport (spell or portal in POH) or the Cemetery teleport tablet, which will teleport you directly to the cemetery.",
+        "Use Dareeyak Teleport or Dareeyak teleport tablet, which will teleport you to ruins, south of the cemetery.",
+        "Use burning amulet to teleport to Lava Maze, then run south-west. This WILL take you to level 41 Wilderness.",
+        "If you have access to choose a Wilderness Obelisk, you can select the level 27, teleport, and run west."
+      ]
+    },
+    "Tomb of Rashiliyia (during the Shilo Village quest)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Tomb_of_Rashiliyia",
+      "methods": [
+        "Take the fairy ring code DKP and run south"
+      ]
+    },
+    "Warriors' Guild (basement)": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Warriors'_Guild",
+      "methods": [
+        "Combat bracelet or Strength cape to teleport directly to the Warriors' Guild.",
+        "Games necklace to teleport to Burthorpe, then head west.",
+        "Minigame Teleport to the Burthorpe Games Room, then head west.",
+        "House teleport (if a player's house is in Taverley) or a Taverley teleport tablet, then head north.",
+        "Balloon transport system to Taverley (requires partial completion of Enlightened Journey), then head north-west."
+      ]
+    },
+    "West Ardougne": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/West_Ardougne",
+      "methods": [
+        "\u2014 city centre. This is the only direct teleport into West Ardougne.",
+        "\u2014 East Ardougne. From here, players then have several methods of entry:",
+        "Through the pipe under Edmond's house (during and after Plague City).",
+        "Via shortcut over the wall via Omart (during Plague City, before returning the distillator to Elena)",
+        "Through the main gate from East Ardougne (after Plague City has been completed)",
+        "\u2014 the Outpost, north-west of the city.",
+        "Coming from Tirannwn via the Underground Pass."
+      ]
+    },
+    "Wilderness God Wars Dungeon": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Wilderness_God_Wars_Dungeon",
+      "methods": [
+        "Using the Wilderness Obelisk. The closest obelisk is the level 27 obelisk, located slightly south-east of the entrance. The Wilderness Obelisk system can be quickly accessed from one's player-owned house (80 Construction required), or by teleporting to the Corporeal Beast's cave and running south-east to the level 19 obelisk. Completion of the hard tier of the Wilderness diary allows the player to select the destination obelisk.",
+        "Casting the Cemetery Teleport spell on the Arceuus spellbook or the corresponding tablet to The Forgotten Cemetery and running east.",
+        "Casting the Dareeyak Teleport spell on the Ancient spellbook or breaking a Dareeyak teleport tablet to the ruins at level 23 Wilderness. Both require completion of Desert Treasure I to use.",
+        "Using a burning amulet teleport to the Bandit Camp and running west then north.",
+        "Using the agility shortcut from Trollheim puts you much closer than running directly from Edgeville, but requires 64 Agility.",
+        "Running directly from the Ferox Enclave.",
+        "Running directly to the dungeon from Edgeville.",
+        "Using a Revenant cave teleport and running west."
+      ]
+    },
+    "Wizards' Tower": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Wizards'_Tower",
+      "methods": [
+        "The fairy ring code DIS teleports you immediately south of the tower.",
+        "The necklace of passage teleports you to the bridge just north of the tower.",
+        "The Amulet of the eye teleports the player to the Temple of the Eye, near a portal that takes them to the basement of the guild.",
+        "A ring of the elements can provide a teleport near to the Water Altar entrance, east of the tower.",
+        "An Achievement diary cape can teleport the player to Twiggy O'Korn north of the tower",
+        "An amulet of glory teleport to Draynor Village to the north of the tower.",
+        "Players with 66 Magic can enter the east portal on the floor 2 of the Wizards' Guild."
+      ]
+    }
+  }
+}

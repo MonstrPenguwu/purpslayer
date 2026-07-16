@@ -1,0 +1,5306 @@
+{
+  "generatedAt": "2026-07-13T19:59:55Z",
+  "source": "https://oldschool.runescape.wiki",
+  "tasks": {
+    "banshees": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Banshees",
+      "requirements": {
+        "combatLevelReq": "20",
+        "skillReq": "15 Slayer",
+        "otherReq": "Priest in Peril",
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "mazchna": "30-50"
+        }
+      },
+      "locations": [
+        {
+          "location": "Slayer Tower (floor 0)",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Safespot is possible 2 squares south of the torch at the south side of the stairs with banshees being east of the stairs."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3429&y=3564&p=0&z=4&m=0"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Safespot is possible in the path from Ankou to Banshees and on the 3x1 bridge in the Banshee area."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1608&y=9994&p=0&z=4&m=32"
+        }
+      ]
+    },
+    "bears": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Bears",
+      "requirements": {
+        "combatLevelReq": "13",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "10-20",
+          "spria": "10-20",
+          "mazchna": "30-50",
+          "krystilia": "65-100"
+        }
+      },
+      "locations": [
+        {
+          "location": "Ardougne Zoo",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "The bears are located in a closed-off area only reachable using ranged or magic."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2632&y=3280&p=0&z=4"
+        },
+        {
+          "location": "East of Varrock Palace, accessible via Varrock Sewers",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "It is in a similar area as the Ardougne Zoo bears, but the Varrock Sewers grant access for melee attacks."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3230&y=3500&p=0&z=4"
+        },
+        {
+          "location": "Entrana",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "No weapons or armour can be brought to Entrana."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2809&y=3376&p=0&z=4"
+        },
+        {
+          "location": "Fremennik Province - woods outside of Rellekka",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "There are two clumps of four bear cubs in the area and 2 grizzly bears."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2689&y=3612&p=0&z=4"
+        },
+        {
+          "location": "Gnome Maze",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Be wary of higher level monsters in the maze."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2501&y=3159&p=0&z=4"
+        },
+        {
+          "location": "Great Kourend - north of Land's End",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1499&y=3449&p=0&z=4"
+        },
+        {
+          "location": "Great Kourend - Farming Guild",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1216&y=3680&p=0&z=4"
+        },
+        {
+          "location": "Isafdar",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of Regicide."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2215&y=3171&p=0&z=4"
+        },
+        {
+          "location": "Kebos Lowlands - south of Mount Quidamortem",
+          "amount": "9",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Be wary of poisonous Lizardmen."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1232&y=3468&p=0&z=4"
+        },
+        {
+          "location": "North-east of Ardougne",
+          "amount": "9",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2691&y=3341&p=0&z=4"
+        },
+        {
+          "location": "North-east of the Observatory",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2460&y=3200&p=0&z=4"
+        },
+        {
+          "location": "North-east of Tyras Camp (instanced)",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of Song of the Elves."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2343&y=4579&p=0&z=4&m=10160"
+        },
+        {
+          "location": "North-west of Dark Warriors' Fortress",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "This location is in the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2988&y=3671&p=0&z=4"
+        },
+        {
+          "location": "Outside of the Mind Altar",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2967&y=3480&p=0&z=4"
+        },
+        {
+          "location": "Prifddinas (outside the city)",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of Regicide."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3221&y=5970&p=0&z=4&m=29"
+        },
+        {
+          "location": "South of Prifddinas (instanced)",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of Song of the Elves."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3221&y=5970&p=0&z=4&m=29"
+        },
+        {
+          "location": "South of the Demonic Ruins (Callisto's Den)",
+          "amount": "1",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Callisto is only recommended for high level players."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3292&y=3849&p=0&z=4"
+        },
+        {
+          "location": "South-east of Dark Warriors' Fortress",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "This location is in the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3075&y=3608&p=0&z=4"
+        },
+        {
+          "location": "South-east of Gu'Tanoth",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2606&y=3008&p=0&z=4"
+        },
+        {
+          "location": "West of Tree Gnome Village",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2477&y=3143&p=0&z=4"
+        },
+        {
+          "location": "South-west of Tree Gnome Stronghold",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2412&y=3378&p=0&z=4"
+        },
+        {
+          "location": "Varrock south-east mine",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3296&y=3347&p=0&z=4"
+        },
+        {
+          "location": "West of Lletya",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of Regicide."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2293&y=3156&p=0&z=4"
+        },
+        {
+          "location": "West of Lletya (during Song of the Elves)",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of Song of the Elves."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2741&y=6100&p=0&z=4&m=10078"
+        },
+        {
+          "location": "West of the Graveyard of Shadows",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "This location is in the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3125&y=3693&p=0&z=4"
+        }
+      ]
+    },
+    "birds": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Birds",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30"
+        }
+      },
+      "locations": [
+        {
+          "location": "Farmer Fred's chicken pen",
+          "amount": "28",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Chickens"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3178&y=3298&p=0&z=4"
+        },
+        {
+          "location": "Along the River Lum south of Varrock",
+          "amount": "41",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Ducks along both banks and in the water"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3140&y=3387&p=0&z=4"
+        },
+        {
+          "location": "Along the River Lum north of Lumbridge",
+          "amount": "28",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Ducks along both banks and in the water"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3235&y=3259&p=0&z=4"
+        },
+        {
+          "location": "Corsair Cove",
+          "amount": "9",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Seagulls"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2549&y=2860&p=0&z=4"
+        },
+        {
+          "location": "Port Sarim",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Seagulls"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3028&y=3232&p=0&z=4"
+        },
+        {
+          "location": "Port Piscarilius",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Seagulls"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1806&y=3689&p=0&z=4"
+        }
+      ]
+    },
+    "dwarves": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Dwarves",
+      "requirements": {
+        "combatLevelReq": "6",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "10-25",
+          "spria": "10-25"
+        }
+      },
+      "locations": [
+        {
+          "location": "Deep Wilderness Dungeon",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Wilderness"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3029&y=10313&p=0&z=4&m=26"
+        },
+        {
+          "location": "Dwarven Mine",
+          "amount": "39",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "36 Dwarves, all Dwarf gang members"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2966&y=9813&p=0&z=4&m=6"
+        },
+        {
+          "location": "Dwarven Mine entrance (Ice Mountain)",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3015&y=3459&p=0&z=4"
+        },
+        {
+          "location": "Ice Mountain",
+          "amount": "18",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Dwarves and Black Guard"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2998&y=3445&p=0&z=4"
+        },
+        {
+          "location": "Falador Mining Guild (floor 1)",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3010&y=3341&p=1&z=4"
+        },
+        {
+          "location": "Falador near the Mining Guild ladders",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3012&y=3337&p=0&z=4"
+        },
+        {
+          "location": "Keldagrim (upstairs in the building west of the bank)",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Black Guard Beserker"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2827&y=10212&p=1&z=4&m=10"
+        },
+        {
+          "location": "Keldagrim",
+          "amount": "17",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Dwarves and Black Guard"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2822&y=10212&p=0&z=4&m=10"
+        },
+        {
+          "location": "Lovakengj",
+          "amount": "21",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "South from Xeric's Inferno.",
+            "Look for the furnace building."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1527&y=3831&p=0&z=4"
+        },
+        {
+          "location": "Lovakengj (floor 1 Buildings)",
+          "amount": "8",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1429&y=3796&p=1&z=4"
+        },
+        {
+          "location": "North of Wilderness Bandit Camp",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Wilderness",
+            "Chaos druids"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3019&y=3760&p=0&z=4"
+        },
+        {
+          "location": "South-east of Lava Dragon Isle",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Wilderness",
+            "Chaos druids"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3241&y=3796&p=0&z=4"
+        },
+        {
+          "location": "South of Yanille",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2596&y=3056&p=0&z=4"
+        },
+        {
+          "location": "South of Coal Trucks",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2560&y=3456&p=0&z=4"
+        },
+        {
+          "location": "Taverley Dungeon",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Dwarves and Chaos Druids"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2932&y=9784&p=0&z=4&m=20"
+        },
+        {
+          "location": "White Wolf Mountain tunnels",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2860&y=9874&p=0&z=4&m=20"
+        }
+      ]
+    },
+    "ghosts": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Ghosts",
+      "requirements": {
+        "combatLevelReq": "13",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "mazchna": "30-50"
+        }
+      },
+      "locations": [
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "17",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "The ghosts are split into two chambers, with about equal amounts of ghosts."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1686&y=10062&p=0&z=4&m=32"
+        },
+        {
+          "location": "Crumbling Tower",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Good drop table compared to most ghosts, especially for its combat level."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2132&y=2996&p=1&z=4"
+        },
+        {
+          "location": "Death Altar",
+          "amount": "17",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Completion of Mourning's End Part II required."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2188&y=4855&p=0&z=4&m=10039"
+        },
+        {
+          "location": "Draynor Manor (floor 1)",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Three ghosts are in one room, while the other two are in different rooms."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3094&y=3356&p=1&z=4"
+        },
+        {
+          "location": "Grave of Scorpius",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2460&y=3223&p=0&z=4"
+        },
+        {
+          "location": "Melzar's Maze (floor 1)",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Partial completion of Dragon Slayer I required."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2925&y=3255&p=1&z=4"
+        },
+        {
+          "location": "Mynydd",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Be wary of high level Dire Wolves roaming the area."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2164&y=3431&p=0&z=4"
+        },
+        {
+          "location": "North-east of dense essence mine",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "The ghosts are spread out on the path leading to the Soul Altar."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1826&y=3864&p=0&z=4"
+        },
+        {
+          "location": "North-east of Chaos Temple (Wilderness)",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Four ghosts inhabit the area of Larran's small chest."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3272&y=3664&p=0&z=4"
+        },
+        {
+          "location": "North-west of Ferox Enclave",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "This location is in the Wilderness; don't take anything you don't want to lose."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3088&y=3700&p=0&z=4"
+        },
+        {
+          "location": "Outside Ectofuntus",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Completion of Priest in Peril required."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3654&y=3536&p=0&z=4"
+        },
+        {
+          "location": "Stronghold of Security: Sepulchre of Death",
+          "amount": "31",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "This area contains many high level ghosts and Ankou."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1953&y=4945&p=0&z=4&m=18"
+        },
+        {
+          "location": "Taverley Dungeon",
+          "amount": "14",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2900&y=9819&p=0&z=4&m=20"
+        },
+        {
+          "location": "Temple in The Golem",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "The ghosts here are spaced quite far apart."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2712&y=4898&p=0&z=4&m=10169"
+        },
+        {
+          "location": "The Forgotten Cemetery",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "This area is in the Wilderness, and is also littered with Ankou."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2962&y=3755&p=0&z=4"
+        },
+        {
+          "location": "Revenant Caves",
+          "amount": "30",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "This area is in the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3212&y=10196&p=0&z=4&m=26"
+        },
+        {
+          "location": "Varrock Sewers",
+          "amount": "3",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3239&y=9915&p=0&z=4&m=12"
+        },
+        {
+          "location": "Shaman Caves",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Partial completion of Legends' Quest required."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2796&y=9304&p=0&z=4&m=10174"
+        },
+        {
+          "location": "West Ardougne",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Partial completion of Plague City required."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2501&y=3289&p=0&z=4"
+        },
+        {
+          "location": "West of Port Phasmatys",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Completion of Priest in Peril required."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3648&y=3472&p=0&z=4"
+        }
+      ]
+    },
+    "kalphiteworkers": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Kalphites",
+      "requirements": {
+        "combatLevelReq": "15",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "mazchna": "30-50",
+          "vannaka": "40-90",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200"
+        }
+      },
+      "locations": [
+        {
+          "location": "Kalphite Lair",
+          "amount": "13 Workers / 7 Soldiers / 4 Guardians / 1 Queen",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "All variants are found here, including the Kalphite Queen.",
+            "Two of the kalphite guardians spawn on the first floor, and two on the second floor with the Kalphite queen. These spawn slowly compared to those found in Kalphite Cave.",
+            "A rope needs to be used to access the lair if the player has not completed the Hard Desert Diary. A second rope is needed to access the Queen's lair."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3177&y=9502&p=0&z=4&m=42"
+        },
+        {
+          "location": "Kalphite Cave",
+          "amount": "18 Workers</br>20 Soldiers</br>5 Guardians",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Slayer task-exclusive area containing the 3 normal varieties of kalphites."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3337&y=9514&p=0&z=4&m=42"
+        }
+      ]
+    },
+    "lizards": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Lizards",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": "22 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "mazchna": "30-50"
+        }
+      },
+      "locations": [
+        {
+          "location": "Kharidian Desert, north of Nardah (DLQ)",
+          "amount": "31 Small / 7 Regular / 5 Giant",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Ice coolers required, waterskins recommended."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3400&y=3032&p=0&z=4&m=0"
+        },
+        {
+          "location": "Karuulm Slayer Dungeon (floor 1)",
+          "amount": "13 Sulphur",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Unless the elite Kourend & Kebos Diary has been completed, players must wear boots of stone, boots of brimstone, or granite boots to protect themselves from the extreme heat of the dungeon floor.",
+            "Granite boots have a melee Strength bonus, while boots of brimstone have Magic and Ranged accuracy bonuses.",
+            "Can be safespotted by standing by the corner of the entrance to their room. A cannon placed nearby can easily draw the lizards in."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1194&y=10142&p=0&z=4&m=33"
+        },
+        {
+          "location": "Neypotzli - Streambound Cavern",
+          "amount": "7 Grimy",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Easy access to free food and prayer/combat potions in the form of cooked bream/cooked moss lizard and moonlight potions, respectively."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1483&y=9716&p=0&z=4"
+        }
+      ]
+    },
+    "monkeys": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Monkeys",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30"
+        }
+      },
+      "locations": [
+        {
+          "location": "Ape Atoll Dungeon",
+          "amount": "30",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Watch out for falling rocks."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2763&y=9118&p=0&z=4&m=10014"
+        },
+        {
+          "location": "Ardougne Zoo",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "If you want to kill these with melee, it is possible to get in the cage; however, it requires partial completion of Monkey Madness I. There are only 6 monkeys here; the additional pins are alternate spawns."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2601&y=3282&p=0&z=4"
+        },
+        {
+          "location": "Around Brimhaven",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2742&y=3159&p=0&z=4"
+        },
+        {
+          "location": "Crash Site Cavern",
+          "amount": "36",
+          "multicombat": null,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "See strategies on this page. Demonic gorillas are immune to cannon damage."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2131&y=5644&p=0&z=4&m=10036"
+        },
+        {
+          "location": "East of Tai Bwo Wannai",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2893&y=3078&p=0&z=4"
+        },
+        {
+          "location": "Karamja, near the volcano",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2873&y=3148&p=0&z=4"
+        },
+        {
+          "location": "Marim",
+          "amount": "25",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Stay in the tall grass when possible."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2752&y=2782&p=1&z=4"
+        },
+        {
+          "location": "Marim gates",
+          "amount": "14",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Climb up to their level before engaging."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2712&y=2756&p=0&z=4"
+        },
+        {
+          "location": "Mos Le'Harmless",
+          "amount": "18",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires completion of Cabin Fever. Can be attacked with melee during Tai Bwo Wannai Trio."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3748&y=3048&p=0&z=4"
+        },
+        {
+          "location": "North-east Karamja (instanced)",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2509&y=4550&p=0&z=4&m=10121"
+        },
+        {
+          "location": "North-east of Shilo Village",
+          "amount": "16",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2868&y=3017&p=0&z=4"
+        },
+        {
+          "location": "North-west of Shilo Village",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2829&y=3029&p=0&z=4"
+        },
+        {
+          "location": "South-east Karamja",
+          "amount": "9",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2948&y=3001&p=0&z=4"
+        },
+        {
+          "location": "Temple of Marimbo",
+          "amount": "12",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Some of the monkey guards are capable of blocking your path, like Brawlers in Pest Control. Contains Gorilla Statue, allowing quick Prayer refills."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2788&y=2778&p=1&z=4"
+        },
+        {
+          "location": "Temple of Marimbo Dungeon",
+          "amount": "41",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2761&y=9193&p=0&z=4&m=10148"
+        }
+      ]
+    },
+    "scorpions": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Scorpions",
+      "requirements": {
+        "combatLevelReq": "7",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "mazchna": "30-50",
+          "krystilia": "65-100"
+        }
+      },
+      "locations": [
+        {
+          "location": "Al Kharid Mine",
+          "amount": "9 Scorpions (level 14)",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3292&y=3297&p=0&z=4"
+        },
+        {
+          "location": "Ardougne Zoo",
+          "amount": "3 Scorpions (level 14), 4 Pit scorpions",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "In an enclosure."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2602&y=3267&p=0&z=4"
+        },
+        {
+          "location": "Dwarven Mine",
+          "amount": "13 Scorpions (level 14), 2 King Scorpions",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3038&y=9771&p=0&z=4&m=6"
+        },
+        {
+          "location": "Stonecutter Outpost temple, East of Colossal Wyrm Remains",
+          "amount": "11 Scorpions (level 14)",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1715&y=2925&p=0&z=4"
+        },
+        {
+          "location": "Scorpion Pit",
+          "amount": "7 Scorpions (level 14)",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "In the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3225&y=3943&p=0&z=4"
+        },
+        {
+          "location": "Scorpion Pit (Cave)",
+          "amount": "Scorpia, 27 Scorpia's offsprings",
+          "multicombat": true,
+          "cannonable": null,
+          "safespottable": null,
+          "notes": [
+            "In the Wilderness. With a cannon, a scorpion task can be completed in less than a minute as there are many spawns with low hitpoints."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3233&y=10341&p=0&z=4&m=26"
+        }
+      ]
+    },
+    "skeletons": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Skeletons",
+      "requirements": {
+        "combatLevelReq": "15",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "mazchna": "30-50",
+          "krystilia": "65-100"
+        }
+      },
+      "locations": [
+        {
+          "location": "Ape Atoll Dungeon",
+          "amount": "Unknown",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Barrows",
+          "amount": "Unknown",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Bones can be buried to restore one Prayer point, which can help save on Prayer restoration especially with a Bonecrusher.",
+            "Killing Skeletons here also gives access to Ancient shards and Dark totem pieces as bonus drops."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1636&y=10046&p=0&z=4&m=32"
+        },
+        {
+          "location": "Digsite Dungeon",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of The Digsite (and its pre-requisites) to access the dungeon"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Draynor Manor",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Draynor Sewers",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Edgeville Dungeon",
+          "amount": "19, 7 in wild",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Killing skeletons in the northern part of the Edgeville dungeon represents a high risk for those who decide to do their slayer task there because it is a pk zone",
+            "Skeletons in the mine can be safespotted from behind the gate east of the mine"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Jiggig",
+          "amount": "11",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Brutal arrows work best against Skogres."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2461&y=3047&p=0&z=4"
+        },
+        {
+          "location": "Jiggig Dungeon",
+          "amount": "36",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Brutal arrows work best against Skogres."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2465&y=9454&p=2&z=4&m=10084"
+        },
+        {
+          "location": "Melzar's Maze",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Shayzien Crypts",
+          "amount": "Unknown",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Stronghold of Security",
+          "amount": "26",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Found on the fourth floor",
+            "Can be safespotted between bones in the south-western room"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Taverley Dungeon",
+          "amount": "Unknown",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Tarn's Lair",
+          "amount": "Unknown",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Tarn's Lair, Abandoned Mine",
+          "amount": "Unknown",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Varrock Sewers",
+          "amount": "7",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Waterfall Dungeon",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Wilderness",
+          "amount": "Unknown",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Multicombat area and high Risk Player Killing makes this a very dangerous location."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Wizards' Tower",
+          "amount": "Unknown",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        }
+      ]
+    },
+    "spiders": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Spiders",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "krystilia": "65-100"
+        }
+      },
+      "locations": [
+        {
+          "location": "Arceuus, outside the Tower of Magic",
+          "amount": "8",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1572&y=3833&p=0&z=4"
+        },
+        {
+          "location": "Forthos Dungeon",
+          "amount": "21",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Gnome Maze",
+          "amount": "9",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2548&y=3190&p=0&z=4"
+        },
+        {
+          "location": "Hosidius",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": null,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1751&y=3533&p=0&z=4"
+        },
+        {
+          "location": "Lovakengj",
+          "amount": "41",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Morytania Spider Cave",
+          "amount": "A lot",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Note that many of the 'Spiders' here require 92 Slayer to kill. Also contains the boss Araxxor"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=96&y=146&p=0&z=4"
+        },
+        {
+          "location": "Ogre Enclave",
+          "amount": "10",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Port Piscarilius",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1756&y=3707&p=0&z=4"
+        },
+        {
+          "location": "Sisterhood Sanctuary",
+          "amount": "11",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3727&y=9779&p=0&z=4&m=14"
+        },
+        {
+          "location": "Stronghold of Security, Pit of Pestilence (level 3)",
+          "amount": "35",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Underground Pass",
+          "amount": "49",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        }
+      ]
+    },
+    "wolves": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Wolves",
+      "requirements": {
+        "combatLevelReq": "20",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "mazchna": "30-50"
+        }
+      },
+      "locations": [
+        {
+          "location": "Arandar entrance",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Ardougne Zoo",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Feldip Hills",
+          "amount": "15",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Inside the Tree Gnome Village maze",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Path between Seers' Village and Rellekka",
+          "amount": "1",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "South of Forthos Dungeon, near the saltpetre mines",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "South of Rellekka",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "South of West Ardougne",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Stronghold of Security first level",
+          "amount": "16",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "West of Sinclair Mansion",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "West of the Outpost",
+          "amount": "5",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "White Wolf Mountain",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Wilderness, south-east of the Deserted Keep",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "*"
+          ],
+          "mapUrl": null
+        }
+      ]
+    },
+    "zombies": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Zombies",
+      "requirements": {
+        "combatLevelReq": "10",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "mazchna": "30-50",
+          "krystilia": "75-125"
+        }
+      },
+      "locations": [
+        {
+          "location": "Alice's farm west of the Ectofuntus",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires completion of Priest in Peril."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Ape Atoll Dungeon",
+          "amount": "30",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires partial completion of Monkey Madness I."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Ardougne Sewers",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Braindeath Island",
+          "amount": "18",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of Rum Deal."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Chaos Temple (Wilderness)",
+          "amount": "34",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Populated by numerous Elder Chaos druids."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Draynor Sewers",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Edgeville Dungeon",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Edgeville Dungeon mine",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Some level 42 Hobgoblins roam the area nearby."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Forthos Dungeon",
+          "amount": "18",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Watch out for the nearby Red dragons."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Glarial's Tomb",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Requires partial completion of Waterfall Quest. No weapons, armour, or runes can be brought here."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Graveyard of Shadows (Wilderness)",
+          "amount": "21",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "This location is in the Wilderness and close to the Ferox Enclave."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Harmony Island",
+          "amount": "17",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of The Great Brain Robbery."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Harmony Island ship",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires partial completion of The Great Brain Robbery."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Harmony Island Underground",
+          "amount": "11",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires partial completion of The Great Brain Robbery."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Jiggig",
+          "amount": "7",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Be careful to not become diseased. They take 75% less damage from everything except Brutal arrows and Crumble Undead."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Jiggig Dungeon",
+          "amount": "27",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Be careful to not become diseased. They take 75% less damage from everything except Brutal arrows and Crumble Undead."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Magic Guild's Dungeon",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Level 66 Magic is required to enter the guild. These zombies cannot be killed with melee."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Melzar's Maze",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Zombie rats are found on the ground floor."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Ruins (east) (Wilderness)",
+          "amount": "15",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "This location is in the Wilderness."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Shilo Village Entrance",
+          "amount": "9",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires completion of Shilo Village."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "South of the Graveyard of Heroes",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Stronghold of Security (Level 2, Catacomb of Famine)",
+          "amount": "52",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "The zombies in this area are in three different groups."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Temple of Ah Za Rhoon (during the Shilo Village quest)",
+          "amount": "38",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Some of the Undead ones are skeletal."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Temple of Marimbo Dungeon",
+          "amount": "41",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires partial completion of Monkey Madness I."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Tomb of Rashiliyia (during the Shilo Village quest)",
+          "amount": "19",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Some of the Undead ones are skeletal."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Tree Gnome Village dungeon",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Ungael",
+          "amount": "1",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Vorkath is weaker during the quest, with a combat level of 392."
+          ],
+          "mapUrl": null
+        },
+        {
+          "location": "Varrock Sewers",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "West Ardougne Cemetery",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires partial completion of Plague City."
+          ],
+          "mapUrl": null
+        }
+      ]
+    },
+    "ogres": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Ogres",
+      "requirements": {
+        "combatLevelReq": "40",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "40-90"
+        }
+      },
+      "locations": [
+        {
+          "location": "Chaos Druid Tower Dungeon",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "This location is fairly unpopulated."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2581&y=9738&p=0&z=4&m=2"
+        },
+        {
+          "location": "Clock Tower Dungeon",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2585&y=9608&p=0&z=4&m=2"
+        },
+        {
+          "location": "Combat Training Camp",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires completion of Biohazard."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2523&y=3373&p=0&z=4"
+        },
+        {
+          "location": "Corsair Cove Dungeon",
+          "amount": "32",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "The entrance is a commonly used safespot, so expect to not use it. Ogress shamans offer a unique cosmetic drop."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2002&y=8989&p=0&z=4&m=31"
+        },
+        {
+          "location": "Feldip Hills",
+          "amount": "18",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "The ogres in this area are fairly spread out."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2584&y=2967&p=0&z=4"
+        },
+        {
+          "location": "Gnome Maze",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2554&y=3192&p=0&z=4"
+        },
+        {
+          "location": "God Wars Dungeon",
+          "amount": "3",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "As this is a multicombat area, other monsters will attack you."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2867&y=5313&p=0&z=4&m=7"
+        },
+        {
+          "location": "Gu'Tanoth",
+          "amount": "18",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "The ogres in this area are secluded in many areas."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2510&y=3044&p=0&z=4"
+        },
+        {
+          "location": "Jiggig",
+          "amount": "11",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Brutal arrows work best against Zogres and Skogres."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2461&y=3047&p=0&z=4"
+        },
+        {
+          "location": "Jiggig Dungeon",
+          "amount": "36",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Brutal arrows work best against Zogres and Skogres."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2465&y=9454&p=2&z=4&m=10084"
+        },
+        {
+          "location": "Mudskipper Point",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Fishing explosives are required to engage in combat with Mogres."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2982&y=3113&p=0&z=4"
+        },
+        {
+          "location": "Underground Pass (dungeon)",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires completion of Plague City."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2387&y=9685&p=0&z=4&m=10163"
+        },
+        {
+          "location": "West of Yanille",
+          "amount": "14",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2496&y=3092&p=0&z=4"
+        },
+        {
+          "location": "Wilderness God Wars Dungeon",
+          "amount": "1",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "As this is a multicombat area and in the Wilderness, other monsters and players will attack you."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2974&y=10096&p=0&z=4&m=26"
+        },
+        {
+          "location": "Witchaven Dungeon",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2719&y=9715&p=0&z=4&m=2"
+        }
+      ]
+    },
+    "pyrefiends": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Pyrefiends",
+      "requirements": {
+        "combatLevelReq": "25",
+        "skillReq": "30 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "mazchna": "30-50",
+          "vannaka": "40-90"
+        }
+      },
+      "locations": [
+        {
+          "location": "Fremennik Slayer Cave (AJR)",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2757&y=10008&p=0&z=4&m=17"
+        },
+        {
+          "location": "God Wars Dungeon",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Requires partial completion of Troll Stronghold.",
+            "Requires either 60 Strength or 60 Agility.",
+            "It is highly recommended to bring god-related protection to prevent monster aggression in the area.",
+            "A rope is required on the first visit."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2863&y=5307&p=0&z=4&m=7"
+        },
+        {
+          "location": "Isle of Souls",
+          "amount": "10 Fiends</br>3 Lords",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "South west of fairy ring BJP."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2247&y=2964&p=0&z=4&m=0"
+        },
+        {
+          "location": "Sisterhood Sanctuary",
+          "amount": "21 Fiends</br>6 Lords",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Priest in Peril for access to Morytania"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3863&y=9777&p=0&z=4&m=14"
+        },
+        {
+          "location": "Smoke Dungeon",
+          "amount": "23",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Must have started Desert Treasure I.",
+            "Players must wear a facemask, Slayer helmet, Slayer helmet (i) or Gas mask to protect from the smoke in this area."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3248&y=9374&p=0&z=4&m=10141"
+        },
+        {
+          "location": "Wilderness God Wars Dungeon",
+          "amount": "2",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Area is in the wilderness, you can be attacked by other players here.",
+            "Requires either 60 Strength or 60 Agility to enter.",
+            "It is highly recommended to bring god-related protection to prevent monster aggression in the area.",
+            "Chance to receive an Ecumenical key when killing monsters in this area."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2959&y=10093&p=0&z=4&m=26"
+        }
+      ]
+    },
+    "shades": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Shades",
+      "requirements": {
+        "combatLevelReq": "30",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "mazchna": "30-70",
+          "vannaka": "40-90"
+        }
+      },
+      "locations": [
+        {
+          "location": "Sepulchre of Death in Stronghold of Security",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Can be safespotted using a skeleton found on the eastern side in the middle northern part of the room"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2004&y=4928&p=0&z=4&m=18"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Can be safespotted by using a corner in the area just south of the Steel Dragons. Shades can also get caught on several corner tiles found within their area, allowing for an effective safespot while avoiding the Steel Dragons."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1603&y=10040&p=0&z=4&m=32"
+        },
+        {
+          "location": "Mort'ton",
+          "amount": "25",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Easiest and fastest to kill. Priest in Peril is required to access Mort'ton. Cannon placement is limited, but it is possible to set one up along the eastern boundary of Mort'ton."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3474&y=3280&p=0&z=4"
+        },
+        {
+          "location": "Shade Catacombs",
+          "amount": "style=\"text-align:left\"|12 Phrin / 16 Riyl / 29 Asyn / 8 Fiyr / 11 Urium",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Keys required to access certain parts of dungeon (see Shade Catacombs)"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3499&y=9672&p=0&z=4"
+        }
+      ]
+    },
+    "vampyres": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Vampyres",
+      "requirements": {
+        "combatLevelReq": "35",
+        "skillReq": null,
+        "otherReq": "Completion of Priest in Peril",
+        "assignedAmounts": {
+          "mazchna": "10-20 (200-250)",
+          "vannaka": "10-20 (200-250)",
+          "chaeldar": "80-100 (200-250)",
+          "nieve": "110-170 (200-250)",
+          "konar": "100-160 (200-250)",
+          "duradel": "100-210 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Burgh de Rott",
+          "amount": "6 Feral Vampyre / 15 Vampyre Juvinates",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires completion of In Aid of the Myreque."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3458&y=3225&p=0&z=4"
+        },
+        {
+          "location": "Darkmeyer",
+          "amount": "6 Vampyre Juvinates / 8 Vyrewatch / 19 Vyrewatch Sentinels",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Requires starting Sins of the Father.",
+            "Only location where the highly profitable Vyrewatch Sentinels can be found.",
+            "The area west of the Arboretum is especially convenient due to the nearby altar, bank and being close to the Drakan's Medallion's teleport destination.",
+            "Prior to completing the third fight against Lowerniel Drakan in The Blood Moon Rises, bank tellers will not service the player without a disguise; the bank chest at the Hallowed Sepulchre lobby can be used instead."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3653&y=3356&p=0&z=4"
+        },
+        {
+          "location": "God Wars Dungeon",
+          "amount": "13 Feral Vampyre",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Feral Vampyres are followers of Zamorak, and will be aggressive to the player unless they wear a Zamorak item.",
+            "Not recommended as the area is not convenient to access, requires the player to wear items affiliated to the gods, and the spawns are spread out.",
+            "One of the few locations containing vampyres not locked behind Priest in Peril."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2950&y=5272&p=0&z=4&m=7"
+        },
+        {
+          "location": "Haunted Woods",
+          "amount": "19 Feral Vampyres",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires completing Priest in Peril.",
+            "The feral vampyres here are always aggressive to the player.",
+            "The nearby leeches can drain stats and do not appear on the minimap.",
+            "Feral vampyres will spawn if the player is followed by a small spider",
+            "The fairy ring ALQ is located in the middle of the Haunted Woods, making it a convenient location for players looking to collect vampyre dust."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3614&y=3431&p=0&z=4"
+        },
+        {
+          "location": "Meiyerditch",
+          "amount": "4 Vampyre Juvinates / 61 Vyrewatch",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Requires starting Darkness of Hallowvale."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3624&y=3322&p=0&z=4"
+        },
+        {
+          "location": "Slepe",
+          "amount": "10 Vyrewatch",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Recommended the player completes A Taste of Hope for access to Drakan's medallion."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3713&y=3368&p=0&z=4"
+        },
+        {
+          "location": "Wilderness God Wars Dungeon",
+          "amount": "2 Feral Vampyres",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires either 60 strength or 60 agility to access.",
+            "Most of the dungeon is below level 30 wilderness, so players should bring an emergency teleport.",
+            "Feral Vampyres are followers of Zamorak, and will be aggressive to the player unless they wear a Zamorak item."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2956&y=10101&p=0&z=4&m=26"
+        }
+      ]
+    },
+    "aberrantspectres": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Aberrant_spectres",
+      "requirements": {
+        "combatLevelReq": "65",
+        "skillReq": "60 Slayer",
+        "otherReq": "Priest in Peril",
+        "assignedAmounts": {
+          "vannaka": "40-90 (200-250)",
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "120-185 (200-250)",
+          "konar": "120-170 (200-250)",
+          "duradel": "130-200 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Slayer Tower (floor 1)",
+          "amount": "14",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Can be safespotted by using the walls, brick piles, and/or suits of armour to block movement.",
+            "Must keep a distance of 6 tiles to avoid their attack range.",
+            "Can provide increased Slayer experience per kill based on level of completion of the Morytania Diary."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3413&y=3550&p=1&z=4&m=0"
+        },
+        {
+          "location": "Stronghold Slayer Cave",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Can be safespotted after the NPC aggression timer has run out."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2443&y=9785&p=0&z=4&m=19"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "12",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Can be safespotted from north of the deviant spectre spawns located in the west of the Catacombs."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1646&y=9988&p=0&z=4&m=32"
+        },
+        {
+          "location": "Deepfin Mine",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Can be safespotted from the eastern side, near the standing torch."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2051&y=9208&p=0&z=4&m=48"
+        }
+      ]
+    },
+    "basilisks": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Basilisks",
+      "requirements": {
+        "combatLevelReq": "40",
+        "skillReq": "40 Slayer, 20 Defence",
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "40-90 (200-250)",
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "120-185 (200-250)",
+          "konar": "110-170 (200-250)",
+          "duradel": "130-200 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Fremennik Slayer Dungeon",
+          "amount": "8 Basilisks",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2738&y=10008&p=0&z=4&m=17"
+        },
+        {
+          "location": "Jormungand's Prison",
+          "amount": "12 Basilisks / 20 Knights",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Contains both basilisks and basilisk knights.",
+            "Only accessible after completion of The Fremennik Exiles."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2459&y=10398&p=0&z=4"
+        }
+      ]
+    },
+    "bloodveld": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Bloodveld",
+      "requirements": {
+        "combatLevelReq": "50",
+        "skillReq": "50 Slayer",
+        "otherReq": "Priest in Peril",
+        "assignedAmounts": {
+          "vannaka": "40-90 (200-250)",
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "120-185 (200-250)",
+          "konar": "120-170 (200-250)",
+          "duradel": "130-200 (200-250)",
+          "krystilia": "70-110 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Buccaneers' Laboratory",
+          "amount": "8 Mutated Bloodvelds",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Required 76 Sailing to access the Island.",
+            "The rowboat can be used to travel to Buccaneers' Haven from Pirates' Cove.",
+            "Since this area is multi-combat it is the best place to use a dwarf multicannon providing the highest Slayer experience per hour for this task.",
+            "The drops will cover the use of the dwarf multicannon."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2089&y=10093&p=0&z=4"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "18 Mutated Bloodvelds",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "There are three groups of mutated bloodvelds, in the north-east, south-east, and south-west.",
+            "The north-east location has the biggest cluster (seven) of mutated bloodvelds. It is an ideal area for using a goading potion.",
+            "The south-east location has five and is also suitable for goading potions.",
+            "The south-west location has six, but it is polluted by wandering possessed pickaxes. However, players can use the south-west path to the hill giants as a safespot. When attacking from the safespot (see [https://oldschool.runescape.wiki/w/File:Catacombs_of_Kourend_Bloodveld_Safespot.png image]), try and attack Bloodvelds to the east of the safespot so they aggro and then get stuck on the corner, allowing for easier AFK killing",
+            "Monsters here have access to the Catacombs drop table, with superior variants always dropping a piece of the dark totem."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1625&y=10033&p=0&z=4&m=32"
+        },
+        {
+          "location": "Iorwerth Dungeon",
+          "amount": "12 Mutated Bloodvelds",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "The mutated bloodveld section of the cave is split into two sections, both of which contain 6 bloodvelds and a safespot.",
+            "This section is very close to the entrance of the cave, meaning it is easy to leave and come back."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3230&y=12434&p=0&z=4&m=34"
+        },
+        {
+          "location": "God Wars Dungeon",
+          "amount": "16 Bloodvelds",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Both a Saradomin item and Zamorak item are required to use this safespot.",
+            "Rope (to access the dungeon itself for the first time) - Two more ropes will be needed if venturing into Saradomin's Encampment on the first visit.",
+            "The superior version will not spawn in this location."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2880&y=5321&p=0&z=4&m=7"
+        },
+        {
+          "location": "Meiyerditch Laboratories",
+          "amount": "4 Bloodvelds</br>7 Mutated Bloodvelds",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Since this area is multi-combat it is the best place to use a dwarf multicannon providing the highest Slayer experience per hour for this task.",
+            "The drops will cover the use of the dwarf multicannon.",
+            "This location is somewhat hard to reach."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3564&y=9741&p=0&z=4&m=10106"
+        },
+        {
+          "location": "Slayer Tower (floor 1)",
+          "amount": "15 Bloodvelds",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3409&y=3571&p=1&z=4&m=0"
+        },
+        {
+          "location": "Slayer Tower (basement)",
+          "amount": "12 Bloodvelds",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "The Slayer ring can be used to teleport to the main entrance of the tower.",
+            "Fairy ring code CKS lands you in the west of Canifis, just south of the tower.",
+            "Since this area is only accessible to those on a Slayer task, it may be less busy."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3403&y=9934&p=0&z=4&m=14"
+        },
+        {
+          "location": "Stronghold Slayer Cave",
+          "amount": "12 Bloodvelds",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Use a Slayer ring to teleport directly to the entrance by Nieve.",
+            "Use the Spirit tree to the Tree Gnome Stronghold and run south-west.",
+            "Use the necklace of passage to Teleport to 'Outpost' and then run north-east."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2434&y=9817&p=0&z=4&m=19"
+        },
+        {
+          "location": "Wilderness God Wars Dungeon",
+          "amount": "5 Bloodvelds",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Using the Agility shortcut from Trollheim puts you much closer than running directly from Edgeville, but requires 64 Agility.",
+            "All monsters in the dungeon are aggressive to any player unless they have equipped at least one item that is devoted to their god.",
+            "The superior version will not spawn in this location."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2950&y=10085&p=0&z=4&m=26"
+        }
+      ]
+    },
+    "dustdevils": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Dust_devils",
+      "requirements": {
+        "combatLevelReq": "70",
+        "skillReq": "65 Slayer",
+        "otherReq": "Desert Treasure I (partial)",
+        "assignedAmounts": {
+          "vannaka": "40-90 (200-250)",
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "120-185 (200-250)",
+          "konar": "120-170 (200-250)",
+          "duradel": "130-200 (200-250)",
+          "krystilia": "75-125 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "13",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Multicombat area, dust devils here have access to the Catacombs of Kourend drop table."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1708&y=10014&p=0&z=4"
+        },
+        {
+          "location": "Wilderness Slayer Cave",
+          "amount": "9",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Multicombat area that additionally allows the use of a dwarf multicannon.",
+            "Located in levels 25-28 Wilderness; do not bring items you are unwilling to lose."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3431&y=10117&p=0&z=4"
+        },
+        {
+          "location": "Smoke Dungeon",
+          "amount": "44",
+          "multicombat": true,
+          "cannonable": null,
+          "safespottable": true,
+          "notes": [
+            "A multicombat, task only area can be found to the west, guarded by Dusty Aliv. He will not allow a dwarf multicannon in the area. The remaining locations are single-way combat and allow for a cannon."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3179&y=9362&p=0&z=4"
+        }
+      ]
+    },
+    "firegiants": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Fire_giant",
+      "requirements": {
+        "combatLevelReq": "65",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "40-90",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200",
+          "krystilia": "75-125"
+        }
+      },
+      "locations": [
+        {
+          "location": "Brimhaven Dungeon",
+          "amount": "8 (on floor 1) / 5 (on ground floor)",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires a woodcutting axe in order to access.",
+            "Requires a payment of 875 coins or a one-time deposit of 1,000,000 coins to Saniboch in order to enter the dungeon.",
+            "While a cheaper cost of 5,000 trading sticks to his sister Banisoch can be used, it is further away and forces the players to traverse through aggressive dragons, and the axe is still needed regardless without 56 Agility."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2628&y=9543&p=1&z=4"
+        },
+        {
+          "location": "Charred Dungeon",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires level 60 Sailing to access."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2684&y=8864&p=0&z=4"
+        },
+        {
+          "location": "Stronghold Slayer Cave",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires a Slayer task.",
+            "Groups of 3 fire giants each separated by a safespot."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2391&y=9781&p=0&z=4&m=19"
+        },
+        {
+          "location": "Deep Wilderness Dungeon",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "There are several tiles along the western side of the lava pool where a cannon can be placed.",
+            "There is a safespot in the south-eastern tunnel, near the Monk of Zamorak."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3046&y=10341&p=0&z=4&m=26"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "12",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Higher level variants which drop Ancient shards and Dark totem pieces."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1622&y=10057&p=0&z=4&m=32"
+        },
+        {
+          "location": "Giants' Den",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Higher level variants which drop Ancient shards and Dark totem pieces."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1451&y=9900&p=0&z=4"
+        },
+        {
+          "location": "Karuulm Slayer Dungeon",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Set up a cannon in the middle of the room and stand in the entrance hallway for a safespot. This allows the cannon to fire rapidly even though it's a single combat area. Stamina pots are recommended for this method to reload the cannon.",
+            "Requires boots of stone, boots of brimstone, or granite boots if the Elite Kourend & Kebos Diary is not completed."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1125&y=10275&p=0&z=4&m=33"
+        },
+        {
+          "location": "Smoke Dungeon",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires wearing a Facemask, Slayer Helmet, or Gas mask to avoid taking damage from the dungeon's smoke effect.",
+            "The northern wall of the entrance can be used as a safespot, but only against the Fire Giant to the north-west."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3306&y=9400&p=0&z=4&m=10141"
+        },
+        {
+          "location": "Waterfall Dungeon",
+          "amount": "11",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "There is a safespot next to the single door in the western room.",
+            "Cannon can AoE Fire Giants by placing it in the middle and running to the safespot(s).",
+            "Requires completion of the Waterfall Quest and a Rope"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2562&y=9886&p=0&z=4&m=10176"
+        },
+        {
+          "location": "Isle of Souls Dungeon",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Cannon can AoE Fire Giants by placing it in the middle and running to the safespot at the hall entrance. Stamina potions recommended."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2116&y=9320&p=0&z=4"
+        }
+      ]
+    },
+    "gargoyles": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Gargoyles",
+      "requirements": {
+        "combatLevelReq": "80",
+        "skillReq": "75 Slayer",
+        "otherReq": "Completion of Priest in Peril",
+        "assignedAmounts": {
+          "vannaka": "40-90 (200-250)",
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "120-185 (200-250)",
+          "konar": "120-170 (200-250)",
+          "duradel": "130-200 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Slayer Tower (top floor)",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Running through the floors of the Slayer Tower takes the player past many other dangerous monsters, most notably banshees and aberrant spectres which will lower the player's stats without proper protection."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3432&y=3540&p=2&z=4&m=0"
+        },
+        {
+          "location": "Slayer Tower (basement)",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Gargoyles can only be killed here while on a Slayer task."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3427&y=9943&p=0&z=4&m=14"
+        },
+        {
+          "location": "Slayer Tower (roof)",
+          "amount": "2<ref group=\"n\">The Grotesque Guardians count as only a single kill unless the Double Trouble Slayer reward has been unlocked, after which they count as two.</ref>",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Only available after receiving a brittle key drop from regular gargoyles. The roof serves as a boss arena for the Grotesque Guardians.",
+            "For more information on fighting the Grotesque Guardians, see Grotesque Guardians/Strategies."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1697&y=4575&p=0&z=4"
+        }
+      ]
+    },
+    "greendragons": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Green_Dragons",
+      "requirements": {
+        "combatLevelReq": "52",
+        "skillReq": null,
+        "otherReq": "Partial completion of Dragon Slayer I",
+        "assignedAmounts": {
+          "krystilia": "65-100"
+        }
+      },
+      "locations": [
+        {
+          "location": "Wilderness (West of Dark Warriors' Fortress)",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "In the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2973&y=3620&p=0&z=4"
+        },
+        {
+          "location": "Wilderness (South of Venenatis)",
+          "amount": "11",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "In the Wilderness. Largest concentration of green dragons."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3331&y=3672&p=0&z=4"
+        },
+        {
+          "location": "Wilderness (North of Graveyard of Shadows)",
+          "amount": "5",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": null,
+          "notes": [
+            "In the Wilderness. Close to Ferox Enclave."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3137&y=3707&p=0&z=4"
+        },
+        {
+          "location": "Wilderness (South of Lava Maze)",
+          "amount": "5",
+          "multicombat": null,
+          "cannonable": true,
+          "safespottable": null,
+          "notes": [
+            "In the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3078&y=3810&p=0&z=4"
+        },
+        {
+          "location": "Wilderness Slayer Cave",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Only places where the level-88 variant is found. In the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3410&y=10065&p=0&z=4&m=26"
+        }
+      ]
+    },
+    "hellhounds": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Hellhounds",
+      "requirements": {
+        "combatLevelReq": "75",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "30-60",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200",
+          "krystilia": "75-125"
+        }
+      },
+      "locations": [
+        {
+          "location": "Buccaneers' Laboratory",
+          "amount": "5",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires 76 Sailing to access the Island.",
+            "The Rowboat can be used to travel to Buccaneers' Haven from Pirates' Cove.",
+            "Since this area is multi-combat you're able to place and use the dwarf multicannon."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2081&y=10073&p=0&z=4"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "9",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Killing Hellhounds here also gives access to Ancient shards and Dark totem pieces as bonus drops."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1639&y=10060&p=0&z=4&m=32"
+        },
+        {
+          "location": "Charred Dungeon",
+          "amount": "5",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires 60 Sailing to access. Discouraged due to few spawns."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2684&y=8864&p=0&z=4"
+        },
+        {
+          "location": "God Wars Dungeon",
+          "amount": "5",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Hellhounds are considered Zamorak followers.",
+            "It is recommended to wear God-aligned items to avoid getting attacked by multiple monsters.",
+            "Highly discouraged due to generally far and sparse spawns."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2881&y=5324&p=0&z=4&m=7"
+        },
+        {
+          "location": "Karuulm Slayer Dungeon",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Players who haven't completed the Elite Kourend & Kebos Diary must wear the boots of stone, boots of brimstone or granite boots to protect themselves from the extreme heat of the dungeon floor."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1200&y=10263&p=0&z=4&m=33"
+        },
+        {
+          "location": "Stronghold Slayer Dungeon",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2409&y=9786&p=0&z=4&m=19"
+        },
+        {
+          "location": "Taverley Dungeon",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "80 Agility (boostable at 75 with summer pie) is highly recommended."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2851&y=9849&p=0&z=4&m=20"
+        },
+        {
+          "location": "Witchaven Dungeon",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Long distance from a bank or convenient teleport makes it less recommended than other dungeons.",
+            "A short puzzle is required to access the Hellhounds area for the first time."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2734&y=9683&p=0&z=4&m=2"
+        },
+        {
+          "location": "Wilderness (Level 49-55), near the Resource Area",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "High danger of Player killing due to high traffic and high Wilderness level",
+            "Lever provides easy access to the Edgeville bank."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3169&y=3956&p=0&z=4&m=0"
+        },
+        {
+          "location": "Wilderness (Level 18-22), Wilderness Slayer Cave",
+          "amount": "9",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Multicombat area in the Wilderness, fast experience if using Wilderness weapons"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3439&y=10082&p=0&z=4&m=26"
+        },
+        {
+          "location": "Wilderness (Level 31-35), near Vet'ion",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Vet'ion summons two Skeleton Hellhounds and two Greater Skeleton Hellhounds during the fight.",
+            "Highly discouraged due to area being common hotspot for player killing and they have no drops other than the looting bag."
+          ],
+          "mapUrl": null
+        }
+      ]
+    },
+    "hillgiants": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Hill_Giants",
+      "requirements": {
+        "combatLevelReq": "25",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "mazchna": "30-50",
+          "vannaka": "40-90",
+          "krystilia": "75-125"
+        }
+      },
+      "locations": [
+        {
+          "location": "Lava Maze",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": null,
+          "notes": [
+            "In the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3094&y=3849&p=0&z=4"
+        },
+        {
+          "location": "Giant Pit (South of Chasm of Fire)",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "South of Fairy Ring code DJR"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1446&y=3614&p=0&z=4"
+        },
+        {
+          "location": "Gnome Maze",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": null,
+          "safespottable": null,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2545&y=3144&p=0&z=4"
+        },
+        {
+          "location": "North of the Observatory",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": null,
+          "safespottable": null,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2438&y=3208&p=0&z=4"
+        },
+        {
+          "location": "South-west of Tree Gnome Stronghold",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2369&y=3394&p=0&z=4"
+        },
+        {
+          "location": "Boneyard Hunter area",
+          "amount": "2",
+          "multicombat": true,
+          "cannonable": null,
+          "safespottable": null,
+          "notes": [
+            "In the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3307&y=3669&p=0&z=4"
+        },
+        {
+          "location": "Edgeville Dungeon",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3099&y=9832&p=0&z=4&m=12"
+        },
+        {
+          "location": "Taverley Dungeon",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": null,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2902&y=9736&p=0&z=4&m=20"
+        },
+        {
+          "location": "Deep Wilderness Dungeon",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "In the Wilderness."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3042&y=10317&p=0&z=4&m=26"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "13 (Hill Giant), 6 (Cyclops)",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1665&y=10071&p=0&z=4"
+        },
+        {
+          "location": "Giants' Plateau",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3372&y=3152&p=0&z=4"
+        },
+        {
+          "location": "Warriors' Guild floor 2",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": null,
+          "notes": [
+            "Requires access to the Warriors' Guild.",
+            "Players must attack with melee.",
+            "100 Warrior guild tokens are required to enter and 10 are deducted every minute."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2842&y=3550&p=2&z=4"
+        },
+        {
+          "location": "Warriors' Guild (basement)",
+          "amount": "23",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Requires access to the Warriors' Guild and showing a rune defender to Lorelai.",
+            "Players must attack with melee.",
+            "100 Warrior guild tokens are required to enter and 10 are deducted every minute."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2842&y=9992&p=0&z=4&m=20"
+        },
+        {
+          "location": "Ardougne Zoo",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "In an enclosure."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2622&y=3277&p=0&z=4"
+        },
+        {
+          "location": "God Wars Dungeon (Bandos' Stronghold)",
+          "amount": "13",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Requires level 70 Strength and a hammer or dragon warhammer (and a rope the first time). They and nearby monsters are aggressive unless the player wear Bandos-aligned equipment. Zamorak-aligned equipment will protect from aggressive Zamorakians within Bandos' Stronghold"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2832&y=5325&p=0&z=4&m=7"
+        },
+        {
+          "location": "Giants' Den",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1426&y=9887&p=0&z=4"
+        },
+        {
+          "location": "Avium Savannah",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "North-west of Wyrm agility arena."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1618&y=2953&p=0&z=4"
+        }
+      ]
+    },
+    "jellies": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Jellies",
+      "requirements": {
+        "combatLevelReq": "57",
+        "skillReq": "52 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "40-90",
+          "chaeldar": "70-130",
+          "konar": "120-170",
+          "krystilia": "100-150"
+        }
+      },
+      "locations": [
+        {
+          "location": "Fremennik Slayer Dungeon",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Safespotting is possible by firing over the corner of the rocks in the west side of the room.",
+            "Safespotting is possible by firing over the rocks in the south side of the room near the entrance to the Turoths."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2699&y=10029&p=0&z=4&m=17"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "18",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Safespotting is possible by firing over corners."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1684&y=10000&p=0&z=4&m=32"
+        },
+        {
+          "location": "Wilderness Slayer Cave",
+          "amount": "9",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Safespotting is possible by firing over corners."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3429&y=10100&p=0&z=4&m=26"
+        },
+        {
+          "location": "Ruins of Tapoyauik",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Moonlight moth<nowiki/>s spawn in the dungeon, allowing players to save on prayer pots.",
+            "Can be safespotted by standing behind the smaller icicles found throughout their chamber."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1649&y=9653&p=0&z=4"
+        }
+      ]
+    },
+    "kalphiteguardians": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Kalphites",
+      "requirements": {
+        "combatLevelReq": "15",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "mazchna": "30-50",
+          "vannaka": "40-90",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200"
+        }
+      },
+      "locations": [
+        {
+          "location": "Kalphite Lair",
+          "amount": "13 Workers / 7 Soldiers / 4 Guardians / 1 Queen",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "All variants are found here, including the Kalphite Queen.",
+            "Two of the kalphite guardians spawn on the first floor, and two on the second floor with the Kalphite queen. These spawn slowly compared to those found in Kalphite Cave.",
+            "A rope needs to be used to access the lair if the player has not completed the Hard Desert Diary. A second rope is needed to access the Queen's lair."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3177&y=9502&p=0&z=4&m=42"
+        },
+        {
+          "location": "Kalphite Cave",
+          "amount": "18 Workers</br>20 Soldiers</br>5 Guardians",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Slayer task-exclusive area containing the 3 normal varieties of kalphites."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3337&y=9514&p=0&z=4&m=42"
+        }
+      ]
+    },
+    "kurask": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Kurasks",
+      "requirements": {
+        "combatLevelReq": "65",
+        "skillReq": "70 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "40-90",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200"
+        }
+      },
+      "locations": [
+        {
+          "location": "Fremennik Slayer Dungeon",
+          "amount": "14",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "5 kurasks in main dungeon, while 9 more can be found in a task-only section overseen by Jelly.",
+            "Very large area compared to other dungeons."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2701&y=9996&p=0&z=4"
+        },
+        {
+          "location": "Iorwerth Dungeon",
+          "amount": "14",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Kurask here have a chance of dropping crystal shards on death. This drop is guaranteed from king kurasks."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3255&y=12389&p=0&z=4"
+        },
+        {
+          "location": "Kurask Lair",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Kurasks are clumped tighter in this dungeon.",
+            "Requires 58 Sailing to dock on Laguna Aurorae for the first time. Docking is not required once the spirit tree on the island has been spoken to; it is significantly closer to the lair than the docking point."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1181&y=9191&p=0&z=4"
+        }
+      ]
+    },
+    "lizardmen": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Lizardmen",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": null,
+        "otherReq": "\"Reptile got ripped\" unlocked",
+        "assignedAmounts": {
+          "chaeldar": "50-90",
+          "nieve": "90-120",
+          "konar": "90-110",
+          "duradel": "130-210"
+        }
+      },
+      "locations": [
+        {
+          "location": "Shayziens' Wall",
+          "amount": "16",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Lizardman Canyon, west side",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Lizardman Canyon, east side",
+          "amount": "34",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Lizardman Settlement",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Kebos Swamp",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Battlefront",
+          "amount": "24",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1331&y=3694&p=0&z=4"
+        },
+        {
+          "location": "Molch",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1285&y=3664&p=0&z=4"
+        }
+      ]
+    },
+    "molanisks": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Molanisks",
+      "requirements": {
+        "combatLevelReq": "50",
+        "skillReq": "39 Slayer",
+        "otherReq": "Completion of Death to the Dorgeshuun",
+        "assignedAmounts": {
+          "vannaka": "39-50"
+        }
+      },
+      "locations": [
+        {
+          "location": "Dorgesh-Kaan South Dungeon",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Entry to the dungeon requires completion of the Death to the Dorgeshuun quest and a rope to get down."
+          ],
+          "mapUrl": null
+        }
+      ]
+    },
+    "mossgiants": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Moss_giants",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "40-90",
+          "krystilia": "100-150"
+        }
+      },
+      "locations": [
+        {
+          "location": "Brimhaven Dungeon",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2653&y=9574&p=0&z=4"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1685&y=10049&p=0&z=4&m=32"
+        },
+        {
+          "location": "Crandor",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2831&y=3243&p=0&z=4"
+        },
+        {
+          "location": "Iorwerth Dungeon",
+          "amount": "84",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3248&y=12469&p=0&z=4&m=34"
+        },
+        {
+          "location": "Isle of Souls",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2223&y=2821&p=0&z=4"
+        },
+        {
+          "location": "Giants' Den",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1419&y=9862&p=0&z=4"
+        },
+        {
+          "location": "Kourend Woodland",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1513&y=3505&p=0&z=4"
+        },
+        {
+          "location": "Laguna Aurorae",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1220&y=2804&p=0&z=4"
+        },
+        {
+          "location": "Moss Giant Island, west of Brimhaven",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2695&y=3216&p=0&z=4"
+        },
+        {
+          "location": "Pirates' Cove",
+          "amount": "48",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2202&y=3824&p=0&z=4"
+        },
+        {
+          "location": "Varrock Sewers",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3156&y=9906&p=0&z=4&m=12"
+        },
+        {
+          "location": "West of Fishing Guild",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2549&y=3408&p=0&z=4"
+        },
+        {
+          "location": "Wilderness (by the pond reachable using a canoe)",
+          "amount": "42",
+          "multicombat": null,
+          "cannonable": null,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3144&y=3822&p=0&z=4"
+        }
+      ]
+    },
+    "nechryael": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Nechryael",
+      "requirements": {
+        "combatLevelReq": "85",
+        "skillReq": "80 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "40-90 (200-250)",
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "110-170 (200-250)",
+          "konar": "110 (200-250)",
+          "duradel": "130-200 (200-250)",
+          "krystilia": "75-125 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Slayer Tower (top floor)",
+          "amount": "11",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3433&y=3570&p=0&z=4&m=0"
+        },
+        {
+          "location": "Slayer Tower (basement)",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Can only be killed on a slayer task."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3403&y=9968&p=0&z=4&m=14"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "14",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Easily accessible with a portal attuned to Great Kourend or with a Xeric's Talisman."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1691&y=10081&p=0&z=4&m=32"
+        },
+        {
+          "location": "Wilderness Slayer Cave",
+          "amount": "8",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Can only be killed on a slayer task.",
+            "Dangerous multicombat area, popular with player-killers. Do not bring items that you are unwilling to lose."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3335&y=10114&p=0&z=4&m=16"
+        },
+        {
+          "location": "Iorwerth Dungeon",
+          "amount": "16",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Quickly accessed with a teleport crystal.",
+            "Requires completion of Song of the Elves."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3218&y=12421&p=0&z=4&m=34"
+        },
+        {
+          "location": "Charred Dungeon",
+          "amount": "11",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires level 60 Sailing to access."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2684&y=8864&p=0&z=4"
+        }
+      ]
+    },
+    "trolls": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Trolls",
+      "requirements": {
+        "combatLevelReq": "60",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "40-90",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200"
+        }
+      },
+      "locations": [
+        {
+          "location": "Enchanted Valley",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Summon a River troll above your combat level if you start fishing",
+            "Fairy ring BKQ"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3042&y=4510&p=0&z=4&m=10055"
+        },
+        {
+          "location": "Northern Jatizso and Neitiznot",
+          "amount": "15 female, 14 male, 4 grunt, 19 runt",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Better drops than mountain trolls",
+            "Ice troll females use ranged attacks"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2367&y=3868&p=0&z=4"
+        },
+        {
+          "location": "Keldagrim (Entrance tunnel)",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Narrow passage makes cannon placement difficult",
+            "Rocks at the sides of the passage can be used to safespot",
+            "Location only contains level 69 melee trolls"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2825&y=10101&p=0&z=4&m=10"
+        },
+        {
+          "location": "South of Mount Quidamortem (North-east location)",
+          "amount": "7",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "More open than the troll location to the south-west, so luring multiple trolls is easier.",
+            "Rocks can be used to safespot.",
+            "Closer to a bank than most Mountain Trolls."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1219&y=3490&p=0&z=4"
+        },
+        {
+          "location": "South of Mount Quidamortem (South-west location)",
+          "amount": "7",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "High number of obstacles makes safespotting easier."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1219&y=3490&p=0&z=4"
+        },
+        {
+          "location": "Death Plateau",
+          "amount": "15",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Protect from Missiles is highly recommended while running through the canyon leading up to the plateau",
+            "One of the faster places to get to by teleporting to Burthorpe (games necklace or combat bracelet)",
+            "Shooting through the troll buildings consisting of rocks is possible making safespotting easier."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2852&y=3591&p=0&z=4"
+        },
+        {
+          "location": "Troll Stronghold (location) (Outside)",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Dwarf multicannon and a Bonecrusher necklace allows for effectively zero Prayer potion usage while using Protect from Melee."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2843&y=3675&p=0&z=4"
+        }
+      ]
+    },
+    "turoth": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Turoth",
+      "requirements": {
+        "combatLevelReq": "60",
+        "skillReq": "55 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "30-90",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170"
+        }
+      },
+      "locations": [
+        {
+          "location": "Fremennik Slayer Dungeon",
+          "amount": "22",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2717&y=10007&p=0&z=4&m=17"
+        }
+      ]
+    },
+    "wyrms": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Wyrms",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": "62 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "chaeldar": "60-100 (200-250)",
+          "nieve": "80-145 (200-250)",
+          "konar": "125-190 (200-250)",
+          "duradel": "100-160 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Karuulm Slayer Dungeon",
+          "amount": "16 Wyrms",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Seven of the wyrms are in a task-only area just south of the main batch of nine wyrms.",
+            "Wyrms may be safespotted with Ranged in the task-only area; see image below."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1260&y=10192&p=0&z=4&m=33"
+        },
+        {
+          "location": "Neypotzli",
+          "amount": "6 Wyrmlings",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Have half the Hitpoints and Defence of normal wyrms, making them faster to kill.",
+            "Easy access to free supplies in the form of cooked bream/cooked moss lizards and moonlight potions.",
+            "Only drops wyrmling bones."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1366&y=9708&p=0&z=4"
+        },
+        {
+          "location": "Charred Dungeon",
+          "amount": "12 Lava strykewyrm",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "The Charred Dungeon is Multicombat and Cannonable except for the sections with Lava Strykewyrms."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2733&y=8886&p=0&z=4"
+        }
+      ]
+    },
+    "abyssaldemons": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Abyssal_demons",
+      "requirements": {
+        "combatLevelReq": "85",
+        "skillReq": "85 Slayer",
+        "otherReq": "Priest in Peril or Fairytale II - Cure a Queen",
+        "assignedAmounts": {
+          "vannaka": "40-90 (200-250) (Weighting 5)",
+          "chaeldar": "70-130 (200-250) (Weighting 12)",
+          "nieve": "120-185 (200-250) (Weighting 9)",
+          "konar": "120-170 (200-250) (Weighting 9)",
+          "duradel": "130-200 (200-250) (Weighting 12)",
+          "krystilia": "75-125 (200-250) (Weighting 5)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Abyssal Area",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Not efficient due to the presence of other aggressive abyssal creatures and distant spawns, apart from Konar quo Maten tasks. Ensouled heads dropped by the demons at this location can be reanimated for slightly faster task progression."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3025&y=4916&p=0&z=4&m=10007"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "13",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Multi-combat area allows for barraging in primary rooms and AFK in both primary and secondary rooms."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1669&y=10054&p=0&z=4&m=32"
+        },
+        {
+          "location": "Slayer Tower (floor 2)",
+          "amount": "14",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "It is very far to reach without 71 Agility; recommended to use basement instead for slayer purposes."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3408&y=3573&p=2&z=4"
+        },
+        {
+          "location": "Slayer Tower (Basement)",
+          "amount": "14",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Task only. Safespot requires Teleport anchoring scroll permanent unlock."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3427&y=9965&p=0&z=4&m=14"
+        },
+        {
+          "location": "Wilderness Slayer Cave",
+          "amount": "8",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Level 29-32 Wilderness and task only. Includes chance to drop blighted items and items from Justine's Last Man Standing rewards shop."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3335&y=10161&p=0&z=4&m=26"
+        }
+      ]
+    },
+    "ankou": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Ankou",
+      "requirements": {
+        "combatLevelReq": "40",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "25-35 (91-150)",
+          "nieve": "50-90 (91-150)",
+          "konar": "50 (91-150)",
+          "duradel": "50-80 (91-150)",
+          "krystilia": "75-125 (91-150)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "10",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Burying bones here returns Prayer points, so using a bonecrusher can help keep Prayer topped up during the task."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1637&y=9991&p=0&z=4&m=32"
+        },
+        {
+          "location": "Stronghold of Security: Sepulchre of Death",
+          "amount": "32",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "This safespot can be found in the south-west room, by standing on the south side of the south-easternmost skeleton."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1963&y=4941&p=0&z=4&m=18"
+        },
+        {
+          "location": "Stronghold Slayer Cave",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "May be a crowded area due to its ease of access and allowance of a cannon."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2468&y=9802&p=0&z=4&m=19"
+        },
+        {
+          "location": "Wilderness Slayer Cave",
+          "amount": "10",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Expect to see Pkers, lower your risk, and bring a one-click, 30 Wilderness teleport, such as a Royal seed pod."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3348&y=10075&p=0&z=4&m=26"
+        },
+        {
+          "location": "The Forgotten Cemetery",
+          "amount": "21",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "A safespot is located behind the south-west coffin, on the square between the bone spawns."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2960&y=3744&p=0&z=4&m=0"
+        }
+      ]
+    },
+    "aviansies": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Aviansies",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": "60 Agility or 60 Strength",
+        "otherReq": "Death Plateau",
+        "assignedAmounts": {
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "120-185 (200-250)",
+          "konar": "120-170 (200-250)",
+          "duradel": "120-200 (200-250)",
+          "krystilia": "75-125 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "God Wars Dungeon",
+          "amount": "36",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Aviansie are considered Armadylean followers."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2833&y=5289&p=0&z=4&m=7"
+        },
+        {
+          "location": "Wilderness God Wars Dungeon",
+          "amount": "8",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Multicombat area and player killing in this area makes it a very dangerous location."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2938&y=10115&p=0&z=4&m=26"
+        }
+      ]
+    },
+    "blackdemons": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Black_demons",
+      "requirements": {
+        "combatLevelReq": "80",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "120-185 (200-250)",
+          "konar": "120-170 (200-250)",
+          "duradel": "130-200 (200-250)",
+          "krystilia": "100-150 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Brimhaven Dungeon",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Safespot near agility pipe allows you to cannon 2-3 of the 4 demons"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2700&y=9489&p=0&z=4&m=46"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Killing Black demons here also gives access to Ancient shards and Dark totem pieces as bonus drops."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1718&y=10086&p=0&z=4&m=32"
+        },
+        {
+          "location": "Charred Dungeon",
+          "amount": "3",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires level 60 Sailing to access."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2684&y=8864&p=0&z=4"
+        },
+        {
+          "location": "Chasm of Fire (Bottom level)",
+          "amount": "17",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Safespot by stalagmites on the far north, toward the centre of the map",
+            "Players can also safespot in the centre of the bottom level, by the Voice of Yama"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1356&y=9879&p=0&z=4&m=32"
+        },
+        {
+          "location": "Crash Site Cavern",
+          "amount": "27",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Demonic Gorillas, an upgraded version of Black Demons.",
+            "Requires completion of Monkey Madness II"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2072&y=5651&p=0&z=4&m=10036"
+        },
+        {
+          "location": "Edgeville Dungeon",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Located in level 5 Wilderness"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3084&y=9957&p=0&z=4&m=12"
+        },
+        {
+          "location": "Taverley Dungeon",
+          "amount": "24",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Safespot by the two stalagmites in SW corner, there is a safespot in a crevice in the north-east corner as well, great for cannon multi combat. Requires Dusty Key or 70 Agility."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2826&y=9791&p=0&z=4&m=20"
+        },
+        {
+          "location": "Wilderness Slayer Cave",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Multicombat area and high-risk player killing makes this a very dangerous location."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3354&y=10120&p=0&z=4&m=26"
+        }
+      ]
+    },
+    "bluedragons": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Blue_dragons",
+      "requirements": {
+        "combatLevelReq": "65",
+        "skillReq": null,
+        "otherReq": "Partial completion of Dragon Slayer I",
+        "assignedAmounts": {
+          "vannaka": "40-90",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "110-170"
+        }
+      },
+      "locations": [
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "2 Brutals",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Higher profit from slaying.",
+            "Can drop ancient shards and Dark Totems parts."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1629&y=10071&p=0&z=4&m=32"
+        },
+        {
+          "location": "Corsair Cove Dungeon (Myths' Guild Dungeon)",
+          "amount": "5 Adults</br>3 Babies",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires completion of Dragon Slayer II."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1925&y=8968&p=0&z=4&m=31"
+        },
+        {
+          "location": "Dragon Nest",
+          "amount": "5 Adults 2 Babies",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Close to bank in Tal Teklan",
+            "Shortcut available with level 40 Agility"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1240&y=9503&p=0&z=4"
+        },
+        {
+          "location": "Heroes' Guild (basement)",
+          "amount": "1 Adult",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires completion of Heroes' Quest."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2908&y=9905&p=0&z=4&m=20"
+        },
+        {
+          "location": "Isle of Souls Dungeon",
+          "amount": "4 Adults</br>3 Babies",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2120&y=9305&p=0&z=4"
+        },
+        {
+          "location": "Ogre Enclave",
+          "amount": "6 Adults",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires completion of Watchtower.",
+            "Easily bank by using a Ring of dueling to teleport to Castle Wars and running east back to Gu'Tanoth",
+            "The Dwarf multicannon will also target lower-level monsters, including level 1 spiders and level 22 skeletons."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2590&y=9461&p=0&z=4&m=10123"
+        },
+        {
+          "location": "Taverley Dungeon",
+          "amount": "9 Adults</br>12 Babies",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires dusty key or level 70 Agility.",
+            "A ring of dueling and the completion of Enlightened Journey allow for fast banking at Castle Wars, followed by a balloon ride right back to Taverley."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2897&y=9797&p=0&z=4&m=20"
+        },
+        {
+          "location": "Taverley Dungeon (upper level)",
+          "amount": "12 Adults",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Blue dragons can only be killed here while on a Slayer task.",
+            "Requires level 70 Agility for a shortcut or a dusty key"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2917&y=9620&p=0&z=4&m=20"
+        },
+        {
+          "location": "Ruins of Tapoyauik",
+          "amount": "7 Adults 7 Babies / 5 Brutals",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Can be accessed after completing The Heart of Darkness.",
+            "Very fast accessibility with a charged Pendant of ates.",
+            "Nearby moonlight moths provide unlimited prayer with 75 Hunter, a butterfly jar, and butterfly net (85 Hunter to catch barehanded)."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1610&y=9608&p=0&z=4"
+        },
+        {
+          "location": "Ungael",
+          "amount": "1 Vorkath",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Fought once during Dragon Slayer II, and afterwards requires completion of the quest.",
+            "For more information on fighting Vorkath, see Vorkath/Strategies."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2269&y=4062&p=0&z=4&m=0"
+        }
+      ]
+    },
+    "cavehorrors": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Cave_horrors",
+      "requirements": {
+        "combatLevelReq": "85",
+        "skillReq": "58 Slayer",
+        "otherReq": "Cabin Fever",
+        "assignedAmounts": {
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "120-180 (200-250)",
+          "duradel": "130-200 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Mos Le'Harmless Cave",
+          "amount": "70",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3777&y=9449&p=0&z=4&m=15"
+        }
+      ]
+    },
+    "dagannoth": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Dagannoth",
+      "requirements": {
+        "combatLevelReq": "75",
+        "skillReq": null,
+        "otherReq": "Horror from the Deep",
+        "assignedAmounts": {
+          "vannaka": "40-90",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200"
+        }
+      },
+      "locations": [
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "14 Dagannoth",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "The dagannoth are located in the southern section of the Catacombs of Kourend."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1664&y=10000&p=0&z=4&m=32"
+        },
+        {
+          "location": "Jormungand's Prison",
+          "amount": "62 Dagannoth",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Only accessible after completing The Fremennik Exiles.",
+            "Common location for cannoning dagannoth.",
+            "Dagannoth here only use melee attacks making prayer easier to use."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2433&y=10417&p=0&z=4&m=51"
+        },
+        {
+          "location": "Lighthouse Dungeon",
+          "amount": "22 Dagannoth",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Usually busy with players using a dwarf cannon.",
+            "Can offer some of the fastest slayer experience in the game."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2511&y=10020&p=0&z=4&m=10097"
+        },
+        {
+          "location": "Waterbirth Island Dungeon",
+          "amount": "93 Dagannoth 3 Dagannoth Kings",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": null,
+          "notes": [
+            "The dagannoth here are much stronger than variants found elsewhere.",
+            "The entrance is not multicombat. Reaching the multicombat zone requires a pet rock or Humphrey dumphrey, and a ranged weapon or another player to assist you. See the main article for the dungeon for more information.",
+            "Reaching the Dagannoth Kings requires extra preparation.",
+            "A skeleton can be used to safespot immediately north-east of the dungeon entrance, but only after NPC aggression expires."
+          ],
+          "mapUrl": null
+        }
+      ]
+    },
+    "darkbeasts": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Dark_beast",
+      "requirements": {
+        "combatLevelReq": "90",
+        "skillReq": "90 Slayer",
+        "otherReq": "Started Mourning's End Part II",
+        "assignedAmounts": {
+          "nieve": "10-20 (110-135)",
+          "konar": "10-15 (110-135)",
+          "duradel": "10-20 (110-135)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Iorwerth Dungeon",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Dark beasts killed here have a chance to drop crystal shards"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3158&y=12427&p=0&z=4&m=34"
+        },
+        {
+          "location": "Mourner Tunnels",
+          "amount": "19",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Easily accessed with a Slayer ring (eternal)"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1988&y=4659&p=0&z=4&m=10113"
+        }
+      ]
+    },
+    "drakes": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Drake",
+      "requirements": {
+        "combatLevelReq": "90",
+        "skillReq": "84 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "nieve": "30-95",
+          "konar": "75-140",
+          "duradel": "50-110"
+        }
+      },
+      "gettingThere": [
+        "Mount Karuulm teleport from Rada's blessing 3 or Rada's blessing 4.",
+        "Using the fairy ring (code CIR) and travelling up the volcano",
+        "Casting Battlefront Teleport or using its magic tablet variant, and running north-west",
+        "The skills necklace and Farming cape provide teleports to the nearby Farming Guild just south-west."
+      ]
+    },
+    "elves": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Elves",
+      "requirements": {
+        "combatLevelReq": "70",
+        "skillReq": null,
+        "otherReq": "Completion of Regicide",
+        "assignedAmounts": {
+          "vannaka": "30-70",
+          "chaeldar": "70-130",
+          "nieve": "60-90",
+          "duradel": "100-170"
+        }
+      },
+      "locations": [
+        {
+          "location": "Iorwerth Camp",
+          "amount": "6 Archers</br>6 Warriors",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Both Iorwerth Archers and Iorwerth Warriors are found at the Iorwerth Camp.",
+            "Iorwerth Warriors can be safespotted using the stools spread throughout the camp. Make sure there is at least two tiles inbetween you and the target, since their halberds have a melee range of two tiles."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2188&y=3242&p=0&z=4&m=0"
+        },
+        {
+          "location": "Iorwerth Dungeon",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires completion of Song of the Elves.",
+            "Only contains Iorwerth Warriors.",
+            "Use the spaces around fabric panels in the west of the room to trap the warriors north/south of the player."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3177&y=12401&p=0&z=4&m=34"
+        },
+        {
+          "location": "Lletya",
+          "amount": "1 Archer</br>2 Warriors",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Both Elf Archers and Elf Warriors are found around Lletya.",
+            "Use the bench near the entrance to safe spot Elf Warriors. You can also use the poles in the village to trap the warrior.",
+            "Use the wall closest to Arianwyn facing North for the Melee Elf."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2329&y=3170&p=0&z=4&m=0"
+        },
+        {
+          "location": "Lletya (upstairs)",
+          "amount": "1 Archer",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2336&y=3167&p=1&z=4&m=0"
+        },
+        {
+          "location": "Mourner Headquarters (downstairs)",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Only available after starting Mourning's End Part I and until the Ardougne Revolution during Song of the Elves.",
+            "Mourner Gear must be equipped at all times to access this area unless you have completed Mourning's End Part II, after which you can use the Dark Beast teleport of the Slayer ring"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2037&y=4636&p=0&z=4&m=10113"
+        },
+        {
+          "location": "Prifddinas South Gate",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Both are safespottable by attacking one from outside their wander radius and pushing them against the gate."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3261&y=6026&p=0&z=4&m=29"
+        },
+        {
+          "location": "Prifddinas East Gate",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Close to a bank.",
+            "The south guard is safespottable by attacking from outside their wander radius and pushing them against the gate."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3318&y=6082&p=0&z=4&m=29"
+        },
+        {
+          "location": "Prifddinas North Gate",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Close to a bank, altar, and Spirit tree.",
+            "Both are safespottable by luring one into the trees by Iwan and then attacking from the south outside their wander radius."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3261&y=6133&p=0&z=4&m=29"
+        },
+        {
+          "location": "Prifddinas West Gate",
+          "amount": "2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Close to a house portal.",
+            "The north guard is safespottable by attacking from outside their wander radius and pushing them against the gate."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3210&y=6082&p=0&z=4&m=29"
+        },
+        {
+          "location": "Tower of Voices floor 0",
+          "amount": "4",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "One is found at each entrance to the tower."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3263&y=6099&p=0&z=4&m=29"
+        },
+        {
+          "location": "Tower of Voices floor 1",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Found on the walkways between the towers of Prifddinas.",
+            "Great distances between each."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3252&y=6071&p=2&z=4&m=29"
+        },
+        {
+          "location": "Prifddinas market place",
+          "amount": "3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Safespottable by shooting over Glenda or spice stall bush."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3279&y=6100&p=0&z=4&m=29"
+        }
+      ]
+    },
+    "fossilwyverns": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Fossil_Island_wyverns",
+      "requirements": {
+        "combatLevelReq": "60",
+        "skillReq": "66 Slayer",
+        "otherReq": "Completion of Bone Voyage",
+        "assignedAmounts": {
+          "chaeldar": "10-20 (55-75)",
+          "nieve": "5-25 (55-75)",
+          "konar": "15-30 (55-75)",
+          "duradel": "20-50 (55-75)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Wyvern Cave, east of Museum Camp",
+          "amount": "* 4 Spitting Wyvern * 4 Taloned Wyvern * 4 Long-tailed Wyvern * 2 Ancient Wyvern",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3746&y=3779&p=0&z=4"
+        },
+        {
+          "location": "Task-only Wyvern Cave, inside the Mushroom Forest",
+          "amount": "* 4 Spitting Wyvern * 4 Taloned Wyvern * 4 Long-tailed Wyvern * 3 Ancient Wyvern",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Requires a Fossil Island Wyverns slayer task"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3678&y=3854&p=0&z=4"
+        }
+      ]
+    },
+    "greaterdemons": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Greater_demons",
+      "requirements": {
+        "combatLevelReq": "70",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "chaeldar": "70-130 (200-250)",
+          "nieve": "120-185 (200-250)",
+          "konar": "120-170 (200-250)",
+          "duradel": "130-200 (200-250)",
+          "krystilia": "100-150 (200-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "Brimhaven Dungeon",
+          "amount": "7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Axe needed",
+            "875 entry for each time, a one-time fee of 1,000,000 or alternate entry of one-off fee of 5000 trading sticks",
+            "Demon spawns are fairly far apart, while cannonable it is not an ideal spot for clearing tasks unless assigned by Konar."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2630&y=9482&p=1&z=4"
+        },
+        {
+          "location": "Chasm of Fire",
+          "amount": "16",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Easily accessible through Fairy Ring DJR",
+            "Has a chance of dropping various contracts if the player has spoken to Yama after A Kingdom Divided"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1356&y=9991&p=0&z=4&m=32"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "10|13",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Drops ancient shard and dark totem pieces"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1686&y=10097&p=0&z=4&m=32"
+        },
+        {
+          "location": "Entrana Dungeon",
+          "amount": "2|2",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Due to not being able to take weapons and armour to Entrana, it is not advisable to complete a Slayer Task there"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2861&y=9747&p=0&z=4&m=20"
+        },
+        {
+          "location": "Lava Maze Dungeon",
+          "amount": "3|3",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "As the other wilderness areas are multicombat, one may elect to do their slayer task here. Highly recommended to have 82 Agility if completing tasks here."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3028&y=10250&p=0&z=4&m=26"
+        },
+        {
+          "location": "Demonic Ruins",
+          "amount": "4|4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Prayer points regenerate over time at the Demonic Ruins - however, due to it being deep in the Wilderness, multicombat, and a popular teleport destination, it is very unsafe to do your task here."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3282&y=3880&p=0&z=4"
+        },
+        {
+          "location": "Ogre Enclave",
+          "amount": "5|5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Most of the Greater Demons in this location are behind a cage, requiring either a halberd or other ranged methods"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2586&y=9458&p=0&z=4&m=10123"
+        },
+        {
+          "location": "Isle of Souls Dungeon",
+          "amount": "7|7",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "The safespot is behind the two rocks on the eastern side of the inner wall, about 6 tiles south of the demonic symbols.",
+            "Fairly compact area, though not as consistent as the Chasm of Fire for cannon tasks. A lesser demon may also interrupt the player."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2159&y=9336&p=0&z=4"
+        },
+        {
+          "location": "Karuulm Slayer Dungeon",
+          "amount": "9|9",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Safespot is between the two stone chests on the northern side. You'll need to make sure the demons are caught on either the west or south-east sides. Bring Stone Boots"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1120&y=10164&p=0&z=4&m=33"
+        },
+        {
+          "location": "Wilderness Slayer Cave",
+          "amount": "X|10",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Level 28 wilderness - fast experience if used with Viggora's chainmace (before acquiring Arclight or Emberlight), one of the only areas that is both cannonable and multicombat."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3421&y=10153&p=0&z=4&m=26"
+        }
+      ]
+    },
+    "hydras": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Hydras",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": "95 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "konar": "125-190"
+        }
+      },
+      "locations": [
+        {
+          "location": "Karuulm Slayer Dungeon",
+          "amount": "17",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Boots of brimstone or Boots of stone are required to prevent constant damage from the dungeon floor unless the Elite Kourend & Kebos Diary is completed."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1302&y=10240&p=0&z=4&m=33"
+        },
+        {
+          "location": "Karuulm Slayer Dungeon (Alchemical Hydra room)",
+          "amount": "1",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [
+            "Boots of brimstone or Boots of stone are required to prevent constant damage from the dungeon floor unless the Elite Kourend & Kebos Diary is completed.",
+            "The Alchemical Hydra can only be killed while on a Hydra task.",
+            "For more information on fighting the Alchemical Hydra, see Alchemical Hydra/Strategies."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1364&y=10265&p=0&z=4&m=33"
+        }
+      ]
+    },
+    "smokedevils": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Smoke_devil",
+      "requirements": {
+        "combatLevelReq": "85",
+        "skillReq": "93 Slayer",
+        "otherReq": null,
+        "assignedAmounts": {
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200"
+        }
+      },
+      "locations": [
+        {
+          "location": "Smoke Devil Dungeon",
+          "amount": "36 Smoke devils / 1 Thermonuclear Smoke Devil",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Only location. The area is task-only; 30 smoke devils in main room, 6 in room with boss variant.",
+            "For more information on fighting the Thermonuclear smoke devil, see Thermonuclear smoke devil/Strategies."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2351&y=9448&p=0&z=4&m=27"
+        }
+      ]
+    },
+    "suqahs": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Suqah",
+      "requirements": {
+        "combatLevelReq": "85",
+        "skillReq": null,
+        "otherReq": "Partial completion of Lunar Diplomacy",
+        "assignedAmounts": {
+          "nieve": "120-185 (186-250)",
+          "duradel": "60-90 (162-250)"
+        }
+      },
+      "locations": [
+        {
+          "location": "North Lunar Isle",
+          "amount": "16",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2096&y=3942&p=0&z=4"
+        },
+        {
+          "location": "South-east Lunar Isle",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Three Suqah close by in the south-west of the island only attack with melee"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2132&y=3871&p=0&z=4"
+        },
+        {
+          "location": "South-west Lunar Isle",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2106&y=3866&p=0&z=4"
+        }
+      ]
+    },
+    "wild_firegiants": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Fire_giant",
+      "requirements": {
+        "combatLevelReq": "65",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "40-90",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200",
+          "krystilia": "75-125"
+        }
+      },
+      "locations": [
+        {
+          "location": "Brimhaven Dungeon",
+          "amount": "8 (on floor 1) / 5 (on ground floor)",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires a woodcutting axe in order to access.",
+            "Requires a payment of 875 coins or a one-time deposit of 1,000,000 coins to Saniboch in order to enter the dungeon.",
+            "While a cheaper cost of 5,000 trading sticks to his sister Banisoch can be used, it is further away and forces the players to traverse through aggressive dragons, and the axe is still needed regardless without 56 Agility."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2628&y=9543&p=1&z=4"
+        },
+        {
+          "location": "Charred Dungeon",
+          "amount": "6",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires level 60 Sailing to access."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2684&y=8864&p=0&z=4"
+        },
+        {
+          "location": "Stronghold Slayer Cave",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires a Slayer task.",
+            "Groups of 3 fire giants each separated by a safespot."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2391&y=9781&p=0&z=4&m=19"
+        },
+        {
+          "location": "Deep Wilderness Dungeon",
+          "amount": "5",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "There are several tiles along the western side of the lava pool where a cannon can be placed.",
+            "There is a safespot in the south-eastern tunnel, near the Monk of Zamorak."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3046&y=10341&p=0&z=4&m=26"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "12",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Higher level variants which drop Ancient shards and Dark totem pieces."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1622&y=10057&p=0&z=4&m=32"
+        },
+        {
+          "location": "Giants' Den",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Higher level variants which drop Ancient shards and Dark totem pieces."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1451&y=9900&p=0&z=4"
+        },
+        {
+          "location": "Karuulm Slayer Dungeon",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Set up a cannon in the middle of the room and stand in the entrance hallway for a safespot. This allows the cannon to fire rapidly even though it's a single combat area. Stamina pots are recommended for this method to reload the cannon.",
+            "Requires boots of stone, boots of brimstone, or granite boots if the Elite Kourend & Kebos Diary is not completed."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1125&y=10275&p=0&z=4&m=33"
+        },
+        {
+          "location": "Smoke Dungeon",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Requires wearing a Facemask, Slayer Helmet, or Gas mask to avoid taking damage from the dungeon's smoke effect.",
+            "The northern wall of the entrance can be used as a safespot, but only against the Fire Giant to the north-west."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3306&y=9400&p=0&z=4&m=10141"
+        },
+        {
+          "location": "Waterfall Dungeon",
+          "amount": "11",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "There is a safespot next to the single door in the western room.",
+            "Cannon can AoE Fire Giants by placing it in the middle and running to the safespot(s).",
+            "Requires completion of the Waterfall Quest and a Rope"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2562&y=9886&p=0&z=4&m=10176"
+        },
+        {
+          "location": "Isle of Souls Dungeon",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Cannon can AoE Fire Giants by placing it in the middle and running to the safespot at the hall entrance. Stamina potions recommended."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2116&y=9320&p=0&z=4"
+        }
+      ]
+    },
+    "wild_hellhounds": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Hellhounds",
+      "requirements": {
+        "combatLevelReq": "75",
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "vannaka": "30-60",
+          "chaeldar": "70-130",
+          "nieve": "120-185",
+          "konar": "120-170",
+          "duradel": "130-200",
+          "krystilia": "75-125"
+        }
+      },
+      "locations": [
+        {
+          "location": "Buccaneers' Laboratory",
+          "amount": "5",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires 76 Sailing to access the Island.",
+            "The Rowboat can be used to travel to Buccaneers' Haven from Pirates' Cove.",
+            "Since this area is multi-combat you're able to place and use the dwarf multicannon."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2081&y=10073&p=0&z=4"
+        },
+        {
+          "location": "Catacombs of Kourend",
+          "amount": "9",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Killing Hellhounds here also gives access to Ancient shards and Dark totem pieces as bonus drops."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1639&y=10060&p=0&z=4&m=32"
+        },
+        {
+          "location": "Charred Dungeon",
+          "amount": "5",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Requires 60 Sailing to access. Discouraged due to few spawns."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2684&y=8864&p=0&z=4"
+        },
+        {
+          "location": "God Wars Dungeon",
+          "amount": "5",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": true,
+          "notes": [
+            "Hellhounds are considered Zamorak followers.",
+            "It is recommended to wear God-aligned items to avoid getting attacked by multiple monsters.",
+            "Highly discouraged due to generally far and sparse spawns."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2881&y=5324&p=0&z=4&m=7"
+        },
+        {
+          "location": "Karuulm Slayer Dungeon",
+          "amount": "12",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Players who haven't completed the Elite Kourend & Kebos Diary must wear the boots of stone, boots of brimstone or granite boots to protect themselves from the extreme heat of the dungeon floor."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1200&y=10263&p=0&z=4&m=33"
+        },
+        {
+          "location": "Stronghold Slayer Dungeon",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2409&y=9786&p=0&z=4&m=19"
+        },
+        {
+          "location": "Taverley Dungeon",
+          "amount": "13",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "80 Agility (boostable at 75 with summer pie) is highly recommended."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2851&y=9849&p=0&z=4&m=20"
+        },
+        {
+          "location": "Witchaven Dungeon",
+          "amount": "8",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Long distance from a bank or convenient teleport makes it less recommended than other dungeons.",
+            "A short puzzle is required to access the Hellhounds area for the first time."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2734&y=9683&p=0&z=4&m=2"
+        },
+        {
+          "location": "Wilderness (Level 49-55), near the Resource Area",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "High danger of Player killing due to high traffic and high Wilderness level",
+            "Lever provides easy access to the Edgeville bank."
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3169&y=3956&p=0&z=4&m=0"
+        },
+        {
+          "location": "Wilderness (Level 18-22), Wilderness Slayer Cave",
+          "amount": "9",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Multicombat area in the Wilderness, fast experience if using Wilderness weapons"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3439&y=10082&p=0&z=4&m=26"
+        },
+        {
+          "location": "Wilderness (Level 31-35), near Vet'ion",
+          "amount": "4",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [
+            "Vet'ion summons two Skeleton Hellhounds and two Greater Skeleton Hellhounds during the fight.",
+            "Highly discouraged due to area being common hotspot for player killing and they have no drops other than the looting bag."
+          ],
+          "mapUrl": null
+        }
+      ]
+    },
+    "wild_spiders": {
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Spiders",
+      "requirements": {
+        "combatLevelReq": null,
+        "skillReq": null,
+        "otherReq": null,
+        "assignedAmounts": {
+          "turael": "15-30",
+          "spria": "15-30",
+          "krystilia": "65-100"
+        }
+      },
+      "locations": [
+        {
+          "location": "Arceuus, outside the Tower of Magic",
+          "amount": "8",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1572&y=3833&p=0&z=4"
+        },
+        {
+          "location": "Forthos Dungeon",
+          "amount": "21",
+          "multicombat": true,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Gnome Maze",
+          "amount": "9",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=2548&y=3190&p=0&z=4"
+        },
+        {
+          "location": "Hosidius",
+          "amount": "6",
+          "multicombat": false,
+          "cannonable": false,
+          "safespottable": null,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1751&y=3533&p=0&z=4"
+        },
+        {
+          "location": "Lovakengj",
+          "amount": "41",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Morytania Spider Cave",
+          "amount": "A lot",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": true,
+          "notes": [
+            "Note that many of the 'Spiders' here require 92 Slayer to kill. Also contains the boss Araxxor"
+          ],
+          "mapUrl": "https://mejrs.github.io/osrs?x=96&y=146&p=0&z=4"
+        },
+        {
+          "location": "Ogre Enclave",
+          "amount": "10",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Port Piscarilius",
+          "amount": "10",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=1756&y=3707&p=0&z=4"
+        },
+        {
+          "location": "Sisterhood Sanctuary",
+          "amount": "11",
+          "multicombat": true,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": "https://mejrs.github.io/osrs?x=3727&y=9779&p=0&z=4&m=14"
+        },
+        {
+          "location": "Stronghold of Security, Pit of Pestilence (level 3)",
+          "amount": "35",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        },
+        {
+          "location": "Underground Pass",
+          "amount": "49",
+          "multicombat": false,
+          "cannonable": true,
+          "safespottable": false,
+          "notes": [],
+          "mapUrl": null
+        }
+      ]
+    }
+  },
+  "warnings": [
+    "'Slayer task/Goblins' (id: goblins): no location table or getting-there section found",
+    "'Slayer task/Rats' (id: rats): no location table or getting-there section found",
+    "'Slayer task/Wall beast' (id: wallbeasts): no location table or getting-there section found",
+    "'Slayer task/TzHaar' (id: tzhaar): no location table or getting-there section found",
+    "'Slayer task/kraken' (id: kraken): no location table or getting-there section found"
+  ]
+}

@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cairn — Slayer Loadout Planner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#14110d;
+    --surface:#1d1812;
+    --surface2:#251f17;
+    --line:#3a3123;
+    --ember:#e0792c;
+    --ember-dim:#8a4a1f;
+    --gold:#c9a227;
+    --moss:#79a260;
+    --text:#efe3ca;
+    --text-dim:#a89a82;
+    --danger:#b4553f;
+    --radius:10px;
+  }
+  *{box-sizing:border-box;min-width:0;}
+  html,body{margin:0;padding:0;overflow-x:hidden;}
+  body{
+    background:
+      radial-gradient(ellipse at top left, rgba(224,121,44,0.06), transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(121,162,96,0.04), transparent 50%),
+      var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--ember-dim);color:var(--text);}
+  .app{display:flex;flex-direction:column;min-height:100vh;}
+
+  header.top{
+    padding:20px 24px 16px;
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg, rgba(224,121,44,0.05), transparent);
+  }
+  .brand{display:flex;align-items:baseline;gap:10px;}
+  .brand h1{
+    font-family:'Cinzel',serif;
+    font-weight:900;
+    font-size:1.5rem;
+    margin:0;
+    letter-spacing:0.02em;
+    background:linear-gradient(120deg,var(--gold),var(--ember) 70%);
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+  .brand .sub{font-size:0.72rem;color:var(--text-dim);letter-spacing:0.14em;text-transform:uppercase;font-weight:600;}
+  .tagline{margin:6px 0 0;font-size:0.85rem;color:var(--text-dim);max-width:640px;}
+  .data-status{margin-top:8px;font-size:0.72rem;color:var(--text-dim);display:flex;align-items:center;gap:6px;}
+  .data-status .dot{width:6px;height:6px;border-radius:50%;background:var(--moss);}
+  .data-status.stale .dot{background:var(--danger);}
+  .data-status a{color:var(--gold);text-decoration:none;}
+  .data-status a:hover{text-decoration:underline;}
+
+  .loadout-strip{
+    padding:12px 24px;
+    border-bottom:1px solid var(--line);
+    display:flex;
+    gap:10px;
+    overflow-x:auto;
+    background:var(--surface);
+  }
+  .loadout-strip::-webkit-scrollbar{height:6px;}
+  .loadout-strip::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px;}
+  .loadout-chip{
+    flex:0 0 auto;
+    display:flex;align-items:center;gap:8px;
+    padding:7px 12px;background:var(--surface2);border:1px solid var(--line);
+    border-radius:20px;cursor:pointer;font-size:0.78rem;white-space:nowrap;
+    transition:border-color .15s, background .15s;
+  }
+  .loadout-chip:hover{border-color:var(--ember-dim);background:#2c2417;}
+  .loadout-chip .style-dot{width:7px;height:7px;border-radius:50%;}
+  .loadout-chip .lbl-title{font-weight:600;}
+  .loadout-chip .lbl-monster{color:var(--text-dim);}
+  .loadout-empty{color:var(--text-dim);font-size:0.8rem;font-style:italic;padding:7px 4px;}
+
+  .main{display:flex;flex:1;min-height:0;}
+  .sidebar{
+    width:300px;flex:0 0 300px;border-right:1px solid var(--line);
+    display:flex;flex-direction:column;background:var(--surface);
+  }
+  .search-box{padding:14px;border-bottom:1px solid var(--line);}
+  .search-box input{
+    width:100%;padding:9px 12px;background:var(--bg);border:1px solid var(--line);
+    border-radius:8px;color:var(--text);font-family:'Inter',sans-serif;font-size:0.85rem;
+  }
+  .search-box input:focus{outline:none;border-color:var(--ember-dim);}
+  .search-box input::placeholder{color:var(--text-dim);}
+  .monster-list{overflow-y:auto;flex:1;padding:6px;}
+  .tier-group{margin-bottom:4px;}
+  .tier-label{padding:10px 10px 4px;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--gold);font-weight:700;}
+  .monster-item{
+    padding:9px 12px;border-radius:8px;cursor:pointer;font-size:0.86rem;
+    display:flex;justify-content:space-between;align-items:center;
+    color:var(--text-dim);transition:background .12s, color .12s;
+  }
+  .monster-item:hover{background:var(--surface2);color:var(--text);}
+  .monster-item.active{background:linear-gradient(90deg, rgba(224,121,44,0.18), rgba(224,121,44,0.04));color:var(--text);border-left:2px solid var(--ember);}
+  .monster-item .lvl{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-dim);}
+
+  .content{flex:1;overflow-y:auto;padding:26px 30px 60px;}
+  .empty-state{display:flex;flex-direction:column;align-items:center;justify-content:center;height:60vh;color:var(--text-dim);text-align:center;gap:8px;}
+  .empty-state .glyph{font-size:2.4rem;opacity:0.5;}
+
+  .m-header{margin-bottom:20px;}
+  .m-header h2{font-family:'Cinzel',serif;font-size:1.7rem;margin:0 0 6px;font-weight:700;}
+  .m-meta{display:flex;gap:16px;flex-wrap:wrap;font-size:0.78rem;color:var(--text-dim);margin-bottom:10px;}
+  .m-meta span b{color:var(--text);font-weight:600;}
+  .m-note{
+    font-size:0.85rem;color:var(--text-dim);background:var(--surface);
+    border-left:2px solid var(--ember-dim);padding:10px 14px;border-radius:0 8px 8px 0;line-height:1.5;
+  }
+  .m-source{font-size:0.7rem;color:var(--text-dim);margin-top:8px;}
+  .m-source a{color:var(--gold);text-decoration:none;}
+  .m-source a:hover{text-decoration:underline;}
+  .m-source.missing{color:var(--danger);}
+  .boss-variant{
+    margin-top:10px;padding:9px 14px;background:rgba(180,85,63,0.08);border:1px solid var(--danger);
+    border-radius:8px;font-size:0.82rem;color:var(--text);display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px;
+  }
+  .boss-icon{color:var(--danger);}
+  .boss-variant-link{color:var(--gold);font-weight:700;text-decoration:none;}
+  .boss-variant-link:hover{text-decoration:underline;}
+  .boss-note{color:var(--text-dim);font-size:0.78rem;flex-basis:100%;}
+
+  .style-tabs{display:flex;gap:6px;margin:22px 0 14px;border-bottom:1px solid var(--line);}
+  .style-tab{
+    padding:9px 16px;cursor:pointer;font-size:0.85rem;font-weight:600;color:var(--text-dim);
+    border-bottom:2px solid transparent;display:flex;align-items:center;gap:7px;transition:color .12s;
+  }
+  .style-tab .dot{width:8px;height:8px;border-radius:50%;}
+  .style-tab.active{color:var(--text);border-bottom-color:var(--ember);}
+  .style-tab:hover{color:var(--text);}
+
+  .bane-callout{
+    background:rgba(224,121,44,0.08);border:1px solid var(--ember-dim);border-radius:8px;
+    padding:9px 14px;margin-bottom:16px;font-size:0.83rem;color:var(--text);line-height:1.5;
+  }
+  .bane-icon{color:var(--ember);}
+  .gear-source{font-size:0.7rem;color:var(--text-dim);margin-bottom:10px;}
+  .gear-source a{color:var(--gold);text-decoration:none;}
+  .gear-source a:hover{text-decoration:underline;}
+  .gear-source.curated{font-style:italic;}
+
+  .gear-grid{margin-bottom:24px;}
+  .slot-group{margin-bottom:14px;}
+  .slot-header{font-size:0.68rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);font-weight:700;margin-bottom:7px;}
+  .slot-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;}
+  .gear-card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:10px 12px;display:flex;align-items:flex-start;gap:9px;cursor:pointer;
+    transition:border-color .12s, background .12s;
+  }
+  .gear-card:hover{border-color:var(--ember-dim);}
+  .gear-card.owned{border-color:var(--moss);background:rgba(121,162,96,0.08);}
+  .gear-card.pick{box-shadow:0 0 0 1px var(--moss) inset;}
+  .gear-card input{margin-top:2px;accent-color:var(--moss);cursor:pointer;flex:0 0 auto;}
+  .gear-card .g-item{font-size:0.85rem;line-height:1.3;color:var(--text);}
+  .pick-badge{
+    display:inline-block;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.06em;
+    color:#0f1a0b;background:var(--moss);padding:1px 6px;border-radius:8px;font-weight:700;
+    margin-left:6px;vertical-align:middle;
+  }
+
+  .section-title{font-family:'Cinzel',serif;font-size:0.95rem;margin:0 0 10px;font-weight:700;display:flex;align-items:center;gap:8px;}
+  .section-title .count{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-dim);font-weight:400;}
+
+  .info-box{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:22px;}
+  .info-row{display:flex;gap:10px;font-size:0.85rem;padding:6px 0;border-bottom:1px solid var(--line);}
+  .info-row:last-of-type{border-bottom:none;}
+  .info-row .info-label{flex:0 0 110px;color:var(--gold);font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;font-weight:700;padding-top:2px;}
+  .info-row .info-value{flex:1;color:var(--text);line-height:1.5;}
+  .info-row .info-value.unlock{color:var(--danger);}
+  .access-list{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:6px;}
+  .access-list li{font-size:0.85rem;color:var(--text);display:flex;gap:8px;align-items:baseline;}
+  .access-list li::before{content:"→";color:var(--ember);flex:0 0 auto;}
+
+  .req-strip{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+  .req-pill{
+    background:var(--surface2);border:1px solid var(--line);border-radius:16px;
+    padding:5px 12px;font-size:0.75rem;color:var(--text-dim);display:flex;align-items:center;gap:6px;
+  }
+  .req-pill b{color:var(--text);font-weight:600;}
+  .req-pill.danger{border-color:var(--danger);color:var(--danger);}
+
+  .loc-grid{display:flex;flex-direction:column;gap:8px;margin-bottom:8px;}
+  .loc-card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    min-width:0;overflow:hidden;
+  }
+  .loc-card[open]{border-color:var(--ember-dim);}
+  .loc-card-head{
+    display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;padding:11px 14px;
+    cursor:pointer;list-style:none;min-width:0;
+  }
+  .loc-card-head::-webkit-details-marker{display:none;}
+  .loc-card-head::before{
+    content:"▸";color:var(--text-dim);flex:0 0 auto;transition:transform .12s;font-size:1.15rem;line-height:1;
+  }
+  .loc-card[open] .loc-card-head::before{transform:rotate(90deg);}
+  .loc-name{
+    font-family:'Cinzel',serif;font-weight:700;font-size:0.9rem;color:var(--text);
+    min-width:0;overflow-wrap:break-word;flex:1 1 auto;
+  }
+  .loc-amount{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--gold);flex:0 0 auto;}
+  .loc-badges{display:flex;flex-wrap:wrap;gap:5px;flex:0 0 auto;}
+  .loc-badge{
+    font-size:0.62rem;text-transform:uppercase;letter-spacing:0.04em;font-weight:700;
+    padding:2px 7px;border-radius:5px;display:flex;align-items:center;gap:3px;white-space:nowrap;
+  }
+  .loc-badge.good{color:var(--moss);background:rgba(121,162,96,0.12);border:1px solid rgba(121,162,96,0.35);}
+  .loc-badge.bad{color:var(--text-dim);background:rgba(168,154,130,0.08);border:1px solid var(--line);}
+  .loc-body{padding:0 14px 14px;border-top:1px solid var(--line);margin-top:2px;padding-top:10px;}
+  .loc-notes{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px;}
+  .loc-notes li{font-size:0.78rem;color:var(--text-dim);line-height:1.45;padding-left:12px;position:relative;overflow-wrap:break-word;}
+  .loc-notes li::before{content:"·";position:absolute;left:2px;color:var(--ember-dim);}
+  .loc-map-link{
+    display:inline-flex;align-items:center;gap:4px;margin-top:10px;font-size:0.72rem;
+    color:var(--gold);text-decoration:none;font-weight:600;
+  }
+  .loc-map-link:hover{text-decoration:underline;}
+  .loc-access-label{
+    font-size:0.68rem;color:var(--moss);font-weight:700;text-transform:uppercase;
+    letter-spacing:0.05em;margin:12px 0 6px;
+  }
+  .loc-source{font-size:0.7rem;color:var(--text-dim);margin-top:10px;}
+  .loc-source a{color:var(--gold);text-decoration:none;}
+  .loc-source a:hover{text-decoration:underline;}
+
+  .inv-box{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:22px;}
+  .inv-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}
+  .inv-tag{display:flex;align-items:center;gap:6px;background:var(--surface2);border:1px solid var(--line);padding:6px 6px 6px 12px;border-radius:16px;font-size:0.8rem;}
+  .inv-tag button{background:none;border:none;color:var(--text-dim);cursor:pointer;width:18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.9rem;line-height:1;}
+  .inv-tag button:hover{color:var(--danger);background:rgba(180,85,63,0.15);}
+  .inv-add{display:flex;gap:8px;}
+  .inv-add-wrap{position:relative;flex:1;}
+  .inv-add-wrap input{width:100%;padding:8px 12px;background:var(--bg);border:1px solid var(--line);border-radius:7px;color:var(--text);font-size:0.83rem;font-family:'Inter',sans-serif;}
+  .inv-add-wrap input:focus{outline:none;border-color:var(--ember-dim);}
+  .suggest-dropdown{
+    position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:20;
+    background:var(--surface2);border:1px solid var(--line);border-radius:8px;
+    max-height:260px;overflow-y:auto;box-shadow:0 8px 24px rgba(0,0,0,0.4);display:none;
+  }
+  .suggest-dropdown.show{display:block;}
+  .suggest-item{padding:8px 12px;font-size:0.83rem;cursor:pointer;color:var(--text);}
+  .suggest-item:hover, .suggest-item.active{background:rgba(224,121,44,0.15);color:var(--ember);}
+  .suggest-empty{padding:8px 12px;font-size:0.78rem;color:var(--text-dim);font-style:italic;}
+  .btn{padding:8px 16px;border-radius:7px;border:1px solid var(--line);background:var(--surface2);color:var(--text);font-size:0.83rem;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif;transition:border-color .12s, background .12s;}
+  .btn:hover{border-color:var(--ember-dim);}
+  .btn-ember{background:linear-gradient(120deg,var(--ember),#c65f1e);border:none;color:#1a1006;}
+  .btn-ember:hover{filter:brightness(1.08);}
+
+  .save-bar{
+    display:flex;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:14px 16px;position:sticky;bottom:16px;box-shadow:0 8px 30px rgba(0,0,0,0.4);
+  }
+  .save-bar input{flex:1;padding:9px 12px;background:var(--bg);border:1px solid var(--line);border-radius:7px;color:var(--text);font-size:0.88rem;font-family:'Inter',sans-serif;}
+  .save-bar input:focus{outline:none;border-color:var(--ember);}
+  .toast{
+    position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--moss);color:#0f1a0b;
+    padding:10px 20px;border-radius:8px;font-size:0.85rem;font-weight:600;opacity:0;pointer-events:none;
+    transition:opacity .25s, transform .25s;z-index:50;
+  }
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(-6px);}
+
+  .modal-overlay{position:fixed;inset:0;background:rgba(10,8,5,0.7);backdrop-filter:blur(2px);display:flex;align-items:center;justify-content:center;z-index:60;padding:20px;}
+  .modal{background:var(--surface);border:1px solid var(--line);border-radius:14px;max-width:520px;width:100%;max-height:80vh;overflow-y:auto;padding:22px 24px;}
+  .modal h3{font-family:'Cinzel',serif;margin:0 0 4px;font-size:1.25rem;}
+  .modal .m-sub{color:var(--text-dim);font-size:0.8rem;margin-bottom:16px;}
+  .modal-close-row{display:flex;justify-content:flex-end;gap:8px;margin-top:18px;}
+  .modal ul{margin:0;padding-left:0;list-style:none;}
+  .modal li{padding:6px 0;border-bottom:1px solid var(--line);font-size:0.85rem;display:flex;justify-content:space-between;}
+  .modal li .slot{color:var(--gold);font-size:0.68rem;text-transform:uppercase;letter-spacing:0.08em;}
+
+  @media (max-width:760px){
+    .main{flex-direction:column;}
+    .sidebar{width:100%;flex:0 0 auto;max-height:40vh;}
+    .content{padding:20px 16px 60px;}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <h1>Cairn</h1>
+      <span class="sub">Slayer Loadout Planner</span>
+    </div>
+    <p class="tagline">Pick your task, tick what's in your bank, and save a loadout you can pull up next time you're assigned the same task.</p>
+    <div class="data-status" id="dataStatus">Loading monster data…</div>
+  </header>
+
+  <div class="loadout-strip" id="loadoutStrip"></div>
+
+  <div class="main">
+    <aside class="sidebar">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search monster…" autocomplete="off">
+      </div>
+      <div class="monster-list" id="monsterList"></div>
+    </aside>
+
+    <main class="content" id="content">
+      <div class="empty-state">
+        <div class="glyph">⚔</div>
+        <div>Pick a monster from the list to see gear recommendations.</div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div id="modalRoot"></div>
+
+<script>
+/* ============ CONFIG ============ */
+const GEAR_URL = "./data/gear.json";
+const FACTS_URL = "./data/monster-facts.json";
+const TASK_LOCATIONS_URL = "./data/task-locations.json";
+const LOCATION_ACCESS_URL = "./data/location-access.json";
+const RECOMMENDED_GEAR_URL = "./data/recommended-gear.json";
+const TIERS = ["Novice","Low","Mid","High","Master","Wilderness"];
+const STYLE_META = {
+  melee:{label:"Melee", color:"#e0792c"},
+  ranged:{label:"Ranged", color:"#79a260"},
+  magic:{label:"Magic", color:"#5a8fc9"}
+};
+const SLOT_ORDER = ["Head","Cape","Neck","Ammo","Weapon","Shield","Body","Legs","Hands","Feet","Ring","Other"];
+
+// Verified against the OSRS Wiki (Salve amulet, Demonbane weapons, Dragon hunter
+// weapons, Keris partisan pages) — not all attributes have a ranged/magic option.
+const BANE_GEAR = {
+  undead: {
+    melee: "Salve amulet (e) — or Salve amulet (ei) for full multi-style coverage",
+    ranged: "Salve amulet (ei) (the base and (e) versions are melee-only)",
+    magic: "Salve amulet (ei) (the base and (e) versions are melee-only)",
+  },
+  demon: {
+    melee: "Emberlight / Arclight",
+    ranged: "Scorching bow",
+    magic: "Purging staff + Demonbane spells (Arceuus spellbook)",
+  },
+  dragon: {
+    melee: "Dragon hunter lance",
+    ranged: "Dragon hunter crossbow",
+    magic: "Dragon hunter wand",
+  },
+  kalphite: {
+    melee: "Keris partisan",
+    ranged: null,
+    magic: null,
+  },
+  vampyre: {
+    melee: "Ivandis flail / Blisterwood flail",
+    ranged: null,
+    magic: null,
+  },
+  rat: {
+    melee: "Bone mace",
+    ranged: "Bone shortbow",
+    magic: "Bone staff",
+  },
+  golem: {
+    melee: "Barronite mace / Granite hammer",
+    ranged: null,
+    magic: null,
+  },
+  fiery: {
+    melee: null,
+    ranged: "Pearl bolts (e) / Pearl dragon bolts (e)",
+    magic: null,
+  },
+};
+
+function baneGearFor(attribute){
+  if(!attribute) return null;
+  const attrs = String(attribute).toLowerCase().split(",").map(s=>s.trim());
+  for(const key of Object.keys(BANE_GEAR)){
+    if(attrs.some(a=>a.includes(key))) return BANE_GEAR[key];
+  }
+  return null;
+}
+const GENERIC_GEAR = {
+  melee:{
+    Head:"Slayer helmet (i) / Neitiznot faceguard / Helm of neitiznot",
+    Cape:"Infernal cape / Fire cape / Ardougne cloak 4",
+    Neck:"Amulet of torture / Amulet of fury / Amulet of glory",
+    Shield:"Avernic defender / Dragon defender / Rune defender",
+    Body:"Bandos chestplate / Fighter torso / Blood moon chestplate / Rune platebody",
+    Legs:"Bandos tassets / Obsidian legs / Blood moon tassets / Rune platelegs",
+    Hands:"Ferocious gloves / Barrows gloves / Combat bracelet",
+    Feet:"Avernic treads (max) / Primordial boots / Dragon boots / Rune boots",
+    Ring:"Ultor ring / Bellator ring / Berserker ring (i) / Warrior ring (i)"
+  },
+  ranged:{
+    Head:"Slayer helmet (i) / Masori mask (f) / Armadyl helmet / Robin hood hat",
+    Cape:"Ava's assembler / Ava's accumulator",
+    Neck:"Necklace of anguish / Amulet of fury / Amulet of glory",
+    Ammo:"Dragon arrows / Rune arrows / Broad bolts",
+    Shield:"Twisted buckler / Odium ward / Yak-hide shield",
+    Body:"Masori body (f) / Armadyl chestplate / Black d'hide body / Eclipse moon chestplate / Green d'hide body",
+    Legs:"Masori chaps (f) / Armadyl chainskirt / Black d'hide chaps / Eclipse moon tassets / Green d'hide chaps",
+    Hands:"Zaryte vambraces / Barrows gloves / Combat bracelet",
+    Feet:"Avernic treads (max) / Pegasian boots / Ranger boots / Snakeskin boots",
+    Ring:"Venator ring / Archers ring (i) / Ring of suffering (i) / Explorer's ring"
+  },
+  magic:{
+    Head:"Slayer helmet (i) / Ancestral hat / Splitbark helm",
+    Cape:"Imbued god cape / Obsidian cape / Ardougne cloak 4",
+    Neck:"Occult necklace / Arcane necklace / Amulet of fury",
+    Shield:"Elidinis' ward / Arcane spirit shield / Mind shield",
+    Body:"Ancestral robe top / Mystic robe top / Blue moon chestplate / Splitbark body",
+    Legs:"Ancestral robe bottom / Mystic robe bottom / Blue moon tassets / Splitbark legs",
+    Hands:"Tormented bracelet / Barrows gloves / Combat bracelet",
+    Feet:"Avernic treads (max) / Eternal boots / Infinity boots / Boots of stone",
+    Ring:"Magus ring / Seers ring (i) / Ring of the gods (i)"
+  }
+};
+
+/* ============ STATE ============ */
+let GEAR = [];          // curated gear/notes, loaded from data/gear.json
+let FACTS = null;       // live wiki facts, loaded from data/monster-facts.json (may be null)
+let TASK_LOCATIONS = null; // live per-task location tables, loaded from data/task-locations.json (may be null)
+let LOCATION_ACCESS = null; // live per-location transportation info, loaded from data/location-access.json (may be null)
+let RECOMMENDED_GEAR = null; // live wiki-maintained gear tables, loaded from data/recommended-gear.json (may be null)
+let selectedMonster = null;
+let activeStyle = "melee";
+let ownedItems = new Set();
+let loadouts = [];
+let currentInventory = [];
+let editingLoadoutId = null;
+
+/* ============ LOCAL STORAGE (works on GitHub Pages, no backend needed) ============ */
+function loadLocal(){
+  try{ ownedItems = new Set(JSON.parse(localStorage.getItem('cairn_ownedItems') || '[]')); }catch(e){ ownedItems = new Set(); }
+  try{ loadouts = JSON.parse(localStorage.getItem('cairn_loadouts') || '[]'); }catch(e){ loadouts = []; }
+}
+function persistOwned(){ localStorage.setItem('cairn_ownedItems', JSON.stringify([...ownedItems])); }
+function persistLoadouts(){ localStorage.setItem('cairn_loadouts', JSON.stringify(loadouts)); }
+
+function esc(str){
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ============ DATA LOADING ============ */
+function splitItems(raw){
+  return raw.split(/\s*\/\s*|\s+or\s+/i).map(s=>s.trim()).filter(Boolean);
+}
+
+function recommendedGearFor(id, style){
+  const task = RECOMMENDED_GEAR && RECOMMENDED_GEAR.tasks ? RECOMMENDED_GEAR.tasks[id] : null;
+  return task && task[style] ? task[style].gear : null;
+}
+
+
+function getSlotEntries(monster, style){
+  const specific = recommendedGearFor(monster.id, style) || monster[style] || [];
+  const specificSlots = new Set(specific.map(e=>e.slot));
+  const generic = GENERIC_GEAR[style] || {};
+  const fillers = Object.keys(generic)
+    .filter(slot => !specificSlots.has(slot) && generic[slot])
+    .map(slot => ({slot, item: generic[slot]}));
+  return [...specific, ...fillers];
+}
+
+function factsFor(id){
+  if(!FACTS || !FACTS.monsters) return null;
+  return FACTS.monsters[id] || null;
+}
+
+function fmtFactValue(v){
+  if(v===undefined || v===null) return null;
+  if(Array.isArray(v)) return v.join(" / ");
+  return String(v);
+}
+
+async function loadData(){
+  const statusEl = document.getElementById('dataStatus');
+  try{
+    const gearRes = await fetch(GEAR_URL);
+    GEAR = await gearRes.json();
+  }catch(e){
+    statusEl.textContent = "Couldn't load data/gear.json — check the file exists next to index.html.";
+    statusEl.classList.add('stale');
+    return;
+  }
+  try{
+    const factsRes = await fetch(FACTS_URL);
+    if(factsRes.ok){
+      FACTS = await factsRes.json();
+      const when = FACTS.generatedAt ? new Date(FACTS.generatedAt).toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'}) : 'unknown date';
+      statusEl.innerHTML = `<span class="dot"></span>Live monster facts from the OSRS Wiki, last updated ${when}`;
+    } else {
+      throw new Error('no facts file');
+    }
+  }catch(e){
+    FACTS = null;
+    statusEl.innerHTML = `<span class="dot"></span>Using curated fallback data — run <code>scripts/fetch_wiki_data.py</code> to pull live wiki facts`;
+    statusEl.classList.add('stale');
+  }
+  try{
+    const tlRes = await fetch(TASK_LOCATIONS_URL);
+    TASK_LOCATIONS = tlRes.ok ? await tlRes.json() : null;
+  }catch(e){
+    TASK_LOCATIONS = null;
+  }
+  try{
+    const laRes = await fetch(LOCATION_ACCESS_URL);
+    LOCATION_ACCESS = laRes.ok ? await laRes.json() : null;
+  }catch(e){
+    LOCATION_ACCESS = null;
+  }
+  try{
+    const rgRes = await fetch(RECOMMENDED_GEAR_URL);
+    RECOMMENDED_GEAR = rgRes.ok ? await rgRes.json() : null;
+  }catch(e){
+    RECOMMENDED_GEAR = null;
+  }
+}
+
+function taskLocationsFor(id){
+  return (TASK_LOCATIONS && TASK_LOCATIONS.tasks) ? (TASK_LOCATIONS.tasks[id] || null) : null;
+}
+
+function accessFor(locationName){
+  return (LOCATION_ACCESS && LOCATION_ACCESS.locations) ? (LOCATION_ACCESS.locations[locationName] || null) : null;
+}
+
+/* ============ RENDER: SIDEBAR ============ */
+function renderMonsterList(filter=""){
+  const listEl = document.getElementById('monsterList');
+  listEl.innerHTML = "";
+  const f = filter.trim().toLowerCase();
+  TIERS.forEach(tier=>{
+    const items = GEAR.filter(m=>m.tier===tier && m.name.toLowerCase().includes(f));
+    if(items.length===0) return;
+    const group = document.createElement('div');
+    group.className = 'tier-group';
+    const label = document.createElement('div');
+    label.className = 'tier-label';
+    label.textContent = tier;
+    group.appendChild(label);
+    items.forEach(m=>{
+      const facts = factsFor(m.id);
+      const lvlDisplay = facts && facts.combatLevel ? fmtFactValue(facts.combatLevel) : m.fallbackLvl;
+      const el = document.createElement('div');
+      el.className = 'monster-item' + (selectedMonster && selectedMonster.id===m.id ? ' active':'');
+      el.innerHTML = `<span>${m.name}</span><span class="lvl">${lvlDisplay||''}</span>`;
+      el.onclick = ()=>selectMonster(m.id);
+      group.appendChild(el);
+    });
+    listEl.appendChild(group);
+  });
+  if(listEl.innerHTML===""){
+    listEl.innerHTML = '<div style="padding:20px;color:var(--text-dim);font-size:0.82rem;text-align:center;">No monsters match.</div>';
+  }
+}
+
+function selectMonster(id){
+  selectedMonster = GEAR.find(m=>m.id===id);
+  activeStyle = "melee";
+  editingLoadoutId = null;
+  currentInventory = [...selectedMonster.inv];
+  renderMonsterList(document.getElementById('searchInput').value);
+  renderContent();
+}
+
+/* ============ RENDER: LOCATION & ACCESS ============ */
+function renderInfoBox(m){
+  const task = taskLocationsFor(m.id);
+  if(task) return renderTaskLocationBox(task);
+  return renderCuratedInfoBox(m.info);
+}
+
+function renderCuratedInfoBox(info){
+  if(!info) return "";
+  const rows = [];
+  if(info.location){
+    rows.push(`<div class="info-row"><div class="info-label">Location</div><div class="info-value">${info.location}</div></div>`);
+  }
+  if(info.unlock){
+    rows.push(`<div class="info-row"><div class="info-label">Requires</div><div class="info-value unlock">${info.unlock}</div></div>`);
+  }
+  if(info.access && info.access.length){
+    const items = info.access.map(a=>`<li>${a}</li>`).join("");
+    rows.push(`<div class="info-row"><div class="info-label">Getting there</div><div class="info-value"><ul class="access-list">${items}</ul></div></div>`);
+  }
+  if(!rows.length) return "";
+  return `
+    <div class="section-title">Location &amp; access</div>
+    <div class="info-box">${rows.join("")}</div>
+  `;
+}
+
+function renderTaskLocationBox(task){
+  const req = task.requirements || {};
+  const pills = [];
+  if(req.combatLevelReq) pills.push(`<div class="req-pill">Combat level <b>${req.combatLevelReq}</b></div>`);
+  if(req.skillReq) pills.push(`<div class="req-pill">Requires <b>${req.skillReq}</b></div>`);
+  if(req.otherReq) pills.push(`<div class="req-pill danger">${req.otherReq}</div>`);
+  const reqHtml = pills.length ? `<div class="req-strip">${pills.join("")}</div>` : "";
+
+  let bodyHtml;
+  if(task.locations && task.locations.length){
+    const cards = task.locations.map(loc=>{
+      const badges = [
+        badge(loc.multicombat, "Multi", "Solo"),
+        badge(loc.cannonable, "Cannonable", "No cannon"),
+        badge(loc.safespottable, "Safespot", "No safespot"),
+      ].join("");
+      const notes = loc.notes && loc.notes.length
+        ? `<ul class="loc-notes">${loc.notes.map(n=>`<li>${n}</li>`).join("")}</ul>` : "";
+      const mapLink = loc.mapUrl
+        ? `<a class="loc-map-link" href="${loc.mapUrl}" target="_blank" rel="noopener">View on map ↗</a>` : "";
+      const access = accessFor(loc.location);
+      const gettingThere = access && access.methods.length
+        ? `<div class="loc-access-label">Getting there</div><ul class="access-list">${access.methods.map(a=>`<li>${a}</li>`).join("")}</ul>`
+        : "";
+      const hasBody = notes || gettingThere || mapLink;
+      const body = hasBody ? `<div class="loc-body">${notes}${gettingThere}${mapLink}</div>` : "";
+      return `
+        <details class="loc-card">
+          <summary class="loc-card-head">
+            <div class="loc-name">${loc.location}</div>
+            ${loc.amount?`<div class="loc-amount">${/^\d+$/.test(loc.amount)?'×'+loc.amount:loc.amount}</div>`:""}
+            <div class="loc-badges">${badges}</div>
+          </summary>
+          ${body}
+        </details>
+      `;
+    }).join("");
+    bodyHtml = `<div class="loc-grid">${cards}</div>`;
+  } else if(task.gettingThere && task.gettingThere.length){
+    bodyHtml = `<ul class="access-list">${task.gettingThere.map(a=>`<li>${a}</li>`).join("")}</ul>`;
+  } else {
+    bodyHtml = "";
+  }
+
+  const sourceHtml = task.sourceUrl
+    ? `<div class="loc-source">Locations sourced from the <a href="${task.sourceUrl}" target="_blank" rel="noopener">OSRS Wiki</a></div>`
+    : "";
+
+  return `
+    <div class="section-title">Location &amp; access</div>
+    <div class="info-box">
+      ${reqHtml}
+      ${bodyHtml}
+      ${sourceHtml}
+    </div>
+  `;
+}
+
+function badge(value, goodLabel, badLabel){
+  if(value === true) return `<span class="loc-badge good">✓ ${goodLabel}</span>`;
+  if(value === false) return `<span class="loc-badge bad">${badLabel}</span>`;
+  return "";
+}
+
+function renderBossVariant(m){
+  const bv = m.bossVariant;
+  if(!bv) return "";
+  const linkable = bv.linkId && GEAR.some(g=>g.id===bv.linkId);
+  const nameHtml = linkable
+    ? `<a href="#" class="boss-variant-link" data-id="${bv.linkId}">${bv.name} →</a>`
+    : `<b>${bv.name}</b>`;
+  return `<div class="boss-variant"><span class="boss-icon">☠</span> Boss variant: ${nameHtml}<span class="boss-note">${bv.note}</span></div>`;
+}
+
+/* ============ RENDER: MAIN CONTENT ============ */
+function renderContent(){
+  const el = document.getElementById('content');
+  if(!selectedMonster){
+    el.innerHTML = `<div class="empty-state"><div class="glyph">⚔</div><div>Pick a monster from the list to see gear recommendations.</div></div>`;
+    return;
+  }
+  const m = selectedMonster;
+  const facts = factsFor(m.id);
+
+  const lvl = facts && facts.combatLevel ? fmtFactValue(facts.combatLevel) : m.fallbackLvl;
+  const elemental = facts && facts.elementalWeaknessType
+    ? `${fmtFactValue(facts.elementalWeaknessType)} spells${facts.elementalWeaknessPercent?` (${fmtFactValue(facts.elementalWeaknessPercent)}%)`:''}`
+    : null;
+  const weak = facts && (facts.attribute || facts.attackStyle || elemental)
+    ? [elemental, fmtFactValue(facts.attribute), fmtFactValue(facts.attackStyle)].filter(Boolean).join(" / ")
+    : m.fallbackWeak;
+  const hp = facts && facts.hitpoints ? fmtFactValue(facts.hitpoints) : null;
+  const aggressive = facts && facts.aggressive ? fmtFactValue(facts.aggressive) : null;
+  const slayerXp = facts && facts.slayerXp ? fmtFactValue(facts.slayerXp) : null;
+
+  let sourceHtml;
+  if(facts && facts.sourceUrl){
+    sourceHtml = `<div class="m-source">Facts sourced from <a href="${facts.sourceUrl}" target="_blank" rel="noopener">OSRS Wiki</a>${FACTS.generatedAt ? ' · fetched ' + new Date(FACTS.generatedAt).toLocaleDateString() : ''}</div>`;
+  } else {
+    sourceHtml = `<div class="m-source missing">Live wiki data not available for this monster — showing curated fallback values.</div>`;
+  }
+
+  el.innerHTML = `
+    <div class="m-header">
+      <h2>${m.name}</h2>
+      <div class="m-meta">
+        <span>Combat: <b>${lvl||'—'}</b></span>
+        <span>Weakness: <b>${weak||'—'}</b></span>
+        ${hp?`<span>HP: <b>${hp}</b></span>`:''}
+        ${aggressive?`<span>Aggressive: <b>${aggressive}</b></span>`:''}
+        ${slayerXp?`<span>Slayer XP/kill: <b>${slayerXp}</b></span>`:''}
+        <span>Tier: <b>${m.tier}</b></span>
+      </div>
+      <div class="m-note">${m.note}</div>
+      ${sourceHtml}
+      ${renderBossVariant(m)}
+    </div>
+    ${renderInfoBox(m)}
+    <div class="style-tabs" id="styleTabs"></div>
+    <div id="baneCallout"></div>
+    <div class="section-title">Recommended gear <span class="count" id="ownedCount"></span></div>
+    <div id="gearSourceNote"></div>
+    <div class="gear-grid" id="gearGrid"></div>
+    <div class="section-title">Suggested inventory</div>
+    <div class="inv-box">
+      <div class="inv-tags" id="invTags"></div>
+      <div class="inv-add">
+        <div class="inv-add-wrap">
+          <input type="text" id="invAddInput" placeholder="Search the wiki for an item…" autocomplete="off">
+          <div class="suggest-dropdown" id="invSuggest"></div>
+        </div>
+        <button class="btn" id="invAddBtn">Add</button>
+      </div>
+    </div>
+    <div class="save-bar">
+      <input type="text" id="loadoutTitle" placeholder="Name this loadout, e.g. 'Fire Giants — melee tank'">
+      <button class="btn btn-ember" id="saveLoadoutBtn">${editingLoadoutId? "Update loadout":"Save loadout"}</button>
+    </div>
+  `;
+  renderStyleTabs();
+  renderGearGrid();
+  renderInvTags();
+
+  document.getElementById('invAddBtn').onclick = addInvItem;
+  initInvAutocomplete();
+  document.getElementById('saveLoadoutBtn').onclick = saveLoadout;
+
+  const bossLink = document.querySelector('.boss-variant-link');
+  if(bossLink){
+    bossLink.onclick = (e)=>{ e.preventDefault(); selectMonster(bossLink.dataset.id); };
+  }
+}
+
+function renderStyleTabs(){
+  const tabsEl = document.getElementById('styleTabs');
+  tabsEl.innerHTML = "";
+  Object.keys(STYLE_META).forEach(styleKey=>{
+    const meta = STYLE_META[styleKey];
+    const tab = document.createElement('div');
+    tab.className = 'style-tab' + (activeStyle===styleKey ? ' active':'');
+    tab.innerHTML = `<span class="dot" style="background:${meta.color}"></span>${meta.label}`;
+    tab.onclick = ()=>{ activeStyle = styleKey; renderStyleTabs(); renderGearGrid(); };
+    tabsEl.appendChild(tab);
+  });
+}
+
+function renderBaneCallout(){
+  const el = document.getElementById('baneCallout');
+  if(!el) return;
+  const facts = factsFor(selectedMonster.id);
+  const bane = facts ? baneGearFor(facts.attribute) : null;
+  const item = bane ? bane[activeStyle] : null;
+  el.innerHTML = item
+    ? `<div class="bane-callout"><span class="bane-icon">⚔</span> <b>Bane gear:</b> ${item}</div>`
+    : "";
+}
+
+function renderGearGrid(){
+  renderBaneCallout();
+  const sourceEl = document.getElementById('gearSourceNote');
+  if(sourceEl){
+    const task = RECOMMENDED_GEAR && RECOMMENDED_GEAR.tasks ? RECOMMENDED_GEAR.tasks[selectedMonster.id] : null;
+    sourceEl.innerHTML = task
+      ? `<div class="gear-source">Gear tiers sourced live from the <a href="${task.sourceUrl}" target="_blank" rel="noopener">OSRS Wiki</a>${RECOMMENDED_GEAR.generatedAt ? ' · fetched ' + new Date(RECOMMENDED_GEAR.generatedAt).toLocaleDateString() : ''}</div>`
+      : `<div class="gear-source curated">Curated gear list — not yet backed by a live wiki gear table for this task</div>`;
+  }
+  const grid = document.getElementById('gearGrid');
+  const rawItems = getSlotEntries(selectedMonster, activeStyle);
+  grid.innerHTML = "";
+
+  const bySlot = {};
+  rawItems.forEach(entry=>{
+    const parts = splitItems(entry.item);
+    if(!bySlot[entry.slot]) bySlot[entry.slot] = [];
+    parts.forEach((p,rank)=>bySlot[entry.slot].push({item:p, rank}));
+  });
+
+  let totalItems = 0, ownedCount = 0;
+  const orderedSlots = Object.keys(bySlot).sort((a,b)=>{
+    const ai = SLOT_ORDER.indexOf(a), bi = SLOT_ORDER.indexOf(b);
+    return (ai===-1?99:ai) - (bi===-1?99:bi);
+  });
+
+  orderedSlots.forEach(slot=>{
+    const group = document.createElement('div');
+    group.className = 'slot-group';
+    const header = document.createElement('div');
+    header.className = 'slot-header';
+    header.textContent = slot;
+    group.appendChild(header);
+
+    const row = document.createElement('div');
+    row.className = 'slot-row';
+
+    const ownedRanks = bySlot[slot].filter(o=>ownedItems.has(o.item)).map(o=>o.rank);
+    const bestOwnedRank = ownedRanks.length ? Math.min(...ownedRanks) : null;
+
+    bySlot[slot].forEach(({item, rank})=>{
+      totalItems++;
+      const isOwned = ownedItems.has(item);
+      if(isOwned) ownedCount++;
+      const isPick = bestOwnedRank!==null && rank===bestOwnedRank && isOwned;
+      const card = document.createElement('div');
+      card.className = 'gear-card' + (isOwned ? ' owned':'') + (isPick ? ' pick':'');
+      card.innerHTML = `
+        <input type="checkbox" ${isOwned?'checked':''}>
+        <div><div class="g-item">${item}${isPick?' <span class="pick-badge">use this</span>':''}</div></div>
+      `;
+      card.querySelector('input').onchange = (e)=>{
+        if(e.target.checked) ownedItems.add(item); else ownedItems.delete(item);
+        persistOwned();
+        renderGearGrid();
+      };
+      card.onclick = (e)=>{
+        if(e.target.tagName.toLowerCase()==='input') return;
+        const cb = card.querySelector('input');
+        cb.checked = !cb.checked;
+        cb.dispatchEvent(new Event('change'));
+      };
+      row.appendChild(card);
+    });
+
+    group.appendChild(row);
+    grid.appendChild(group);
+  });
+
+  if(totalItems===0){
+    grid.innerHTML = '<div style="color:var(--text-dim);font-size:0.85rem;">No specific gear needed for this style — anything works.</div>';
+  }
+  document.getElementById('ownedCount').textContent = totalItems ? `${ownedCount}/${totalItems} owned` : "";
+}
+
+function renderInvTags(){
+  const box = document.getElementById('invTags');
+  box.innerHTML = "";
+  currentInventory.forEach((item,idx)=>{
+    const tag = document.createElement('div');
+    tag.className = 'inv-tag';
+    tag.innerHTML = `<span>${item}</span><button aria-label="remove">×</button>`;
+    tag.querySelector('button').onclick = ()=>{ currentInventory.splice(idx,1); renderInvTags(); };
+    box.appendChild(tag);
+  });
+  if(currentInventory.length===0){
+    box.innerHTML = '<div style="color:var(--text-dim);font-size:0.8rem;">No inventory items yet — add some below.</div>';
+  }
+}
+
+function addInvItem(){
+  const input = document.getElementById('invAddInput');
+  const val = input.value.trim();
+  if(!val) return;
+  currentInventory.push(val);
+  input.value = "";
+  renderInvTags();
+  closeInvSuggest();
+}
+
+/* ============ INVENTORY ITEM SEARCH (live, no local storage) ============
+   Queries the OSRS Wiki's own search API directly from the browser via its
+   CORS-enabled endpoint (append &origin=* to any api.php GET request) --
+   no server-side fetch/storage needed, so the item list never goes stale
+   and we don't have to bundle the wiki's item database ourselves. */
+const WIKI_SEARCH_URL = "https://oldschool.runescape.wiki/api.php";
+let invSuggestTimer = null;
+let invSuggestActiveIndex = -1;
+let invSuggestItems = [];
+
+function closeInvSuggest(){
+  const box = document.getElementById('invSuggest');
+  if(box){ box.classList.remove('show'); box.innerHTML = ""; }
+  invSuggestItems = [];
+  invSuggestActiveIndex = -1;
+}
+
+async function fetchWikiItemSuggestions(query){
+  const params = new URLSearchParams({
+    action: "opensearch", search: query, limit: "8", namespace: "0", format: "json", origin: "*"
+  });
+  const res = await fetch(`${WIKI_SEARCH_URL}?${params}`);
+  if(!res.ok) throw new Error("wiki search failed");
+  const data = await res.json();
+  return data[1] || []; // opensearch returns [query, [titles], [descriptions], [urls]]
+}
+
+function renderInvSuggest(){
+  const box = document.getElementById('invSuggest');
+  if(!box) return;
+  if(invSuggestItems.length === 0){
+    box.innerHTML = '<div class="suggest-empty">No matches — you can still type a custom item name.</div>';
+    box.classList.add('show');
+    return;
+  }
+  box.innerHTML = invSuggestItems.map((name, i)=>
+    `<div class="suggest-item${i===invSuggestActiveIndex?' active':''}" data-name="${esc(name)}">${esc(name)}</div>`
+  ).join("");
+  box.classList.add('show');
+  box.querySelectorAll('.suggest-item').forEach(el=>{
+    el.onclick = ()=>{
+      currentInventory.push(el.dataset.name);
+      document.getElementById('invAddInput').value = "";
+      renderInvTags();
+      closeInvSuggest();
+    };
+  });
+}
+
+function initInvAutocomplete(){
+  const input = document.getElementById('invAddInput');
+  const box = document.getElementById('invSuggest');
+  if(!input || !box) return;
+
+  input.addEventListener('input', ()=>{
+    const query = input.value.trim();
+    clearTimeout(invSuggestTimer);
+    if(query.length < 2){ closeInvSuggest(); return; }
+    invSuggestTimer = setTimeout(async ()=>{
+      try{
+        const results = await fetchWikiItemSuggestions(query);
+        if(input.value.trim() !== query) return; // stale response, user kept typing
+        invSuggestItems = results;
+        invSuggestActiveIndex = -1;
+        renderInvSuggest();
+      }catch(e){
+        closeInvSuggest();
+      }
+    }, 250);
+  });
+
+  input.addEventListener('keydown', e=>{
+    if(box.classList.contains('show') && invSuggestItems.length){
+      if(e.key === 'ArrowDown'){ e.preventDefault(); invSuggestActiveIndex = Math.min(invSuggestActiveIndex+1, invSuggestItems.length-1); renderInvSuggest(); return; }
+      if(e.key === 'ArrowUp'){ e.preventDefault(); invSuggestActiveIndex = Math.max(invSuggestActiveIndex-1, 0); renderInvSuggest(); return; }
+      if(e.key === 'Enter' && invSuggestActiveIndex >= 0){
+        e.preventDefault();
+        currentInventory.push(invSuggestItems[invSuggestActiveIndex]);
+        input.value = "";
+        renderInvTags();
+        closeInvSuggest();
+        return;
+      }
+      if(e.key === 'Escape'){ closeInvSuggest(); return; }
+    }
+    if(e.key === 'Enter') addInvItem();
+  });
+
+  document.addEventListener('click', e=>{
+    if(!input.contains(e.target) && !box.contains(e.target)) closeInvSuggest();
+  });
+}
+
+/* ============ SAVE / LOADOUTS ============ */
+function showToast(msg){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), 2200);
+}
+
+function saveLoadout(){
+  const titleInput = document.getElementById('loadoutTitle');
+  const title = titleInput.value.trim();
+  if(!title){ titleInput.focus(); showToast("Give your loadout a title first"); return; }
+
+  const rawItems = getSlotEntries(selectedMonster, activeStyle);
+  const gearSelection = [];
+  rawItems.forEach(entry=>{
+    splitItems(entry.item).forEach(item=>{
+      if(ownedItems.has(item)) gearSelection.push({slot:entry.slot, item});
+    });
+  });
+
+  const loadout = {
+    id: editingLoadoutId || ('l_' + Date.now()),
+    title,
+    monsterId: selectedMonster.id,
+    monsterName: selectedMonster.name,
+    style: activeStyle,
+    gear: gearSelection,
+    inventory: [...currentInventory],
+    updatedAt: Date.now()
+  };
+  if(editingLoadoutId){
+    const idx = loadouts.findIndex(l=>l.id===editingLoadoutId);
+    if(idx>=0) loadouts[idx] = loadout; else loadouts.push(loadout);
+  } else {
+    loadouts.push(loadout);
+  }
+  persistLoadouts();
+  editingLoadoutId = loadout.id;
+  renderLoadoutStrip();
+  showToast("Loadout saved");
+}
+
+function renderLoadoutStrip(){
+  const strip = document.getElementById('loadoutStrip');
+  strip.innerHTML = "";
+  if(loadouts.length===0){
+    strip.innerHTML = '<div class="loadout-empty">No saved loadouts yet — build one below and hit Save.</div>';
+    return;
+  }
+  loadouts.slice().sort((a,b)=>b.updatedAt-a.updatedAt).forEach(l=>{
+    const chip = document.createElement('div');
+    chip.className = 'loadout-chip';
+    const meta = STYLE_META[l.style] || STYLE_META.melee;
+    chip.innerHTML = `<span class="style-dot" style="background:${meta.color}"></span><span class="lbl-title">${l.title}</span><span class="lbl-monster">· ${l.monsterName}</span>`;
+    chip.onclick = ()=>openLoadoutModal(l);
+    strip.appendChild(chip);
+  });
+}
+
+function openLoadoutModal(loadout){
+  const root = document.getElementById('modalRoot');
+  const meta = STYLE_META[loadout.style] || STYLE_META.melee;
+  root.innerHTML = `
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal">
+        <h3>${loadout.title}</h3>
+        <div class="m-sub">${loadout.monsterName} · <span style="color:${meta.color}">${meta.label}</span></div>
+        <div class="section-title" style="margin-top:4px;">Gear</div>
+        <ul>
+          ${loadout.gear.length ? loadout.gear.map(g=>`<li><span>${g.item}</span><span class="slot">${g.slot}</span></li>`).join('') : '<li style="color:var(--text-dim);">No gear ticked for this loadout</li>'}
+        </ul>
+        <div class="section-title" style="margin-top:16px;">Inventory</div>
+        <ul>
+          ${loadout.inventory.length ? loadout.inventory.map(i=>`<li><span>${i}</span></li>`).join('') : '<li style="color:var(--text-dim);">No inventory items</li>'}
+        </ul>
+        <div class="modal-close-row">
+          <button class="btn" id="editLoadoutBtn">Edit</button>
+          <button class="btn" id="deleteLoadoutBtn" style="border-color:var(--danger);color:var(--danger);">Delete</button>
+          <button class="btn btn-ember" id="closeModalBtn">Close</button>
+        </div>
+      </div>
+    </div>
+  `;
+  document.getElementById('closeModalBtn').onclick = ()=>{ root.innerHTML=""; };
+  document.getElementById('modalOverlay').onclick = (e)=>{ if(e.target.id==='modalOverlay') root.innerHTML=""; };
+  document.getElementById('deleteLoadoutBtn').onclick = ()=>{
+    loadouts = loadouts.filter(l=>l.id!==loadout.id);
+    persistLoadouts();
+    root.innerHTML = "";
+    renderLoadoutStrip();
+    showToast("Loadout deleted");
+  };
+  document.getElementById('editLoadoutBtn').onclick = ()=>{
+    const m = GEAR.find(m=>m.id===loadout.monsterId);
+    if(!m){ showToast("Monster no longer available"); return; }
+    selectedMonster = m;
+    activeStyle = loadout.style;
+    editingLoadoutId = loadout.id;
+    currentInventory = [...loadout.inventory];
+    loadout.gear.forEach(g=>ownedItems.add(g.item));
+    persistOwned();
+    root.innerHTML = "";
+    renderMonsterList(document.getElementById('searchInput').value);
+    renderContent();
+    setTimeout(()=>{
+      const ti = document.getElementById('loadoutTitle');
+      if(ti) ti.value = loadout.title;
+    },0);
+    window.scrollTo({top:0,behavior:'smooth'});
+  };
+}
+
+/* ============ INIT ============ */
+async function init(){
+  loadLocal();
+  await loadData();
+  renderLoadoutStrip();
+  renderMonsterList();
+  document.getElementById('searchInput').addEventListener('input', (e)=>{
+    renderMonsterList(e.target.value);
+  });
+}
+init();
+</script>
+</body>
+</html>

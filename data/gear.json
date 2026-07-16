@@ -1,0 +1,3606 @@
+[
+  {
+    "id": "banshees",
+    "name": "Banshees",
+    "tier": "Low",
+    "wikiTitle": "Banshee",
+    "fallbackLvl": "23",
+    "fallbackWeak": "Slash / Crush",
+    "note": "Wear earmuffs or a slayer helmet or you'll take constant unblockable damage.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Earmuffs or Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar / whip"
+      },
+      {
+        "slot": "Body",
+        "item": "Any mid-tier melee body"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Head",
+        "item": "Earmuffs or Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow / MSB"
+      },
+      {
+        "slot": "Ammo",
+        "item": "Broad bolts / arrows"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Head",
+        "item": "Earmuffs or Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any combat spell"
+      }
+    ],
+    "inv": [
+      "Earmuffs (if no slayer helm)",
+      "Food",
+      "Prayer potion"
+    ],
+    "info": {
+      "location": "Slayer Tower, Morytania (north of Canifis) \u2014 also spawn in the Stronghold Slayer Cave",
+      "access": [
+        "Slayer ring \u2192 Stronghold Slayer Cave",
+        "Canifis lodestone, then walk north to the tower",
+        "Kharyrll teleport (Arceuus spellbook) to Fenkenstrain's Castle, walk south"
+      ],
+      "unlock": "15 Slayer required (need earmuffs/Slayer helmet). The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Banshees"
+  },
+  {
+    "id": "bats",
+    "name": "Giant Bats",
+    "tier": "Novice",
+    "wikiTitle": "Giant bat",
+    "fallbackLvl": "36",
+    "fallbackWeak": "Slash",
+    "note": "Trivial \u2014 any gear works.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend, or the Stronghold Slayer Cave",
+      "access": [
+        "Slayer ring \u2192 Stronghold Slayer Cave",
+        "Kourend Castle teleport, then descend into the Catacombs"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "bears",
+    "name": "Bears (black/grizzly)",
+    "tier": "Novice",
+    "wikiTitle": "Black bear",
+    "fallbackLvl": "20-30",
+    "fallbackWeak": "Slash/Crush",
+    "note": "Very low level, gear barely matters.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "North of Falador, or McGrubor's Wood near Seers' Village",
+      "access": [
+        "Falador lodestone, walk north",
+        "Camelot teleport (Seers' Village), walk west to McGrubor's Wood"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Bears"
+  },
+  {
+    "id": "birds",
+    "name": "Birds / Chickens/Ducks",
+    "tier": "Novice",
+    "wikiTitle": "Chicken",
+    "fallbackLvl": "1-3",
+    "fallbackWeak": "Anything",
+    "note": "Combat is irrelevant here, focus on quantity.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Anything"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Anything"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Anything"
+      }
+    ],
+    "inv": [
+      "None needed"
+    ],
+    "info": {
+      "location": "Lumbridge chicken pen, or the Falador farm",
+      "access": [
+        "No teleport needed \u2014 right next to the default Lumbridge spawn"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Birds"
+  },
+  {
+    "id": "cavebugs",
+    "name": "Cave Bugs",
+    "tier": "Novice",
+    "wikiTitle": "Cave bug",
+    "fallbackLvl": "6",
+    "fallbackWeak": "Anything",
+    "note": "Trivial task, found in Lumbridge Swamp Caves.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Anything"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Anything"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Anything"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Lumbridge Swamp Caves",
+      "access": [
+        "Lumbridge lodestone, enter the swamp south of Lumbridge and head into the caves"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "cavecrawlers",
+    "name": "Cave Crawlers",
+    "tier": "Low",
+    "wikiTitle": "Cave crawler",
+    "fallbackLvl": "23",
+    "fallbackWeak": "Crush",
+    "note": "Fairly weak, found in Fremennik Slayer Dungeon and Lumbridge Swamp Caves.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Warhammer / any crush weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Fremennik Slayer Dungeon (Rellekka), or the Stronghold Slayer Cave",
+      "access": [
+        "Slayer ring \u2192 Fremennik Slayer Dungeon (or Stronghold Slayer Cave)",
+        "Rellekka lodestone, then follow the coast to the dungeon entrance"
+      ],
+      "unlock": "10 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "caveslimes",
+    "name": "Cave Slimes",
+    "tier": "Novice",
+    "wikiTitle": "Cave slime",
+    "fallbackLvl": "23",
+    "fallbackWeak": "Anything",
+    "note": "Weak to poison; low priority gear task.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Stronghold Slayer Cave, or Lumbridge Swamp Caves",
+      "access": [
+        "Slayer ring \u2192 Stronghold Slayer Cave",
+        "Lumbridge lodestone, into the swamp caves"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "crawlinghands",
+    "name": "Crawling Hands",
+    "tier": "Novice",
+    "wikiTitle": "Crawling Hand",
+    "fallbackLvl": "8",
+    "fallbackWeak": "Slash",
+    "note": "Trivial, Catacombs of Kourend or Dorgesh-Kaan.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any slash weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend, or the Stronghold Slayer Cave",
+      "access": [
+        "Slayer ring \u2192 Stronghold Slayer Cave",
+        "Kourend Castle teleport, descend into the Catacombs"
+      ],
+      "unlock": "5 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "dogs",
+    "name": "Jackals / Terror dogs",
+    "tier": "Low",
+    "wikiTitle": "Jackal",
+    "fallbackLvl": "30-70",
+    "fallbackWeak": "Stab/Slash",
+    "note": "Watch for poison on jackals.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar / whip"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Antipoison",
+      "Food"
+    ],
+    "info": {
+      "location": "Kharidian Desert around Sophanem (jackals); Karamja (terror dogs)",
+      "access": [
+        "Pharaoh's sceptre \u2192 Sophanem, walk to the jackal spawns",
+        "Desert amulet teleport (Nardah), then travel south"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "dwarves",
+    "name": "Dwarves",
+    "tier": "Novice",
+    "wikiTitle": "Dwarf",
+    "fallbackLvl": "14-24",
+    "fallbackWeak": "Slash",
+    "note": "Trivial.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Keldagrim, or the Dwarven Mine near Falador",
+      "access": [
+        "Falador lodestone, enter the Dwarven Mine",
+        "Games necklace or minecart network into Keldagrim"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Dwarves"
+  },
+  {
+    "id": "ghosts",
+    "name": "Ghosts",
+    "tier": "Novice",
+    "wikiTitle": "Ghost",
+    "fallbackLvl": "13-19",
+    "fallbackWeak": "Anything",
+    "note": "Trivial, some variants require a Ghostspeak amulet.",
+    "melee": [
+      {
+        "slot": "Neck",
+        "item": "Ghostspeak amulet (some variants)"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Asgarnia Ice Dungeon, or the Slayer Tower",
+      "access": [
+        "Falador lodestone, enter the Ice Dungeon",
+        "Canifis lodestone, walk to the Slayer Tower"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Ghosts"
+  },
+  {
+    "id": "goblins",
+    "name": "Goblins",
+    "tier": "Novice",
+    "wikiTitle": "Goblin",
+    "fallbackLvl": "2-23",
+    "fallbackWeak": "Anything",
+    "note": "Trivial.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Lumbridge, or Goblin Village near Falador",
+      "access": [
+        "No teleport needed near Lumbridge",
+        "Falador lodestone, walk north to Goblin Village"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Goblins"
+  },
+  {
+    "id": "icefiends",
+    "name": "Icefiends",
+    "tier": "Novice",
+    "wikiTitle": "Ice fiend",
+    "fallbackLvl": "33",
+    "fallbackWeak": "Crush",
+    "note": "Weak to fire spells too.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any crush weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Fire spells"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Asgarnia Ice Dungeon, or White Wolf Mountain",
+      "access": [
+        "Falador lodestone, enter the Ice Dungeon",
+        "Catherby lodestone, walk to White Wolf Mountain"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "kalphiteworkers",
+    "name": "Kalphite Workers/Soldiers",
+    "tier": "Low",
+    "wikiTitle": "Kalphite Worker",
+    "fallbackLvl": "15-28",
+    "fallbackWeak": "Slash/Crush",
+    "note": "Kalphite Lair or Hive; watch for the Kalphite Queen nearby.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Kalphite Lair/Hive, south of the Shantay Pass",
+      "access": [
+        "Desert amulet 4 teleport (Kalphite Cave/Lair)",
+        "Al Kharid lodestone, then walk south past Shantay Pass"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Kalphites",
+    "bossVariant": {
+      "name": "Kalphite Queen",
+      "note": "Counts toward this task automatically \u2014 no unlock needed.",
+      "linkId": "gargoyles_boss"
+    }
+  },
+  {
+    "id": "lizards",
+    "name": "Lizards / Small Lizards",
+    "tier": "Novice",
+    "wikiTitle": "Lizard",
+    "fallbackLvl": "2-16",
+    "fallbackWeak": "Anything",
+    "note": "Trivial, Kharidian Desert.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food",
+      "Waterskins"
+    ],
+    "info": {
+      "location": "Kharidian Desert, near Sophanem or the Bandit Camp",
+      "access": [
+        "Pharaoh's sceptre \u2192 Sophanem",
+        "Desert amulet teleport, walk to the nearest dune area"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Lizards"
+  },
+  {
+    "id": "minotaurs",
+    "name": "Minotaurs",
+    "tier": "Novice",
+    "wikiTitle": "Minotaur",
+    "fallbackLvl": "12",
+    "fallbackWeak": "Slash",
+    "note": "Trivial.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Stronghold of Security, Barbarian Village",
+      "access": [
+        "Varrock lodestone, walk to Barbarian Village, enter the Stronghold"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "monkeys",
+    "name": "Monkeys",
+    "tier": "Novice",
+    "wikiTitle": "Monkey (monster)",
+    "fallbackLvl": "3-16",
+    "fallbackWeak": "Anything",
+    "note": "Trivial.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Karamja jungle, or Ape Atoll",
+      "access": [
+        "Karamja lodestone, walk into the jungle",
+        "Ape Atoll teleport (greegree/Monkey Talisman) for the Ape Atoll variant"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Monkeys"
+  },
+  {
+    "id": "rats",
+    "name": "Rats / Giant Rats",
+    "tier": "Novice",
+    "wikiTitle": "Giant rat",
+    "fallbackLvl": "1-14",
+    "fallbackWeak": "Anything",
+    "note": "Trivial, huge spawn density.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "None needed"
+    ],
+    "info": {
+      "location": "Varrock sewers, or anywhere near Lumbridge",
+      "access": [
+        "Varrock lodestone, into the sewers for a dense spawn"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Rats"
+  },
+  {
+    "id": "scorpions",
+    "name": "Scorpions",
+    "tier": "Novice",
+    "wikiTitle": "Scorpion",
+    "fallbackLvl": "14-30",
+    "fallbackWeak": "Slash",
+    "note": "Trivial.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Kharidian Desert, or the Al Kharid mine",
+      "access": [
+        "Al Kharid lodestone, walk south into the desert"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Scorpions"
+  },
+  {
+    "id": "skeletons",
+    "name": "Skeletons",
+    "tier": "Novice",
+    "wikiTitle": "Skeleton",
+    "fallbackLvl": "21-42",
+    "fallbackWeak": "Crush",
+    "note": "Bring a crush weapon where possible.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Warhammer / mace"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Asgarnia Ice Dungeon, or the Wilderness Chaos Temple area",
+      "access": [
+        "Falador lodestone, enter the Ice Dungeon",
+        "Edgeville lodestone for the wilderness variants (PvP risk)"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Skeletons"
+  },
+  {
+    "id": "spiders",
+    "name": "Spiders",
+    "tier": "Novice",
+    "wikiTitle": "Spider",
+    "fallbackLvl": "1-50",
+    "fallbackWeak": "Anything",
+    "note": "Trivial.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Varrock sewers, or Edgeville Dungeon",
+      "access": [
+        "Varrock lodestone, into the sewers",
+        "Edgeville lodestone, into the dungeon"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Spiders"
+  },
+  {
+    "id": "wolves",
+    "name": "Wolves",
+    "tier": "Novice",
+    "wikiTitle": "Wolf",
+    "fallbackLvl": "14-64",
+    "fallbackWeak": "Slash",
+    "note": "Trivial.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "White Wolf Mountain, near Catherby",
+      "access": [
+        "Catherby lodestone, walk to White Wolf Mountain"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Wolves"
+  },
+  {
+    "id": "zombies",
+    "name": "Zombies",
+    "tier": "Novice",
+    "wikiTitle": "Zombie",
+    "fallbackLvl": "18-36",
+    "fallbackWeak": "Slash",
+    "note": "Trivial.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Edgeville Dungeon, or Mort'ton",
+      "access": [
+        "Edgeville lodestone, enter the dungeon",
+        "Mort'ton teleport (Shades of Mort'ton minigame reward) for the graveyard variant"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Zombies"
+  },
+  {
+    "id": "ogres",
+    "name": "Ogres",
+    "tier": "Low",
+    "wikiTitle": "Ogre",
+    "fallbackLvl": "53",
+    "fallbackWeak": "Slash",
+    "note": "Found near Castle Wars/Feldip Hills. Fairly beefy but low accuracy.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar / whip"
+      },
+      {
+        "slot": "Body",
+        "item": "Any mid melee armour"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Yanille area, or the Feldip Hills near Gu'Tanoth",
+      "access": [
+        "Yanille lodestone, walk to the ogre pen",
+        "Watchtower teleport (Arceuus spellbook), walk south to Gu'Tanoth"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Ogres"
+  },
+  {
+    "id": "pyrefiends",
+    "name": "Pyrefiends",
+    "tier": "Low",
+    "wikiTitle": "Pyrefiend",
+    "fallbackLvl": "33",
+    "fallbackWeak": "Water spells",
+    "note": "Weak to water spells, low defence otherwise.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Water spells"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend, or the Karamja Volcano Dungeon",
+      "access": [
+        "Kourend Castle teleport, descend into the Catacombs"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Pyrefiends"
+  },
+  {
+    "id": "rockslugs",
+    "name": "Rockslugs",
+    "tier": "Low",
+    "wikiTitle": "Rockslug",
+    "fallbackLvl": "29",
+    "fallbackWeak": "Anything (use vial of water/bag of salt to finish)",
+    "note": "Bring a vial of water, bag of salt or Ring of Vigour to stop regeneration.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any weapon"
+      },
+      {
+        "slot": "Other",
+        "item": "Bag of salt / vial of water"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Bag of salt or vial of water"
+    ],
+    "info": {
+      "location": "Fremennik Slayer Dungeon, or Lumbridge Swamp Caves",
+      "access": [
+        "Slayer ring \u2192 Fremennik Slayer Dungeon",
+        "Rellekka lodestone, follow the coast to the dungeon entrance"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "shades",
+    "name": "Shades",
+    "tier": "Low",
+    "wikiTitle": "Shade",
+    "fallbackLvl": "39-77",
+    "fallbackWeak": "Varies",
+    "note": "Found in Mort'ton \u2014 burn shade remains after for Prayer XP. Bring a Gadderhammer if possible: 25% damage bonus and a 5% chance to double-hit vs shades, and it's cheap (3,000gp from a general store).",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Gadderhammer / Rune scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food",
+      "Tinderbox"
+    ],
+    "info": {
+      "location": "Mort'ton, in the Shades of Mort'ton minigame area",
+      "access": [
+        "Mort'ton teleport (minigame reward) or walk south from the Burgh de Rott lever"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Shades"
+  },
+  {
+    "id": "vampyres",
+    "name": "Vampyres (tier 1-2)",
+    "tier": "Low",
+    "wikiTitle": "Vampyre Juvinate",
+    "fallbackLvl": "33-52",
+    "fallbackWeak": "Slash",
+    "note": "Bring at least a basic garlic/stake if the variant requires it.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Meiyerditch/Darkmeyer catacombs, Morytania",
+      "access": [
+        "Canifis lodestone, then travel through the Meiyerditch quest area"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Vampyres"
+  },
+  {
+    "id": "killerwatts",
+    "name": "Killerwatts",
+    "tier": "Low",
+    "wikiTitle": "Killerwatt",
+    "fallbackLvl": "43",
+    "fallbackWeak": "Anything",
+    "note": "Found in Abandoned Mine; bring a light source / graahk headgear.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      },
+      {
+        "slot": "Other",
+        "item": "Light source"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Light source"
+    ],
+    "info": {
+      "location": "Abandoned Mine, near Ardougne/Yanille",
+      "access": [
+        "Ardougne lodestone, walk to the Abandoned Mine entrance"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "wallbeasts",
+    "name": "Wall Beasts",
+    "tier": "Low",
+    "wikiTitle": "Wall beast",
+    "fallbackLvl": "27",
+    "fallbackWeak": "Anything",
+    "note": "Found in Lumbridge Swamp Caves / Fremennik dungeon.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Lumbridge Swamp Caves, or Fremennik Slayer Dungeon",
+      "access": [
+        "Lumbridge lodestone, into the swamp caves",
+        "Slayer ring \u2192 Fremennik Slayer Dungeon"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Wall beast"
+  },
+  {
+    "id": "aberrantspectres",
+    "name": "Aberrant Spectres",
+    "tier": "Mid",
+    "wikiTitle": "Aberrant spectre",
+    "fallbackLvl": "96",
+    "fallbackWeak": "Slash",
+    "note": "Wear a nose peg or slayer helmet or you'll be constantly damaged/stat-drained.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Nose peg or Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Abyssal whip / Scythe"
+      },
+      {
+        "slot": "Body",
+        "item": "Fighter torso"
+      },
+      {
+        "slot": "Legs",
+        "item": "Obsidian legs"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Head",
+        "item": "Nose peg or Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow / Blowpipe"
+      },
+      {
+        "slot": "Ammo",
+        "item": "Broad/Diamond bolts"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Head",
+        "item": "Nose peg or Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any combat spell"
+      }
+    ],
+    "inv": [
+      "Nose peg (if no slayer helm)",
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Slayer Tower, or the Catacombs of Kourend",
+      "access": [
+        "Canifis lodestone, walk to the Slayer Tower",
+        "Kourend Castle teleport, descend into the Catacombs"
+      ],
+      "unlock": "60 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Aberrant spectres"
+  },
+  {
+    "id": "basilisks",
+    "name": "Basilisks",
+    "tier": "Mid",
+    "wikiTitle": "Basilisk",
+    "fallbackLvl": "61-98",
+    "fallbackWeak": "Crush",
+    "note": "Bring a mirror shield or V's shield to avoid stat drain/petrification.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      },
+      {
+        "slot": "Shield",
+        "item": "Mirror shield / Ancient wyvern shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Granite maul / any crush weapon"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Shield",
+        "item": "Mirror shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Shield",
+        "item": "Mirror shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Mirror shield or equivalent",
+      "Food",
+      "Prayer potion"
+    ],
+    "info": {
+      "location": "Fremennik Slayer Dungeon (Basilisk Knights nearby too, in Jormungand's Prison)",
+      "access": [
+        "Slayer ring \u2192 Fremennik Slayer Dungeon",
+        "Rellekka lodestone, follow the coast to the dungeon entrance"
+      ],
+      "unlock": "40 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Basilisks"
+  },
+  {
+    "id": "bloodveld",
+    "name": "Bloodveld",
+    "tier": "Mid",
+    "wikiTitle": "Bloodveld",
+    "fallbackLvl": "76-92",
+    "fallbackWeak": "Slash",
+    "note": "Random accuracy reductions negated with Protect from Melee; low defence.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Abyssal whip / Scythe"
+      },
+      {
+        "slot": "Body",
+        "item": "Fighter torso"
+      },
+      {
+        "slot": "Legs",
+        "item": "Obsidian legs"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow / Blowpipe"
+      },
+      {
+        "slot": "Ammo",
+        "item": "Broad bolts"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend, God Wars Dungeon area, or Meiyerditch",
+      "access": [
+        "Kourend Castle teleport, descend into the Catacombs"
+      ],
+      "unlock": "50 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Bloodveld"
+  },
+  {
+    "id": "cockatrices",
+    "name": "Cockatrices",
+    "tier": "Mid",
+    "wikiTitle": "Cockatrice",
+    "fallbackLvl": "37",
+    "fallbackWeak": "Crush",
+    "note": "Need a mirror shield / V's shield (or full facegear) to avoid petrification-style effects.",
+    "melee": [
+      {
+        "slot": "Shield",
+        "item": "Mirror shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any crush weapon (e.g. mace, warhammer)"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Shield",
+        "item": "Mirror shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Shield",
+        "item": "Mirror shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Mirror shield or equivalent",
+      "Food"
+    ],
+    "info": {
+      "location": "Fremennik Slayer Dungeon, or the Stronghold Slayer Cave",
+      "access": [
+        "Slayer ring \u2192 Fremennik Slayer Dungeon (or Stronghold Slayer Cave)"
+      ],
+      "unlock": "25 Slayer required."
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "dustdevils",
+    "name": "Dust Devils",
+    "tier": "Mid",
+    "wikiTitle": "Dust devil",
+    "fallbackLvl": "93",
+    "fallbackWeak": "Air spells",
+    "note": "Wear a facemask/slayer helm or bring an anti-dust item, or you'll get stat drained.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Facemask or Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Abyssal whip / Scythe"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Head",
+        "item": "Facemask or Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Head",
+        "item": "Facemask or Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Air spells (bonus dmg)"
+      }
+    ],
+    "inv": [
+      "Facemask (if no slayer helm)",
+      "Prayer potion"
+    ],
+    "info": {
+      "location": "Smoke Dungeon (Kharidian Desert), or Catacombs of Kourend",
+      "access": [
+        "Desert amulet teleport, walk to the Smoke Dungeon entrance",
+        "Kourend Castle teleport, descend into the Catacombs"
+      ],
+      "unlock": "65 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Dust devils"
+  },
+  {
+    "id": "firegiants",
+    "name": "Fire Giants",
+    "tier": "Mid",
+    "wikiTitle": "Fire giant",
+    "fallbackLvl": "86-109",
+    "fallbackWeak": "Stab / Water spells",
+    "note": "Low defence, high HP. AFK in Catacombs of Kourend with Protect from Melee. 109s give the best XP.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet (i)"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / Dragon scimitar"
+      },
+      {
+        "slot": "Body",
+        "item": "Fighter torso / Bandos chestplate"
+      },
+      {
+        "slot": "Legs",
+        "item": "Obsidian legs / Bandos tassets"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Toxic blowpipe / Rune crossbow"
+      },
+      {
+        "slot": "Ammo",
+        "item": "Rune darts / Diamond bolts (e)"
+      },
+      {
+        "slot": "Body",
+        "item": "Black d'hide"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Water spells or Trident of the seas"
+      },
+      {
+        "slot": "Body",
+        "item": "Mystic robes"
+      }
+    ],
+    "inv": [
+      "Super combat potion",
+      "Prayer potion",
+      "Shark x8",
+      "Kourend Castle teleport"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend (most popular AFK spot), or the Waterfall Dungeon",
+      "access": [
+        "Kourend Castle teleport, descend into the Catacombs",
+        "Camelot teleport, walk to the Waterfall Dungeon"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Fire giant"
+  },
+  {
+    "id": "gargoyles",
+    "name": "Gargoyles",
+    "tier": "Mid",
+    "wikiTitle": "Gargoyle",
+    "fallbackLvl": "111",
+    "fallbackWeak": "Crush",
+    "note": "Need a crush weapon on final hit or a rock hammer/granite hammer, or they'll keep reforming.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Granite hammer / Rune hammer / Scythe of vitur"
+      },
+      {
+        "slot": "Body",
+        "item": "Fighter torso"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      },
+      {
+        "slot": "Ammo",
+        "item": "Broad bolts"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Slayer Tower (top floor), or the Fremennik Slayer Dungeon",
+      "access": [
+        "Canifis lodestone, walk north and climb to the top of the tower",
+        "Slayer ring \u2192 Fremennik Slayer Dungeon for the alternate spawn"
+      ],
+      "unlock": "75 Slayer required to damage them at all. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Gargoyles"
+  },
+  {
+    "id": "greendragons",
+    "name": "Green Dragons",
+    "tier": "Mid",
+    "wikiTitle": "Green dragon",
+    "fallbackLvl": "79",
+    "fallbackWeak": "Stab",
+    "note": "Wear an anti-dragon shield/Dragonfire shield and bring antifire potions if in the Wilderness.",
+    "melee": [
+      {
+        "slot": "Shield",
+        "item": "Anti-dragon shield / DFS"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / dragon spear"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Shield",
+        "item": "Anti-dragon shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Shield",
+        "item": "Anti-dragon shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Antifire potion",
+      "Anti-dragon shield"
+    ],
+    "info": {
+      "location": "Wilderness (level 23-31), or the Corsair Cove dragon area",
+      "access": [
+        "Ring of dueling \u2192 Castle Wars, walk north into the Wilderness",
+        "Necklace of passage \u2192 Wilderness obelisks near dragon spawns (careful, PvP risk)"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Green Dragons"
+  },
+  {
+    "id": "hellhounds",
+    "name": "Hellhounds",
+    "tier": "Mid",
+    "wikiTitle": "Hellhound",
+    "fallbackLvl": "122-131",
+    "fallbackWeak": "Stab / Slash",
+    "note": "Bring antifire if facing fire breath variants (some do); high HP, low defence.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / Scythe"
+      },
+      {
+        "slot": "Body",
+        "item": "Fighter torso"
+      },
+      {
+        "slot": "Legs",
+        "item": "Obsidian legs"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Toxic blowpipe / Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food",
+      "Antifire (optional)"
+    ],
+    "info": {
+      "location": "Taverley Dungeon, the Karuulm Slayer Dungeon, or guarding the God Wars Dungeon entrance corridor",
+      "access": [
+        "Taverley lodestone, enter the dungeon",
+        "Trollheim teleport (Arceuus spellbook), walk to the Karuulm Slayer Dungeon"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Hellhounds",
+    "bossVariant": {
+      "name": "Cerberus",
+      "note": "Counts toward this task automatically (assigned by Vannaka, Chaeldar, Konar, Nieve, or Duradel) \u2014 no unlock needed. Requires 91 Slayer.",
+      "linkId": "cerberus"
+    }
+  },
+  {
+    "id": "hillgiants",
+    "name": "Hill Giants",
+    "tier": "Low",
+    "wikiTitle": "Hill giant",
+    "fallbackLvl": "28",
+    "fallbackWeak": "Slash",
+    "note": "Very low defence, trivial gear.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Edgeville Dungeon, or the Warriors' Guild basement area",
+      "access": [
+        "Edgeville lodestone, enter the dungeon"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Hill Giants"
+  },
+  {
+    "id": "jellies",
+    "name": "Jellies",
+    "tier": "Mid",
+    "wikiTitle": "Jelly",
+    "fallbackLvl": "78",
+    "fallbackWeak": "Crush",
+    "note": "Low accuracy but tanky. Crush weapons work best.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Granite maul / warhammer"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Fremennik Slayer Dungeon, Catacombs of Kourend, or the Iorwerth Dungeon",
+      "access": [
+        "Slayer ring \u2192 Fremennik Slayer Dungeon",
+        "Kourend Castle teleport, descend into the Catacombs"
+      ],
+      "unlock": "52 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Jellies"
+  },
+  {
+    "id": "jungle horrors",
+    "name": "Jungle Horrors",
+    "tier": "Mid",
+    "wikiTitle": "Jungle horror",
+    "fallbackLvl": "49",
+    "fallbackWeak": "Slash",
+    "note": "Karamja jungle; straightforward.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Karamja jungle, near the volcano",
+      "access": [
+        "Karamja lodestone, walk into the jungle"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "kalphiteguardians",
+    "name": "Kalphite Soldiers/Guardians",
+    "tier": "Mid",
+    "wikiTitle": "Kalphite Guardian",
+    "fallbackLvl": "87-141",
+    "fallbackWeak": "Crush (guardians)",
+    "note": "Guardians need a pickaxe equipped to hit them at all.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Pickaxe (for guardians) or scimitar"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Pickaxe",
+      "Food"
+    ],
+    "info": {
+      "location": "Kalphite Lair/Hive, south of the Shantay Pass",
+      "access": [
+        "Desert amulet 4 teleport (Kalphite Cave/Lair)",
+        "Al Kharid lodestone, then walk south past Shantay Pass"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Kalphites",
+    "bossVariant": {
+      "name": "Kalphite Queen",
+      "note": "Counts toward this task automatically \u2014 no unlock needed.",
+      "linkId": "gargoyles_boss"
+    }
+  },
+  {
+    "id": "kurask",
+    "name": "Kurask",
+    "tier": "Mid",
+    "wikiTitle": "Kurask",
+    "fallbackLvl": "106",
+    "fallbackWeak": "Slash",
+    "note": "Requires a Leaf-bladed weapon (spear/battleaxe) or broad arrows/bolts to damage at all. Stab defence is much lower than slash/crush, so the spear is the most accurate option.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Leaf-bladed spear (best) / Leaf-bladed sword / Leaf-bladed battleaxe"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Ammo",
+        "item": "Broad arrows / broad bolts"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow / any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Leaf-bladed weapon or broad ammo",
+      "Food"
+    ],
+    "info": {
+      "location": "Fremennik Slayer Dungeon",
+      "access": [
+        "Slayer ring \u2192 Fremennik Slayer Dungeon",
+        "Rellekka lodestone, follow the coast to the dungeon entrance"
+      ],
+      "unlock": "70 Slayer required (on top of the Leaf-bladed weapon requirement)."
+    },
+    "slayerTaskTitle": "Slayer task/Kurasks"
+  },
+  {
+    "id": "lizardmen",
+    "name": "Lizardmen",
+    "tier": "Mid",
+    "wikiTitle": "Lizardman",
+    "fallbackLvl": "79-107",
+    "fallbackWeak": "Stab",
+    "note": "Found in Molch/Lizardman Canyon/Underground Pass. Bring a stab weapon.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / any stab weapon"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Molch (Lizardman Canyon), or the Underground Pass",
+      "access": [
+        "Watchtower teleport (Arceuus spellbook), walk south to Molch"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Lizardmen"
+  },
+  {
+    "id": "mogres",
+    "name": "Mogres",
+    "tier": "Mid",
+    "wikiTitle": "Mogre",
+    "fallbackLvl": "101",
+    "fallbackWeak": "Anything",
+    "note": "Need raw fish or poison-free bait to lure them from mud, then attack.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar"
+      },
+      {
+        "slot": "Other",
+        "item": "Raw fish"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      },
+      {
+        "slot": "Other",
+        "item": "Raw fish"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      },
+      {
+        "slot": "Other",
+        "item": "Raw fish"
+      }
+    ],
+    "inv": [
+      "Raw fish (bait)",
+      "Food"
+    ],
+    "info": {
+      "location": "Mudskipper Point, south-west of Port Sarim",
+      "access": [
+        "Port Sarim lodestone, walk south along the coast to Mudskipper Point"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "molanisks",
+    "name": "Molanisks",
+    "tier": "Mid",
+    "wikiTitle": "Molanisk",
+    "fallbackLvl": "126",
+    "fallbackWeak": "Anything",
+    "note": "Bring a spiny helmet or take passive damage.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Spiny helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Head",
+        "item": "Spiny helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Head",
+        "item": "Spiny helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Spiny helmet",
+      "Food"
+    ],
+    "info": {
+      "location": "Ratcatchers' area / Lumbridge Swamp Caves (Molanisk Hole)",
+      "access": [
+        "Lumbridge lodestone, into the swamp caves"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Molanisks"
+  },
+  {
+    "id": "mossgiants",
+    "name": "Moss Giants",
+    "tier": "Low",
+    "wikiTitle": "Moss giant",
+    "fallbackLvl": "42-84",
+    "fallbackWeak": "Slash",
+    "note": "Low defence, good early cannon spot.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Varrock sewers, or Brimhaven Dungeon",
+      "access": [
+        "Varrock lodestone, into the sewers",
+        "Brimhaven teleport (if unlocked) for the dungeon variant"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Moss giants"
+  },
+  {
+    "id": "nechryael",
+    "name": "Nechryael",
+    "tier": "Mid",
+    "wikiTitle": "Nechryael",
+    "fallbackLvl": "115",
+    "fallbackWeak": "Slash",
+    "note": "Summons Nechryarch minions occasionally; kill minions fast to avoid pile-up.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Abyssal whip / Scythe"
+      },
+      {
+        "slot": "Body",
+        "item": "Fighter torso"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend, or the Iorwerth Dungeon",
+      "access": [
+        "Kourend Castle teleport, descend into the Catacombs"
+      ],
+      "unlock": "80 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Nechryael"
+  },
+  {
+    "id": "otherworldlybeings",
+    "name": "Otherworldly Beings",
+    "tier": "Mid",
+    "wikiTitle": "Otherworldly being",
+    "fallbackLvl": "78",
+    "fallbackWeak": "Anything",
+    "note": "Found on Zanaris; drain run energy, keep an eye on stamina.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food",
+      "Stamina potion"
+    ],
+    "info": {
+      "location": "Zanaris",
+      "access": [
+        "Dramen/Lunar staff teleport to Zanaris (Lost City quest)"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "trolls",
+    "name": "Trolls (mountain/ice/river)",
+    "tier": "Mid",
+    "wikiTitle": "Mountain troll",
+    "fallbackLvl": "69-88",
+    "fallbackWeak": "Varies",
+    "note": "Ice trolls in Trollheim can be safespotted; regular trolls are melee-only weak spots.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Rune scimitar / whip"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Trollheim (mountain trolls), or the Wilderness (ice/river trolls)",
+      "access": [
+        "Trollheim teleport (Arceuus spellbook)",
+        "Burthorpe lodestone, walk up Trollheim Mountain"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Trolls"
+  },
+  {
+    "id": "turoth",
+    "name": "Turoth",
+    "tier": "Mid",
+    "wikiTitle": "Turoth",
+    "fallbackLvl": "83",
+    "fallbackWeak": "Slash",
+    "note": "Requires Leaf-bladed weapon or broad ammo, same as Kurask. Stab defence is much lower than slash/crush, so the spear is the most accurate option.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Leaf-bladed spear (best) / Leaf-bladed sword"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Ammo",
+        "item": "Broad arrows / broad bolts"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Leaf-bladed weapon or broad ammo",
+      "Food"
+    ],
+    "info": {
+      "location": "Fremennik Slayer Dungeon",
+      "access": [
+        "Slayer ring \u2192 Fremennik Slayer Dungeon",
+        "Rellekka lodestone, follow the coast to the dungeon entrance"
+      ],
+      "unlock": "55 Slayer required (on top of the Leaf-bladed weapon requirement)."
+    },
+    "slayerTaskTitle": "Slayer task/Turoth"
+  },
+  {
+    "id": "tzhaar",
+    "name": "Tzhaar (Tok/Xil/Mej)",
+    "tier": "Mid",
+    "wikiTitle": "TzHaar-Ket",
+    "fallbackLvl": "90-193",
+    "fallbackWeak": "Varies by type",
+    "note": "Obsidian weapons + TzHaar-ket-em give a damage bonus vs Tzhaar.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Obsidian weapon (tzhaar set bonus)"
+      },
+      {
+        "slot": "Body",
+        "item": "Fire cape optional"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food",
+      "Prayer potion"
+    ],
+    "info": {
+      "location": "Mor Ul Rek, the TzHaar City beneath Karamja volcano",
+      "access": [
+        "Karamja lodestone, enter the volcano and descend to Mor Ul Rek"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/TzHaar"
+  },
+  {
+    "id": "wyrms",
+    "name": "Wyrms",
+    "tier": "Mid",
+    "wikiTitle": "Wyrm",
+    "fallbackLvl": "99",
+    "fallbackWeak": "Stab",
+    "note": "Found in Karuulm Slayer Dungeon; low defence but high HP. Stab defence is much lower than slash/crush.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Zamorakian spear / Osmumten's fang"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow / blowpipe"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food",
+      "Boots of stone (dungeon entry)"
+    ],
+    "info": {
+      "location": "Karuulm Slayer Dungeon",
+      "access": [
+        "Trollheim teleport (Arceuus spellbook), or Weiss teleport (requires Making Friends with My Arm), then walk to the Karuulm Slayer Dungeon"
+      ],
+      "unlock": "62 Slayer required."
+    },
+    "slayerTaskTitle": "Slayer task/Wyrms"
+  },
+  {
+    "id": "abyssaldemons",
+    "name": "Abyssal Demons",
+    "tier": "High",
+    "wikiTitle": "Abyssal demon",
+    "fallbackLvl": "124",
+    "fallbackWeak": "Slash",
+    "note": "Abyssal whip is iconic here for the passive teleport chance drop; low defence.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet (i)"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Abyssal whip / Scythe of Vitur"
+      },
+      {
+        "slot": "Body",
+        "item": "Bandos chestplate"
+      },
+      {
+        "slot": "Legs",
+        "item": "Bandos tassets"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow / blowpipe"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend, or the Iorwerth Dungeon",
+      "access": [
+        "Kourend Castle teleport, descend into the Catacombs"
+      ],
+      "unlock": "85 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Abyssal demons"
+  },
+  {
+    "id": "ankou",
+    "name": "Ankou",
+    "tier": "High",
+    "wikiTitle": "Ankou",
+    "fallbackLvl": "anywhere 35-100",
+    "fallbackWeak": "Crush",
+    "note": "High accuracy hits, bring food/prayer.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Warhammer / crush weapon"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food",
+      "Prayer potion"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend, Stronghold of Security, or the Chasm of Fear",
+      "access": [
+        "Kourend Castle teleport, descend into the Catacombs",
+        "Slayer ring \u2192 Chasm of Fear"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Ankou"
+  },
+  {
+    "id": "aviansies",
+    "name": "Aviansies",
+    "tier": "High",
+    "wikiTitle": "Aviansie",
+    "fallbackLvl": "120-207",
+    "fallbackWeak": "Ranged/Magic",
+    "note": "God Wars Dungeon (Armadyl). Melee is inefficient here; use ranged or mage.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Not recommended"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Armadyl crossbow / Blowpipe"
+      },
+      {
+        "slot": "Body",
+        "item": "Armadyl armour or Ranged tank gear"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any strong spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food",
+      "Ranging potion"
+    ],
+    "info": {
+      "location": "God Wars Dungeon, Armadyl's chamber",
+      "access": [
+        "Burthorpe lodestone, enter the Godwars Dungeon (requires Troll Stronghold quest) and cross the ice to Armadyl's room"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Aviansies"
+  },
+  {
+    "id": "blackdemons",
+    "name": "Black Demons",
+    "tier": "High",
+    "wikiTitle": "Black demon",
+    "fallbackLvl": "172",
+    "fallbackWeak": "Stab",
+    "note": "High HP tank, cannon-friendly spots exist (Catacombs/Taverley Dungeon).",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet (i)"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / Scythe"
+      },
+      {
+        "slot": "Body",
+        "item": "Bandos chestplate"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend, Taverley Dungeon, or Chasm of Fear",
+      "access": [
+        "Kourend Castle teleport, descend into the Catacombs",
+        "Taverley lodestone, enter the dungeon"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Black demons"
+  },
+  {
+    "id": "bluedragons",
+    "name": "Blue Dragons",
+    "tier": "High",
+    "wikiTitle": "Blue dragon",
+    "fallbackLvl": "111",
+    "fallbackWeak": "Stab",
+    "note": "Bring antifire potion and an anti-dragon shield/DFS.",
+    "melee": [
+      {
+        "slot": "Shield",
+        "item": "Anti-dragon shield / DFS"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / dragon spear"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Shield",
+        "item": "Anti-dragon shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Shield",
+        "item": "Anti-dragon shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Antifire potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Taverley Dungeon, or the Ogre Enclave dragons",
+      "access": [
+        "Taverley lodestone, enter the dungeon"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Blue dragons"
+  },
+  {
+    "id": "brinerats",
+    "name": "Brine Rats",
+    "tier": "High",
+    "wikiTitle": "Brine rat",
+    "fallbackLvl": "99",
+    "fallbackWeak": "Anything",
+    "note": "Low defence, found only in the Brine Rat Cavern via Isle of Souls diplomacy.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Any scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food"
+    ],
+    "info": {
+      "location": "Brine Rat Cavern, Isle of Souls",
+      "access": [
+        "Isle of Souls diplomacy (Cabin Fever) required, then boat from Port Sarim or Land's End"
+      ]
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "cavehorrors",
+    "name": "Cave Horrors",
+    "tier": "High",
+    "wikiTitle": "Cave horror",
+    "fallbackLvl": "93",
+    "fallbackWeak": "Slash",
+    "note": "Requires the Mort'ton Mask (or slayer helmet) or a witchwood icon, or you'll be stat-drained.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet or Mort'ton mask"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Abyssal whip"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Mort'ton mask (if no slayer helm)",
+      "Food"
+    ],
+    "info": {
+      "location": "Mort'ton cave, Morytania",
+      "access": [
+        "Mort'ton teleport (Shades of Mort'ton reward), enter the cave (requires Cabin Fever quest)"
+      ],
+      "unlock": "58 Slayer required; also needs the Cabin Fever quest completed for cave access."
+    },
+    "slayerTaskTitle": "Slayer task/Cave horrors"
+  },
+  {
+    "id": "dagannoth",
+    "name": "Dagannoth (regular)",
+    "tier": "High",
+    "wikiTitle": "Dagannoth",
+    "fallbackLvl": "88-139",
+    "fallbackWeak": "Varies",
+    "note": "Waterbirth Island dungeon; watch for the mixed melee/range/mage variants.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / whip"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Waterbirth Island dungeon",
+      "access": [
+        "Fishing boat from Rellekka to Waterbirth Island (requires Horror from the Deep quest)"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Dagannoth"
+  },
+  {
+    "id": "darkbeasts",
+    "name": "Dark Beasts",
+    "tier": "High",
+    "wikiTitle": "Dark beast",
+    "fallbackLvl": "182",
+    "fallbackWeak": "Stab",
+    "note": "High HP and hits hard; strong melee tank gear recommended. Stab defence is lowest (slash is a close second, so a whip still works).",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet (i)"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Zamorakian spear / Osmumten's fang"
+      },
+      {
+        "slot": "Body",
+        "item": "Bandos chestplate"
+      },
+      {
+        "slot": "Legs",
+        "item": "Bandos tassets"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Mourner Tunnels / Iorwerth Dungeon, Tirannwn",
+      "access": [
+        "Slayer ring \u2192 Dark Beasts",
+        "Requires Mourning's End Part II for direct tunnel access"
+      ],
+      "unlock": "90 Slayer required. The 'Bigger and Badder' Slayer Reward unlock (50 points, purchasable from any Slayer master) gives this task a chance to spawn a tougher 'superior' variant with better drops."
+    },
+    "slayerTaskTitle": "Slayer task/Dark beast"
+  },
+  {
+    "id": "drakes",
+    "name": "Drakes",
+    "tier": "High",
+    "wikiTitle": "Drake",
+    "fallbackLvl": "122",
+    "fallbackWeak": "Stab",
+    "note": "Karuulm Slayer Dungeon; breathes acid \u2014 bring antifire-adjacent or move out of pools.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / Scythe"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food",
+      "Boots of stone"
+    ],
+    "info": {
+      "location": "Karuulm Slayer Dungeon",
+      "access": [
+        "Trollheim teleport (Arceuus spellbook), or Weiss teleport (requires Making Friends with My Arm), then walk to the Karuulm Slayer Dungeon"
+      ],
+      "unlock": "84 Slayer required."
+    },
+    "slayerTaskTitle": "Slayer task/Drake"
+  },
+  {
+    "id": "elves",
+    "name": "Elves",
+    "tier": "High",
+    "wikiTitle": "Elf Warrior",
+    "fallbackLvl": "118-136",
+    "fallbackWeak": "Varies",
+    "note": "Found in Tirannwn; crystal weapons give a bonus. Requires Regicide/Song of Elves quests.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / Scythe"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow / crystal bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Tirannwn (Prifddinas/Lletya area)",
+      "access": [
+        "Prifddinas teleport (if unlocked via Song of the Elves)",
+        "Grand tree/spirit tree network, then walk through the Underground Pass (Regicide)"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Elves"
+  },
+  {
+    "id": "fossilwyverns",
+    "name": "Fossil Island Wyverns",
+    "tier": "High",
+    "wikiTitle": "Long-tailed Wyvern",
+    "fallbackLvl": "210",
+    "fallbackWeak": "Stab",
+    "note": "Bring an elemental/ancient wyvern shield to block the frost breath, or you take heavy damage.",
+    "melee": [
+      {
+        "slot": "Shield",
+        "item": "Elemental/Ancient wyvern shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Shield",
+        "item": "Elemental/Ancient wyvern shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Shield",
+        "item": "Elemental/Ancient wyvern shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Wyvern shield",
+      "Food",
+      "Prayer potion"
+    ],
+    "info": {
+      "location": "Wyvern Cave, Fossil Island",
+      "access": [
+        "Fossil Island boat from the Digsite (requires Bone Voyage), then walk to the Wyvern Cave"
+      ],
+      "unlock": "66 Slayer required."
+    },
+    "slayerTaskTitle": "Slayer task/Fossil Island wyverns"
+  },
+  {
+    "id": "greaterdemons",
+    "name": "Greater Demons",
+    "tier": "High",
+    "wikiTitle": "Greater demon",
+    "fallbackLvl": "92-100",
+    "fallbackWeak": "Stab",
+    "note": "Cannon-friendly in many spots; fairly tanky.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet (i)"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / Scythe"
+      },
+      {
+        "slot": "Body",
+        "item": "Bandos chestplate"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Catacombs of Kourend, Karuulm Slayer Dungeon, or Chasm of Fear",
+      "access": [
+        "Kourend Castle teleport, descend into the Catacombs"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Greater demons"
+  },
+  {
+    "id": "hydras",
+    "name": "Hydras (Alchemical/regular)",
+    "tier": "Master",
+    "wikiTitle": "Hydra",
+    "fallbackLvl": "188-426",
+    "fallbackWeak": "Stab/Slash",
+    "note": "Boss-tier task \u2014 bring a Guardian boots/serpentine helm setup for poison and reduced fire damage.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Serpentine helm / Slayer helmet (i)"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / Scythe of Vitur"
+      },
+      {
+        "slot": "Body",
+        "item": "Bandos chestplate"
+      },
+      {
+        "slot": "Legs",
+        "item": "Bandos tassets"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Twisted bow / rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Sanguinesti staff / any strong spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Anti-venom+",
+      "Food"
+    ],
+    "info": {
+      "location": "Karuulm Slayer Dungeon (Alchemical Hydra requires 95 Slayer)",
+      "access": [
+        "Trollheim teleport (Arceuus spellbook), or Weiss teleport (requires Making Friends with My Arm), then walk to the Karuulm Slayer Dungeon"
+      ],
+      "unlock": "95 Slayer required for the Alchemical Hydra."
+    },
+    "slayerTaskTitle": "Slayer task/Hydras"
+  },
+  {
+    "id": "kraken",
+    "name": "Kraken",
+    "tier": "Master",
+    "wikiTitle": "Kraken",
+    "fallbackLvl": "291",
+    "fallbackWeak": "Magic",
+    "note": "Boss task; use magic on the main body, melee the tentacle if it appears in melee range.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Trident of the seas (as magic weapon)"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Not recommended"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Trident of the seas / Trident of the swamp"
+      },
+      {
+        "slot": "Body",
+        "item": "Mystic robes"
+      },
+      {
+        "slot": "Neck",
+        "item": "Occult necklace"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food",
+      "Stamina potion"
+    ],
+    "info": {
+      "location": "Kraken Cove (requires 87 Slayer)",
+      "access": [
+        "Karamja lodestone or Ardougne lodestone, then follow the slayer task map waypoint to the Kraken Cove entrance"
+      ],
+      "unlock": "87 Slayer required."
+    },
+    "slayerTaskTitle": "Slayer task/kraken"
+  },
+  {
+    "id": "skeletalwyverns",
+    "name": "Skeletal Wyverns",
+    "tier": "High",
+    "wikiTitle": "Skeletal Wyvern",
+    "fallbackLvl": "140",
+    "fallbackWeak": "Slash/Crush",
+    "note": "Frost breath drains stats \u2014 bring an elemental/ancient wyvern shield. Very high stab defence \u2014 avoid stab weapons here.",
+    "melee": [
+      {
+        "slot": "Shield",
+        "item": "Elemental/Ancient wyvern shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Abyssal whip / Granite maul"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Shield",
+        "item": "Elemental/Ancient wyvern shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Shield",
+        "item": "Elemental/Ancient wyvern shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Wyvern shield",
+      "Food",
+      "Prayer potion"
+    ],
+    "info": {
+      "location": "Asgarnia Ice Dungeon, deep section",
+      "access": [
+        "Falador lodestone, enter the Ice Dungeon and head to the deepest section"
+      ],
+      "unlock": "72 Slayer required."
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "smokedevils",
+    "name": "Smoke Devils",
+    "tier": "High",
+    "wikiTitle": "Smoke devil",
+    "fallbackLvl": "160",
+    "fallbackWeak": "Slash",
+    "note": "Thermonuclear smoke devil is the boss variant; regular ones are straightforward melee/range.",
+    "melee": [
+      {
+        "slot": "Head",
+        "item": "Slayer helmet (i)"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Abyssal whip / Scythe"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow / blowpipe"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Smoke Devil Dungeon (requires 93 Slayer)",
+      "access": [
+        "Follow the slayer task map waypoint to the Smoke Devil Dungeon entrance"
+      ],
+      "unlock": "93 Slayer required. No unlock needed for the boss: Thermonuclear Smoke Devil is simply part of the Smoke devil task and can be fought whenever you're assigned one (assigned by Konar, Nieve, or Duradel)."
+    },
+    "slayerTaskTitle": "Slayer task/Smoke devil",
+    "bossVariant": {
+      "name": "Thermonuclear Smoke Devil",
+      "note": "Counts toward this task automatically (assigned by Konar, Nieve, or Duradel) \u2014 no unlock needed.",
+      "linkId": "thermonuclear_smoke_devil"
+    }
+  },
+  {
+    "id": "spiritualcreatures",
+    "name": "Spiritual Mages/Rangers/Warriors",
+    "tier": "High",
+    "wikiTitle": "Spiritual mage",
+    "fallbackLvl": "110-130",
+    "fallbackWeak": "Varies by type",
+    "note": "God Wars Dungeon; requires access via killcount or Zamorak/Saradomin favor.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / Scythe"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "God Wars Dungeon (faction-specific chambers)",
+      "access": [
+        "Burthorpe lodestone, enter the Godwars Dungeon (requires Troll Stronghold quest), then the relevant faction room"
+      ],
+      "unlock": "63 Slayer required."
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "suqahs",
+    "name": "Suqahs",
+    "tier": "High",
+    "wikiTitle": "Suqah",
+    "fallbackLvl": "124",
+    "fallbackWeak": "Stab",
+    "note": "Found on Lunar Isle; unique drops feed into Lunar spellbook items.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / stab weapon"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food",
+      "Prayer potion"
+    ],
+    "info": {
+      "location": "Lunar Isle",
+      "access": [
+        "Lunar Isle teleport (Lunar spellbook, requires Lunar Diplomacy), or boat from Pirates' Cove"
+      ],
+      "unlock": "43 Slayer required."
+    },
+    "slayerTaskTitle": "Slayer task/Suqah"
+  },
+  {
+    "id": "dragons_generic",
+    "name": "Rune/Black/Iron/Steel/Mithril/Adamant Dragons",
+    "tier": "Master",
+    "wikiTitle": "Black dragon",
+    "fallbackLvl": "varies",
+    "fallbackWeak": "Stab",
+    "note": "Wear an anti-dragon shield/DFS and bring antifire potions \u2014 dragonfire hits hard without protection.",
+    "melee": [
+      {
+        "slot": "Shield",
+        "item": "Dragonfire shield / Anti-dragon shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Osmumten's fang / Scythe of Vitur"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Shield",
+        "item": "Dragonfire shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Shield",
+        "item": "Dragonfire shield"
+      },
+      {
+        "slot": "Weapon",
+        "item": "Any strong spell"
+      }
+    ],
+    "inv": [
+      "Antifire potion (extended if possible)",
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Varies by dragon type \u2014 Taverley Dungeon, Brimhaven Dungoen, Isle of Souls, or the Wilderness",
+      "access": [
+        "Taverley lodestone for Taverley Dungeon dragons",
+        "Ring of dueling/necklace of passage for Wilderness dragons (PvP risk)"
+      ]
+    },
+    "slayerTaskTitle": null,
+    "bossVariant": {
+      "name": "King Black Dragon",
+      "note": "Counts toward a black dragon task automatically, except when assigned by Krystilia.",
+      "linkId": "king_black_dragon"
+    }
+  },
+  {
+    "id": "gargoyles_boss",
+    "name": "Kalphite Queen (boss task)",
+    "tier": "Master",
+    "wikiTitle": "Kalphite Queen",
+    "fallbackLvl": "333",
+    "fallbackWeak": "Crush (phase 1, ground form) / Ranged & Magic (phase 2, flying form \u2014 melee is resisted equally)",
+    "note": "Boss task; bring an anti-dragon shield for the ranged breath phase. Melee the ground form with a crush weapon, then switch to ranged/magic once she takes flight.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Elder maul / Granite maul (phase 1 only)"
+      },
+      {
+        "slot": "Shield",
+        "item": "Anti-dragon shield"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Twisted bow / rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Sanguinesti staff / any strong spell"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food",
+      "Anti-dragon shield"
+    ],
+    "info": {
+      "location": "Kalphite Lair, deep chamber (Kalphite Queen)",
+      "access": [
+        "Desert amulet 4 teleport (Kalphite Cave/Lair), descend to the Queen's chamber"
+      ],
+      "unlock": "No unlock needed: Kalphite Queen is simply part of the Kalphite task and can be fought whenever you're assigned Kalphite Workers/Guardians/Soldiers."
+    },
+    "slayerTaskTitle": null
+  },
+  {
+    "id": "wild_firegiants",
+    "name": "Fire Giants (Wilderness)",
+    "tier": "Wilderness",
+    "wikiTitle": "Fire giant",
+    "fallbackLvl": "86",
+    "fallbackWeak": "Stab",
+    "note": "Deep Wilderness Dungeon, single-way combat. Bring low-risk gear \u2014 PKer danger.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Cheap scimitar"
+      },
+      {
+        "slot": "Head",
+        "item": "Neitiznot faceguard or budget helm"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      },
+      {
+        "slot": "Body",
+        "item": "Black d'hide"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food",
+      "Teleport (essential)",
+      "Looting bag"
+    ],
+    "info": {
+      "location": "Deep Wilderness Dungeon",
+      "access": [
+        "Ring of dueling \u2192 Castle Wars, then north into the Wilderness Dungeon entrance (PvP risk, single-way combat)"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Fire giant"
+  },
+  {
+    "id": "wild_hellhounds",
+    "name": "Hellhounds (Wilderness)",
+    "tier": "Wilderness",
+    "wikiTitle": "Hellhound",
+    "fallbackLvl": "122",
+    "fallbackWeak": "Stab/Slash",
+    "note": "Multicombat area; bring a budget setup you can afford to lose, and a fast teleport.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Budget scimitar"
+      },
+      {
+        "slot": "Head",
+        "item": "Cheap helm"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Rune crossbow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food",
+      "Teleport (essential)",
+      "Looting bag"
+    ],
+    "info": {
+      "location": "Wilderness, various multi-combat spots (e.g. level 40+ Wilderness)",
+      "access": [
+        "Necklace of passage \u2192 nearest Wilderness obelisk, or Ring of dueling \u2192 Ferox Enclave then north (PvP risk)"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Hellhounds",
+    "bossVariant": {
+      "name": "Cerberus",
+      "note": "Counts toward this task automatically \u2014 no unlock needed. Requires 91 Slayer.",
+      "linkId": "cerberus"
+    }
+  },
+  {
+    "id": "wild_spiders",
+    "name": "Spiders (Wilderness)",
+    "tier": "Wilderness",
+    "wikiTitle": "Spider",
+    "fallbackLvl": "varies",
+    "fallbackWeak": "Anything",
+    "note": "Low risk, low reward \u2014 keep gear cheap due to PKer risk.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Budget scimitar"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Any bow"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Any spell"
+      }
+    ],
+    "inv": [
+      "Food",
+      "Teleport"
+    ],
+    "info": {
+      "location": "Wilderness, various low-level spots",
+      "access": [
+        "Ring of dueling \u2192 Ferox Enclave, walk into the nearby Wilderness (PvP risk)"
+      ]
+    },
+    "slayerTaskTitle": "Slayer task/Spiders"
+  },
+  {
+    "id": "cerberus",
+    "name": "Cerberus",
+    "tier": "Master",
+    "wikiTitle": "Cerberus",
+    "fallbackLvl": "318",
+    "fallbackWeak": "Crush",
+    "note": "Not a Slayer task itself \u2014 it's the boss variant of the Hellhound task, only enterable while assigned Hellhounds or Cerberus. Attacks with all three combat styles (max hit 23) including a melee hit that reaches at range. Her 'howl' special summons 3 souls that drain prayer (reduce with Ward of Arceuus / spectral spirit shield) or HP if unblocked; her 'fire spit' special drops lava pools \u2014 dragonfire protection reduces the damage.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Elder maul / crush weapon (best raw accuracy) \u2014 many players use Arclight/Emberlight instead for the demonbane bonus despite the slash mismatch"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet (i)"
+      },
+      {
+        "slot": "Body",
+        "item": "Bandos chestplate"
+      },
+      {
+        "slot": "Legs",
+        "item": "Bandos tassets"
+      },
+      {
+        "slot": "Feet",
+        "item": "Avernic treads (max) / Primordial boots"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Not recommended \u2014 very high ranged defence"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Sanguinesti staff / Trident of the swamp (viable secondary, moderate defence)"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food",
+      "Ward of Arceuus or Spectral spirit shield (prayer drain reduction)",
+      "Antifire potion (reduces fire-spit special damage)"
+    ],
+    "info": {
+      "location": "Cerberus' Lair, reached through Taverley Dungeon",
+      "unlock": "91 Slayer required. Entry is gated \u2014 the Key Master inside Taverley Dungeon only lets you through while assigned Hellhounds or Cerberus as your Slayer task.",
+      "access": [
+        "Taverley lodestone, enter Taverley Dungeon, find the cave entrance in the north-east of the hellhound area",
+        "Key master teleport (uncommon drop from Cerberus) once you've obtained one"
+      ]
+    }
+  },
+  {
+    "id": "thermonuclear_smoke_devil",
+    "name": "Thermonuclear Smoke Devil",
+    "tier": "Master",
+    "wikiTitle": "Thermonuclear smoke devil",
+    "fallbackLvl": "301",
+    "fallbackWeak": "Slash",
+    "note": "Not a Slayer task itself \u2014 it's the boss variant of the Smoke devil task, fought in the same Smoke Devil Dungeon. Its own attack is typeless magical-ranged (max hit only 8, low), so incoming damage is manageable \u2014 the fight is mostly a DPS race. Overwhelmingly weak to melee (especially slash); ranged and magic are heavily resisted, don't use them.",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Abyssal whip / Scythe of Vitur / Osmumten's fang"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet (i)"
+      },
+      {
+        "slot": "Body",
+        "item": "Bandos chestplate"
+      },
+      {
+        "slot": "Legs",
+        "item": "Bandos tassets"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Not recommended \u2014 extremely high ranged defence"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Not recommended \u2014 extremely high magic defence"
+      }
+    ],
+    "inv": [
+      "Prayer potion",
+      "Food"
+    ],
+    "info": {
+      "location": "Smoke Devil Dungeon",
+      "unlock": "93 Slayer required. No special unlock \u2014 simply part of the Smoke devil task, assigned by Konar, Nieve, or Duradel.",
+      "access": [
+        "Fairy ring code BKP, then travel south-west to the dungeon",
+        "Ring of dueling to Castle Wars, then run south-west"
+      ]
+    }
+  },
+  {
+    "id": "king_black_dragon",
+    "name": "King Black Dragon",
+    "tier": "Master",
+    "wikiTitle": "King Black Dragon",
+    "fallbackLvl": "276",
+    "fallbackWeak": "Stab",
+    "note": "Not a Slayer task itself \u2014 KBD counts as a kill toward a Black dragon task automatically (except when that task is assigned by Krystilia). Located in the Wilderness \u2014 PvP risk. Attacks with melee plus four dragonfire breath types (normal, shock, ice, poison); the special breaths hit for less but each needs full dragonfire protection to avoid a secondary effect (stat drain, freeze, or poison).",
+    "melee": [
+      {
+        "slot": "Weapon",
+        "item": "Dragon hunter lance"
+      },
+      {
+        "slot": "Head",
+        "item": "Slayer helmet (i)"
+      },
+      {
+        "slot": "Shield",
+        "item": "Dragonfire shield / Anti-dragon shield"
+      },
+      {
+        "slot": "Body",
+        "item": "Bandos chestplate"
+      },
+      {
+        "slot": "Legs",
+        "item": "Bandos tassets"
+      }
+    ],
+    "ranged": [
+      {
+        "slot": "Weapon",
+        "item": "Dragon hunter crossbow"
+      },
+      {
+        "slot": "Shield",
+        "item": "Dragonfire shield / Anti-dragon shield"
+      }
+    ],
+    "magic": [
+      {
+        "slot": "Weapon",
+        "item": "Dragon hunter wand"
+      },
+      {
+        "slot": "Shield",
+        "item": "Dragonfire shield / Anti-dragon shield"
+      }
+    ],
+    "inv": [
+      "Antifire potion (extended if possible)",
+      "Prayer potion",
+      "Food",
+      "Looting bag (Wilderness)"
+    ],
+    "info": {
+      "location": "King Black Dragon Lair, deep Wilderness",
+      "unlock": null,
+      "access": [
+        "Burning amulet, teleports to the Lava Maze just south-east of the lair entrance \u2014 fastest and most reliable method",
+        "Wilderness obelisk network (PvP risk increases with depth)"
+      ]
+    }
+  }
+]

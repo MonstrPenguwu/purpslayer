@@ -1,0 +1,2231 @@
+{
+  "generatedAt": "2026-07-13T19:50:06Z",
+  "source": "https://oldschool.runescape.wiki",
+  "monsters": {
+    "banshees": {
+      "combatLevel": "23",
+      "hitpoints": "22",
+      "maxHit": "2, 6 (without Earmuffs)",
+      "attackStyle": "Magical melee",
+      "attribute": "undead, spectral",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "30",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "15",
+      "slayerXp": "22",
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Banshees",
+      "membersOnly": "Yes",
+      "releaseDate": "26 January 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Banshee"
+    },
+    "bats": {
+      "combatLevel": "27",
+      "hitpoints": "32",
+      "maxHit": "3",
+      "attackStyle": "Stab",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "10",
+      "aggressive": [
+        "Yes",
+        "No"
+      ],
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "32",
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Bats",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "27 February 2002",
+        "7 January 2016"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Giant_bat"
+    },
+    "bears": {
+      "combatLevel": "19",
+      "hitpoints": "25",
+      "maxHit": "3",
+      "attackStyle": "Slash",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "30",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "25",
+      "assignedBy": "turael,spria,krystilia,mazchna",
+      "category": "Bears",
+      "membersOnly": "No",
+      "releaseDate": "4 January 2001",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Black_bear"
+    },
+    "birds": {
+      "combatLevel": "1",
+      "hitpoints": "3",
+      "maxHit": "0",
+      "attackStyle": "Stab",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "3",
+      "assignedBy": "turael,spria",
+      "category": "Birds",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "4 January 2001",
+        "29 November 2004",
+        "11 July 2005",
+        "25 November 2020"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Chicken"
+    },
+    "cavebugs": {
+      "combatLevel": [
+        "6",
+        "96"
+      ],
+      "hitpoints": [
+        "5",
+        "93"
+      ],
+      "maxHit": [
+        "1",
+        "9"
+      ],
+      "attackStyle": [
+        "Stab",
+        "Crush"
+      ],
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "50",
+      "aggressive": [
+        "Yes",
+        "No"
+      ],
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "7",
+      "slayerXp": [
+        "5",
+        "93"
+      ],
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Cave Bugs",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "14 March 2005",
+        "20 March 2007"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Cave_bug"
+    },
+    "cavecrawlers": {
+      "combatLevel": "23",
+      "hitpoints": "22",
+      "maxHit": "3",
+      "attackStyle": "Stab",
+      "aggressive": "Yes",
+      "poisonous": "Yes (8)",
+      "attackSpeed": "4",
+      "slayerLevel": "10",
+      "slayerXp": "22",
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Cave Crawlers",
+      "membersOnly": "Yes",
+      "releaseDate": "26 January 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Cave_crawler"
+    },
+    "caveslimes": {
+      "combatLevel": "23",
+      "hitpoints": "25",
+      "maxHit": "2",
+      "attackStyle": "Stab",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "No",
+      "poisonous": "Yes (3)",
+      "attackSpeed": "4",
+      "slayerLevel": "17",
+      "slayerXp": "25",
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Cave Slimes",
+      "membersOnly": "Yes",
+      "releaseDate": "14 March 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Cave_slime"
+    },
+    "crawlinghands": {
+      "combatLevel": [
+        "7",
+        "8",
+        "11",
+        "12"
+      ],
+      "hitpoints": [
+        "15",
+        "16",
+        "18",
+        "19"
+      ],
+      "maxHit": [
+        "1",
+        "2"
+      ],
+      "attackStyle": "Crush",
+      "attribute": "undead",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "5",
+      "slayerXp": [
+        "12",
+        "16",
+        "19"
+      ],
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Crawling Hands",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "4 June 2020",
+        "26 January 2005"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Crawling_Hand"
+    },
+    "dogs": {
+      "combatLevel": "21",
+      "hitpoints": "27",
+      "maxHit": "3",
+      "attackStyle": "Stab",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "10",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "27",
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Dogs",
+      "membersOnly": "Yes",
+      "releaseDate": "26 April 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Jackal"
+    },
+    "dwarves": {
+      "combatLevel": [
+        "10",
+        "20",
+        "11",
+        "7"
+      ],
+      "hitpoints": [
+        "16",
+        "26",
+        "12",
+        "18",
+        "13",
+        "10"
+      ],
+      "maxHit": [
+        "2",
+        "3"
+      ],
+      "attackStyle": [
+        "Stab",
+        "Crush"
+      ],
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": [
+        "5",
+        "6",
+        "4"
+      ],
+      "slayerXp": [
+        "16",
+        "26",
+        "12",
+        "13",
+        "10",
+        "18"
+      ],
+      "assignedBy": "turael,spria",
+      "category": "Dwarves",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "6 April 2001",
+        "28 May 2002",
+        "20 February 2006",
+        "10 January 2019"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dwarf"
+    },
+    "ghosts": {
+      "combatLevel": [
+        "19",
+        "76",
+        "77"
+      ],
+      "hitpoints": [
+        "25",
+        "75",
+        "80"
+      ],
+      "maxHit": [
+        "2",
+        "7"
+      ],
+      "attackStyle": "Crush",
+      "attribute": "undead, spectral",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "25",
+        "75",
+        "80"
+      ],
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Ghosts",
+      "membersOnly": "No",
+      "releaseDate": [
+        "4 January 2001",
+        "4 July 2006"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ghost"
+    },
+    "goblins": {
+      "combatLevel": [
+        "2",
+        "5",
+        "13"
+      ],
+      "hitpoints": [
+        "5",
+        "12",
+        "16"
+      ],
+      "maxHit": [
+        "1",
+        "2"
+      ],
+      "attackStyle": [
+        "Crush",
+        "Stab"
+      ],
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": [
+        "4",
+        "6"
+      ],
+      "slayerXp": [
+        "5",
+        "12",
+        "16"
+      ],
+      "assignedBy": "turael,spria",
+      "category": "Goblins",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "4 January 2001",
+        "13 June 2006",
+        "3 March 2003"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Goblin"
+    },
+    "icefiends": {
+      "combatLevel": [
+        "13",
+        "18"
+      ],
+      "hitpoints": [
+        "15",
+        "20"
+      ],
+      "maxHit": [
+        "2",
+        "3"
+      ],
+      "attackStyle": "Magical melee",
+      "attribute": "demon",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "100",
+      "aggressive": [
+        "No",
+        "Yes, unless wearing a Zamorak-affiliated item"
+      ],
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "15",
+        "20"
+      ],
+      "assignedBy": "turael,spria",
+      "category": "Icefiends",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "15 March 2006",
+        "17 October 2013"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ice_fiend"
+    },
+    "kalphiteworkers": {
+      "combatLevel": "28",
+      "hitpoints": "40",
+      "maxHit": "3",
+      "attackStyle": "Crush",
+      "attribute": "kalphite",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "Only in the lower level of Kalphite Lair",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "40",
+      "assignedBy": "turael,spria,mazchna,vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Kalphite",
+      "membersOnly": "Yes",
+      "releaseDate": "7 September 2004",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Worker"
+    },
+    "lizards": {
+      "combatLevel": "42",
+      "hitpoints": "40",
+      "maxHit": "5",
+      "attackStyle": "Crush",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "22",
+      "slayerXp": "40",
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Lizards",
+      "membersOnly": "Yes",
+      "releaseDate": "24 October 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Lizard"
+    },
+    "minotaurs": {
+      "combatLevel": [
+        "12",
+        "27",
+        "19"
+      ],
+      "hitpoints": [
+        "10",
+        "22",
+        "13"
+      ],
+      "maxHit": [
+        "2",
+        "3"
+      ],
+      "attackStyle": "Crush",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "10",
+        "22",
+        "13"
+      ],
+      "assignedBy": "turael,spria",
+      "category": "Minotaurs",
+      "membersOnly": "No",
+      "releaseDate": "4 July 2006",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Minotaur"
+    },
+    "monkeys": {
+      "combatLevel": "3",
+      "hitpoints": "6",
+      "maxHit": "1",
+      "attackStyle": "Crush",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "6",
+      "assignedBy": "turael,spria",
+      "category": "Monkeys",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "29 March 2004",
+        "4 July 2006"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Monkey_(monster)"
+    },
+    "rats": {
+      "combatLevel": [
+        "3",
+        "6",
+        "26"
+      ],
+      "hitpoints": [
+        "5",
+        "10",
+        "25"
+      ],
+      "maxHit": [
+        "1",
+        "3"
+      ],
+      "attackStyle": "Stab",
+      "attribute": "rat",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "5",
+        "10",
+        "25"
+      ],
+      "assignedBy": "turael,spria",
+      "category": "Rats",
+      "membersOnly": "No",
+      "releaseDate": [
+        "4 January 2001",
+        "4 July 2006"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Giant_rat"
+    },
+    "scorpions": {
+      "combatLevel": [
+        "1",
+        "14",
+        "37",
+        "38",
+        "59"
+      ],
+      "hitpoints": [
+        "2",
+        "17",
+        "37",
+        "15",
+        "55"
+      ],
+      "maxHit": [
+        "0",
+        "2",
+        "4",
+        "15",
+        "6"
+      ],
+      "attackStyle": "Stab",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "25",
+      "aggressive": [
+        "No",
+        "Yes"
+      ],
+      "poisonous": [
+        "No",
+        "Yes (1)"
+      ],
+      "attackSpeed": "4",
+      "slayerXp": [
+        "2",
+        "17",
+        "37",
+        "15",
+        "55"
+      ],
+      "assignedBy": "turael,spria,krystilia,mazchna",
+      "category": "Scorpions",
+      "membersOnly": [
+        "Yes",
+        "No"
+      ],
+      "releaseDate": [
+        "19 November 2025",
+        "4 January 2001",
+        "4 July 2006",
+        "6 December 2004"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Scorpion"
+    },
+    "skeletons": {
+      "combatLevel": "21",
+      "hitpoints": "24",
+      "maxHit": "3",
+      "attackStyle": "Crush",
+      "attribute": "undead",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "35",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "24",
+      "assignedBy": "turael,spria,krystilia,mazchna",
+      "category": "Skeletons",
+      "membersOnly": "No",
+      "releaseDate": "4 January 2001",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Skeleton"
+    },
+    "spiders": {
+      "combatLevel": [
+        "1",
+        "24"
+      ],
+      "hitpoints": [
+        "2",
+        "22"
+      ],
+      "maxHit": [
+        "0",
+        "1",
+        "6"
+      ],
+      "attackStyle": "Stab",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "50",
+      "aggressive": [
+        "No",
+        "Yes"
+      ],
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "2",
+        "22"
+      ],
+      "assignedBy": "turael,spria,krystilia",
+      "category": "Spiders",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "4 January 2001",
+        "15 April 2004",
+        "4 July 2006"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Spider"
+    },
+    "wolves": {
+      "combatLevel": [
+        "11",
+        "14",
+        "25",
+        "64"
+      ],
+      "hitpoints": [
+        "10",
+        "15",
+        "34",
+        "69"
+      ],
+      "maxHit": [
+        "2",
+        "3",
+        "6"
+      ],
+      "attackStyle": "Stab",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "25",
+      "aggressive": [
+        "No",
+        "Yes"
+      ],
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "10",
+        "15",
+        "34",
+        "69"
+      ],
+      "assignedBy": "turael,spria,mazchna",
+      "category": "Wolves",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "4 July 2006",
+        "27 February 2002",
+        "27 August 2002",
+        "2 November 2004"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Wolf"
+    },
+    "zombies": {
+      "combatLevel": "13",
+      "hitpoints": "22",
+      "maxHit": "3",
+      "attackStyle": "Crush",
+      "attribute": "undead",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "22",
+      "assignedBy": "turael,spria,krystilia,mazchna",
+      "category": "Zombies",
+      "membersOnly": "No",
+      "releaseDate": "4 January 2001",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Zombie"
+    },
+    "ogres": {
+      "combatLevel": [
+        "53",
+        "58",
+        "63"
+      ],
+      "hitpoints": [
+        "60",
+        "70"
+      ],
+      "maxHit": [
+        "7",
+        "8"
+      ],
+      "attackStyle": "Crush",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "20",
+      "aggressive": [
+        "Yes (depends on location)",
+        "Yes, unless wearing a Bandos-affiliated item",
+        "Yes"
+      ],
+      "poisonous": "No",
+      "attackSpeed": [
+        "6",
+        "4"
+      ],
+      "slayerXp": "60",
+      "assignedBy": "vannaka",
+      "category": "Ogres",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "9 April 2002",
+        "17 October 2013",
+        "23 October 2002"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ogre"
+    },
+    "pyrefiends": {
+      "combatLevel": [
+        "43",
+        "48"
+      ],
+      "hitpoints": [
+        "45",
+        "48"
+      ],
+      "maxHit": [
+        "4",
+        "5"
+      ],
+      "attackStyle": "Magical melee",
+      "attribute": "fiery, demon",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "100",
+      "aggressive": [
+        "No",
+        "Yes, unless wearing a Zamorak-affiliated item"
+      ],
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "30",
+      "slayerXp": "45",
+      "assignedBy": "mazchna,vannaka",
+      "category": "Pyrefiends",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "26 January 2005",
+        "17 October 2013"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Pyrefiend"
+    },
+    "rockslugs": {
+      "combatLevel": "29",
+      "hitpoints": "27",
+      "maxHit": "4",
+      "attackStyle": "Crush",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "25",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "20",
+      "slayerXp": "27",
+      "assignedBy": "mazchna",
+      "category": "Rockslugs",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "26 January 2005",
+        "14 March 2005"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Rockslug"
+    },
+    "shades": {
+      "combatLevel": [
+        "159",
+        "140"
+      ],
+      "hitpoints": [
+        "170",
+        "115"
+      ],
+      "maxHit": [
+        "14",
+        "15"
+      ],
+      "attackStyle": "Crush",
+      "attribute": "undead, spectral",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "4.2",
+        "115"
+      ],
+      "assignedBy": "mazchna,vannaka",
+      "category": "Shades",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "29 March 2004",
+        "9 June 2016"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Shade"
+    },
+    "vampyres": {
+      "combatLevel": [
+        "50",
+        "54",
+        "59",
+        "75",
+        "90",
+        "119"
+      ],
+      "hitpoints": [
+        "60",
+        "85",
+        "50",
+        "110",
+        "100",
+        "150"
+      ],
+      "maxHit": [
+        "5",
+        "6",
+        "9"
+      ],
+      "attackStyle": [
+        "Crush",
+        "Slash"
+      ],
+      "attribute": "vampyre2",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "60",
+        "65",
+        "85",
+        "50",
+        "110",
+        "100",
+        "150"
+      ],
+      "assignedBy": "mazchna,vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Vampyres",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "22 March 2006",
+        "4 September 2006",
+        "4 June 2020",
+        "28 March 2006"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Vampyre_Juvinate"
+    },
+    "killerwatts": {
+      "combatLevel": "55",
+      "hitpoints": "51",
+      "maxHit": "8 (Ranged), 6 (Melee), 15 (Ranged; without Insulated boots)",
+      "attackStyle": [
+        "Stab, Magical ranged",
+        "Crush, Magical ranged"
+      ],
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "60",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "2",
+      "slayerLevel": "37",
+      "slayerXp": "51",
+      "assignedBy": "mazchna",
+      "category": "Killerwatts",
+      "membersOnly": "Yes",
+      "releaseDate": "20 February 2006",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Killerwatt"
+    },
+    "wallbeasts": {
+      "combatLevel": "49",
+      "hitpoints": "105",
+      "maxHit": "4 (Melee), 18 (without Spiny helmet)",
+      "attackStyle": "Crush",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "35",
+      "slayerXp": "105",
+      "assignedBy": "mazchna",
+      "category": "Wall Beasts",
+      "membersOnly": "Yes",
+      "releaseDate": "14 March 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Wall_beast"
+    },
+    "aberrantspectres": {
+      "combatLevel": "96",
+      "hitpoints": "90",
+      "maxHit": "8, 14 (without Nose peg)",
+      "attackStyle": "Magic",
+      "attribute": "undead, spectral",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "60",
+      "slayerXp": "90",
+      "assignedBy": "vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Aberrant Spectres",
+      "membersOnly": "Yes",
+      "releaseDate": "26 January 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Aberrant_spectre"
+    },
+    "basilisks": {
+      "combatLevel": "61",
+      "hitpoints": "75",
+      "maxHit": "5",
+      "attackStyle": "Slash",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "40",
+      "slayerXp": "75",
+      "assignedBy": "vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Basilisks",
+      "membersOnly": "Yes",
+      "releaseDate": "26 January 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Basilisk"
+    },
+    "bloodveld": {
+      "combatLevel": [
+        "76",
+        "81"
+      ],
+      "hitpoints": [
+        "120",
+        "134"
+      ],
+      "maxHit": [
+        "5",
+        "6"
+      ],
+      "attackStyle": "Magical melee",
+      "attribute": "demon",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "50",
+      "slayerXp": [
+        "120",
+        "134"
+      ],
+      "assignedBy": "krystilia,vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Bloodveld",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "26 January 2005",
+        "17 October 2013"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Bloodveld"
+    },
+    "cockatrices": {
+      "combatLevel": "37",
+      "hitpoints": "37",
+      "maxHit": "5",
+      "attackStyle": "Stab",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "25",
+      "slayerXp": "37",
+      "assignedBy": "mazchna,vannaka",
+      "category": "Cockatrice",
+      "membersOnly": "Yes",
+      "releaseDate": "26 January 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Cockatrice"
+    },
+    "dustdevils": {
+      "combatLevel": [
+        "93",
+        "110"
+      ],
+      "hitpoints": [
+        "105",
+        "130"
+      ],
+      "maxHit": [
+        "8, 16 (without Facemask)",
+        "10, 16 (without Facemask)"
+      ],
+      "attackStyle": "Ranged melee",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "35",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "65",
+      "slayerXp": [
+        "105",
+        "130"
+      ],
+      "assignedBy": "krystilia,vannaka,chaeldar,konar,nieve,duradel,krystilia",
+      "category": "Dust Devils",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "18 April 2005",
+        "2 February 2022",
+        "9 June 2016"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dust_devil"
+    },
+    "firegiants": {
+      "combatLevel": [
+        "86",
+        "104",
+        "109"
+      ],
+      "hitpoints": [
+        "111",
+        "130",
+        "150"
+      ],
+      "maxHit": [
+        "11",
+        "10",
+        "13"
+      ],
+      "attackStyle": "Slash",
+      "attribute": "fiery",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "100",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "5",
+      "slayerXp": [
+        "111",
+        "133.5",
+        "153.5"
+      ],
+      "assignedBy": "krystilia,vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Fire Giants",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "8 May 2002",
+        "9 June 2016"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Fire_giant"
+    },
+    "gargoyles": {
+      "combatLevel": "111",
+      "hitpoints": "105",
+      "maxHit": "11",
+      "attackStyle": "Slash",
+      "attribute": "Golem",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "75",
+      "slayerXp": "105<!-- before changing this, remember that the morytania diary gives bonus experience for kills in the slayer tower -->",
+      "assignedBy": "vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Gargoyles",
+      "membersOnly": "Yes",
+      "releaseDate": "26 January 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Gargoyle"
+    },
+    "greendragons": {
+      "combatLevel": [
+        "79",
+        "88"
+      ],
+      "hitpoints": [
+        "75",
+        "100"
+      ],
+      "maxHit": "8 (Slash), 50 (Dragonfire)",
+      "attackStyle": "Slash, Dragonfire",
+      "attribute": "dragon,fiery",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "75",
+        "100"
+      ],
+      "assignedBy": "krystilia",
+      "category": "Green Dragons",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "29 March 2004",
+        "23 November 2017"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Green_dragon"
+    },
+    "hellhounds": {
+      "combatLevel": [
+        "122",
+        "127",
+        "136"
+      ],
+      "hitpoints": [
+        "116",
+        "150"
+      ],
+      "maxHit": [
+        "11",
+        "13"
+      ],
+      "attackStyle": "Stab",
+      "attribute": "demon",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "50",
+      "aggressive": [
+        "Yes",
+        "Yes, unless wearing a Zamorak-affiliated item"
+      ],
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "116",
+        "150"
+      ],
+      "assignedBy": [
+        "krystilia,vannaka,chaeldar,konar,nieve,duradel",
+        "krystilia,vannaka,chaeldar,nieve,duradel"
+      ],
+      "category": "Hellhounds",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "27 February 2002",
+        "17 October 2013",
+        "23 November 2017"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Hellhound"
+    },
+    "hillgiants": {
+      "combatLevel": "28",
+      "hitpoints": "35",
+      "maxHit": "4",
+      "attackStyle": "Crush",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "25",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "6",
+      "slayerXp": "35",
+      "assignedBy": "krystilia,mazchna,vannaka",
+      "category": "Hill Giants",
+      "membersOnly": "No",
+      "releaseDate": "4 January 2001",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Hill_giant"
+    },
+    "jellies": {
+      "combatLevel": "78",
+      "hitpoints": "75",
+      "maxHit": "5",
+      "attackStyle": "Magical melee",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "35",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "52",
+      "slayerXp": "75",
+      "assignedBy": "krystilia,vannaka,chaeldar,konar",
+      "category": "Jellies",
+      "membersOnly": "Yes",
+      "releaseDate": "26 January 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Jelly"
+    },
+    "jungle horrors": {
+      "combatLevel": "70",
+      "hitpoints": "45",
+      "maxHit": "8",
+      "attackStyle": "Stab",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "25",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "45",
+      "assignedBy": "vannaka,chaeldar",
+      "category": "Jungle Horrors",
+      "membersOnly": "Yes",
+      "releaseDate": "4 July 2006",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Jungle_horror"
+    },
+    "kalphiteguardians": {
+      "combatLevel": "141",
+      "hitpoints": "170",
+      "maxHit": "12",
+      "attackStyle": "Crush",
+      "attribute": "kalphite",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "Yes",
+      "poisonous": "Yes (6)",
+      "attackSpeed": "4",
+      "slayerXp": "170",
+      "assignedBy": "turael,spria,mazchna,vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Kalphite",
+      "membersOnly": "Yes",
+      "releaseDate": "7 September 2004",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Guardian"
+    },
+    "kurask": {
+      "combatLevel": "106",
+      "hitpoints": "97",
+      "maxHit": "11",
+      "attackStyle": "Crush",
+      "attribute": "leafy",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "70",
+      "slayerXp": "97",
+      "assignedBy": "vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Kurask",
+      "membersOnly": "Yes",
+      "releaseDate": "26 January 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kurask"
+    },
+    "lizardmen": {
+      "combatLevel": [
+        "53",
+        "62"
+      ],
+      "hitpoints": "60",
+      "maxHit": [
+        "7",
+        "9"
+      ],
+      "attackStyle": "Crush, Ranged",
+      "aggressive": "Yes",
+      "poisonous": "Yes (3)",
+      "attackSpeed": "4",
+      "slayerXp": "60",
+      "assignedBy": "chaeldar,konar,nieve,duradel",
+      "category": "Lizardmen",
+      "membersOnly": "Yes",
+      "releaseDate": "7 January 2016",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Lizardman"
+    },
+    "mogres": {
+      "combatLevel": "60",
+      "hitpoints": "48",
+      "maxHit": "8",
+      "attackStyle": "Crush",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "20",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "6",
+      "slayerLevel": "32",
+      "slayerXp": "48",
+      "assignedBy": "mazchna,vannaka",
+      "category": "Mogres, Ogres",
+      "membersOnly": "Yes",
+      "releaseDate": "24 October 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Mogre"
+    },
+    "molanisks": {
+      "combatLevel": "51",
+      "hitpoints": "52",
+      "maxHit": "5",
+      "attackStyle": "Crush",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "60",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "39",
+      "slayerXp": "52",
+      "assignedBy": "vannaka",
+      "category": "Molanisks",
+      "membersOnly": "Yes",
+      "releaseDate": "20 March 2007",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Molanisk"
+    },
+    "mossgiants": {
+      "combatLevel": [
+        "42",
+        "48"
+      ],
+      "hitpoints": [
+        "60",
+        "85"
+      ],
+      "maxHit": "6",
+      "attackStyle": "Crush",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "6",
+      "slayerXp": [
+        "60",
+        "85"
+      ],
+      "assignedBy": "krystilia,vannaka",
+      "category": "Moss Giants",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "5 February 2001",
+        "24 July 2006",
+        "20 March 2024"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Moss_giant"
+    },
+    "nechryael": {
+      "combatLevel": "115",
+      "hitpoints": "105",
+      "maxHit": "11",
+      "attackStyle": "Crush",
+      "attribute": "demon",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "80",
+      "slayerXp": "105",
+      "assignedBy": "krystilia,vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Nechryael",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "26 January 2005",
+        "23 January 2014"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Nechryael"
+    },
+    "otherworldlybeings": {
+      "combatLevel": "64",
+      "hitpoints": "66",
+      "maxHit": "7",
+      "attackStyle": "Crush",
+      "attribute": "spectral",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "35",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "66",
+      "assignedBy": "vannaka",
+      "category": "Otherworldly Beings",
+      "membersOnly": "Yes",
+      "releaseDate": "25 March 2002",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Otherworldly_being"
+    },
+    "trolls": {
+      "combatLevel": [
+        "69",
+        "71"
+      ],
+      "hitpoints": "90",
+      "maxHit": [
+        "11",
+        "13"
+      ],
+      "attackStyle": "Crush",
+      "elementalWeaknessType": [
+        "Fire",
+        "Earth"
+      ],
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "6",
+      "slayerXp": "90",
+      "assignedBy": "vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Trolls",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "9 August 2004",
+        "24 August 2004"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Mountain_troll"
+    },
+    "turoth": {
+      "combatLevel": [
+        "83",
+        "85",
+        "87",
+        "89"
+      ],
+      "hitpoints": [
+        "76",
+        "77",
+        "79",
+        "81"
+      ],
+      "maxHit": [
+        "9",
+        "10"
+      ],
+      "attackStyle": "Stab",
+      "attribute": "leafy",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "55",
+      "slayerXp": [
+        "76",
+        "77",
+        "79",
+        "81"
+      ],
+      "assignedBy": "vannaka,chaeldar,konar,nieve",
+      "category": "Turoth",
+      "membersOnly": "Yes",
+      "releaseDate": "26 January 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Turoth"
+    },
+    "tzhaar": {
+      "combatLevel": [
+        "149",
+        "221"
+      ],
+      "hitpoints": [
+        "140",
+        "200"
+      ],
+      "maxHit": [
+        "15",
+        "19"
+      ],
+      "attackStyle": "Crush",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "140",
+        "200"
+      ],
+      "assignedBy": "chaeldar,nieve,duradel",
+      "category": "TzHaar",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "19 September 2005",
+        "1 June 2017"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/TzHaar-Ket"
+    },
+    "wyrms": {
+      "combatLevel": "97",
+      "hitpoints": "120",
+      "maxHit": "13 (Magic), 10 (Melee)",
+      "attackStyle": "Magic, Slash",
+      "attribute": "dragon",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "62",
+      "slayerXp": "123",
+      "assignedBy": "chaeldar,konar,nieve,duradel",
+      "category": "Wyrms",
+      "membersOnly": "Yes",
+      "releaseDate": "10 January 2019",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Wyrm"
+    },
+    "abyssaldemons": {
+      "combatLevel": "124",
+      "hitpoints": "150",
+      "maxHit": "8",
+      "attackStyle": "Stab",
+      "attribute": "demon",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "85",
+      "slayerXp": "150",
+      "assignedBy": "vannaka,chaeldar,konar,nieve,duradel,krystilia",
+      "category": "Abyssal Demons",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "26 January 2005",
+        "9 June 2016",
+        "3 February 2022"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Abyssal_demon"
+    },
+    "ankou": {
+      "combatLevel": [
+        "75",
+        "82",
+        "86",
+        "95",
+        "98"
+      ],
+      "hitpoints": [
+        "60",
+        "65",
+        "70",
+        "100"
+      ],
+      "maxHit": [
+        "8",
+        "10"
+      ],
+      "attackStyle": "Crush",
+      "attribute": "undead, spectral",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "60",
+        "65",
+        "70",
+        "100"
+      ],
+      "assignedBy": "krystilia,vannaka,konar,nieve,duradel",
+      "category": "Ankou",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "4 July 2006",
+        "9 June 2016",
+        "23 November 2017"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ankou"
+    },
+    "aviansies": {
+      "combatLevel": [
+        "69",
+        "71",
+        "73",
+        "79",
+        "83",
+        "84",
+        "89",
+        "92",
+        "94",
+        "97",
+        "131",
+        "137",
+        "148"
+      ],
+      "hitpoints": [
+        "70",
+        "63",
+        "67",
+        "83",
+        "77",
+        "86",
+        "69",
+        "95",
+        "75",
+        "98",
+        "79",
+        "115",
+        "124",
+        "139"
+      ],
+      "maxHit": [
+        "8",
+        "10",
+        "9",
+        "11",
+        "12",
+        "15",
+        "16"
+      ],
+      "attackStyle": "Ranged",
+      "attribute": "flying",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "45",
+      "aggressive": "Yes, unless wearing an Armadyl-affiliated item",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "70",
+        "63",
+        "67",
+        "83",
+        "77",
+        "86",
+        "69",
+        "95",
+        "75",
+        "98",
+        "79",
+        "115",
+        "124",
+        "139"
+      ],
+      "assignedBy": "krystilia,chaeldar,konar,nieve,duradel",
+      "category": "Aviansie",
+      "membersOnly": "Yes",
+      "releaseDate": "17 October 2013",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Aviansie"
+    },
+    "blackdemons": {
+      "combatLevel": [
+        "172",
+        "178",
+        "184",
+        "188"
+      ],
+      "hitpoints": [
+        "157",
+        "160",
+        "170",
+        "200"
+      ],
+      "maxHit": [
+        "16",
+        "17"
+      ],
+      "attackStyle": "Slash",
+      "attribute": "demon",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "157",
+        "160",
+        "170",
+        "200"
+      ],
+      "assignedBy": "krystilia,chaeldar,konar,nieve,duradel",
+      "category": "Black Demons",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "27 February 2002",
+        "9 June 2016",
+        "23 November 2017"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Black_demon"
+    },
+    "bluedragons": {
+      "combatLevel": "111",
+      "hitpoints": "105",
+      "maxHit": "10 (Slash), 50 (Dragonfire)",
+      "attackStyle": "Slash, Dragonfire",
+      "attribute": "dragon,fiery",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "105",
+      "assignedBy": "vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Blue Dragons",
+      "membersOnly": "Yes",
+      "releaseDate": "27 February 2002",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Blue_dragon"
+    },
+    "brinerats": {
+      "combatLevel": "70",
+      "hitpoints": "50",
+      "maxHit": "9",
+      "attackStyle": "Stab",
+      "attribute": "rat",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "47",
+      "slayerXp": "50",
+      "assignedBy": "turael,spria,vannaka,chaeldar,konar,nieve",
+      "category": "Brine Rats, Rats",
+      "membersOnly": "Yes",
+      "releaseDate": "10 April 2007",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Brine_rat"
+    },
+    "cavehorrors": {
+      "combatLevel": "80",
+      "hitpoints": "55",
+      "maxHit": "9",
+      "attackStyle": "Magical melee",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "30",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "58",
+      "slayerXp": "55",
+      "assignedBy": "chaeldar,nieve,duradel",
+      "category": "Cave Horrors",
+      "membersOnly": "Yes",
+      "releaseDate": "4 July 2006",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Cave_horror"
+    },
+    "dagannoth": {
+      "combatLevel": [
+        "74",
+        "92"
+      ],
+      "hitpoints": [
+        "70",
+        "120"
+      ],
+      "maxHit": "8",
+      "attackStyle": [
+        "Ranged",
+        "Stab"
+      ],
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "35",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "70",
+        "120"
+      ],
+      "assignedBy": "vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Dagannoth",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "17 November 2004",
+        "9 June 2016"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dagannoth"
+    },
+    "darkbeasts": {
+      "combatLevel": "182",
+      "hitpoints": "220",
+      "maxHit": "17 (melee), 8 (magic)",
+      "attackStyle": "Crush, Magic",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "60",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "90",
+      "slayerXp": "225.4",
+      "assignedBy": "konar,nieve,duradel",
+      "category": "Dark Beasts",
+      "membersOnly": "Yes",
+      "releaseDate": "17 October 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dark_beast"
+    },
+    "drakes": {
+      "combatLevel": "192",
+      "hitpoints": "225",
+      "maxHit": "15 (Ranged),15 (Ranged melee), 32 (Dragonfire)",
+      "attackStyle": "Ranged, Ranged melee, Dragonfire",
+      "attribute": "dragon",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "84",
+      "slayerXp": "230.6",
+      "assignedBy": "konar,nieve,duradel",
+      "category": "Drakes",
+      "membersOnly": "Yes",
+      "releaseDate": "10 January 2019",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Drake"
+    },
+    "elves": {
+      "combatLevel": "108",
+      "hitpoints": "105",
+      "maxHit": "10",
+      "attackStyle": "Stab",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "107.5",
+      "assignedBy": "vannaka,chaeldar,nieve,duradel",
+      "category": "Elves",
+      "membersOnly": "Yes",
+      "releaseDate": "19 July 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Elf_Warrior"
+    },
+    "fossilwyverns": {
+      "combatLevel": "152",
+      "hitpoints": "200",
+      "maxHit": "13 (Melee), 10 (Magic), 10 (Icy breath with Elemental shield)",
+      "attackStyle": "Slash, Typeless Magic, Icy breath",
+      "attribute": "dragon",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "25",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "6",
+      "slayerLevel": "66",
+      "slayerXp": "205",
+      "assignedBy": "chaeldar,konar,nieve,duradel",
+      "category": "Fossil Island Wyverns",
+      "membersOnly": "Yes",
+      "releaseDate": "7 September 2017",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Long-tailed_Wyvern"
+    },
+    "greaterdemons": {
+      "combatLevel": [
+        "92",
+        "100",
+        "101",
+        "104",
+        "113"
+      ],
+      "hitpoints": [
+        "87",
+        "115",
+        "120",
+        "130"
+      ],
+      "maxHit": [
+        "9",
+        "8",
+        "10"
+      ],
+      "attackStyle": "Slash",
+      "attribute": "demon",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "87",
+        "115",
+        "120",
+        "130"
+      ],
+      "assignedBy": "krystilia,chaeldar,konar,nieve,duradel",
+      "category": "Greater Demons",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "13 August 2001",
+        "9 June 2016",
+        "23 November 2017"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Greater_demon"
+    },
+    "hydras": {
+      "combatLevel": "194",
+      "hitpoints": "300",
+      "maxHit": "22",
+      "attackStyle": "Magic, Ranged",
+      "attribute": "dragon",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "Yes",
+      "poisonous": "Yes (special attack)",
+      "attackSpeed": "6",
+      "slayerLevel": "95",
+      "slayerXp": "322.5",
+      "assignedBy": "konar",
+      "category": "Hydras",
+      "membersOnly": "Yes",
+      "releaseDate": "10 January 2019",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Hydra"
+    },
+    "kraken": {
+      "combatLevel": [
+        "N/A",
+        "291"
+      ],
+      "hitpoints": "255",
+      "maxHit": "28",
+      "attackStyle": "Typeless Magic",
+      "elementalWeaknessType": [
+        "None",
+        "Earth"
+      ],
+      "elementalWeaknessPercent": "50",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "87",
+      "slayerXp": "255",
+      "assignedBy": "chaeldar,konar,nieve,duradel",
+      "category": "Cave Kraken, Bosses",
+      "membersOnly": "Yes",
+      "releaseDate": "10 April 2014",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kraken"
+    },
+    "skeletalwyverns": {
+      "combatLevel": "140",
+      "hitpoints": "200",
+      "maxHit": "13 (Ranged), 13 (Melee), 50+ (Icy breath)",
+      "attackStyle": "Ranged, Slash, Icy breath",
+      "attribute": "dragon",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "25",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "6",
+      "slayerLevel": "72",
+      "slayerXp": "210",
+      "assignedBy": "chaeldar,konar,nieve,duradel",
+      "category": "Skeletal Wyverns",
+      "membersOnly": "Yes",
+      "releaseDate": "12 December 2005",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Skeletal_Wyvern"
+    },
+    "smokedevils": {
+      "combatLevel": "160",
+      "hitpoints": "185",
+      "maxHit": "20",
+      "attackStyle": "Magical ranged",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "30",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerLevel": "93",
+      "slayerXp": "185",
+      "assignedBy": "konar,nieve,duradel",
+      "category": "Smoke Devils",
+      "membersOnly": "Yes",
+      "releaseDate": "10 April 2014",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Smoke_devil"
+    },
+    "spiritualcreatures": {
+      "combatLevel": [
+        "121",
+        "120",
+        "123",
+        "182"
+      ],
+      "hitpoints": [
+        "75",
+        "85",
+        "106",
+        "86",
+        "125"
+      ],
+      "maxHit": [
+        "19",
+        "20",
+        "17",
+        "38"
+      ],
+      "attackStyle": "Magic",
+      "attribute": "spectral",
+      "elementalWeaknessType": [
+        "Air",
+        "Fire"
+      ],
+      "elementalWeaknessPercent": [
+        "30",
+        "200"
+      ],
+      "aggressive": [
+        "Yes, unless wearing a Zamorak-affiliated item",
+        "Yes, unless wearing a Saradomin-affiliated item",
+        "Yes, unless wearing a Bandos-affiliated item",
+        "Yes, unless wearing an Armadyl-affiliated item",
+        "Yes, unless wearing a Zaros-affiliated item"
+      ],
+      "poisonous": [
+        "No",
+        "Yes (4)"
+      ],
+      "attackSpeed": [
+        "4",
+        "5",
+        "3"
+      ],
+      "slayerLevel": "83",
+      "slayerXp": [
+        "75",
+        "85",
+        "106",
+        "137.5"
+      ],
+      "assignedBy": "krystilia,vannaka,chaeldar,nieve,duradel",
+      "category": "Spiritual Creatures",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "17 October 2013",
+        "5 January 2022"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Spiritual_mage"
+    },
+    "suqahs": {
+      "combatLevel": "111",
+      "hitpoints": "105",
+      "maxHit": "10",
+      "attackStyle": "Stab, Magic",
+      "elementalWeaknessType": "Earth",
+      "elementalWeaknessPercent": "20",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "6",
+      "slayerXp": "107.6",
+      "assignedBy": "nieve,duradel",
+      "category": "Suqahs",
+      "membersOnly": "Yes",
+      "releaseDate": "24 July 2006",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Suqah"
+    },
+    "dragons_generic": {
+      "combatLevel": [
+        "227",
+        "247"
+      ],
+      "hitpoints": [
+        "190",
+        "250"
+      ],
+      "maxHit": [
+        "21 (Melee), 50 (Dragonfire)",
+        "22 (Melee), 50+ (Dragonfire)"
+      ],
+      "attackStyle": "Slash, Dragonfire",
+      "attribute": "dragon,fiery",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "194.7",
+        "262"
+      ],
+      "assignedBy": "krystilia,konar,nieve,duradel",
+      "category": "Black Dragons",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "27 February 2002",
+        "23 November 2017"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Black_dragon"
+    },
+    "gargoyles_boss": {
+      "combatLevel": "333",
+      "hitpoints": "255",
+      "maxHit": "31",
+      "attackStyle": "Stab, Ranged, Magic",
+      "attribute": "kalphite",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": "535.4",
+      "assignedBy": "turael,spria,mazchna,vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Kalphite, Bosses",
+      "membersOnly": "Yes",
+      "releaseDate": "7 September 2004",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Queen"
+    },
+    "wild_firegiants": {
+      "combatLevel": [
+        "86",
+        "104",
+        "109"
+      ],
+      "hitpoints": [
+        "111",
+        "130",
+        "150"
+      ],
+      "maxHit": [
+        "11",
+        "10",
+        "13"
+      ],
+      "attackStyle": "Slash",
+      "attribute": "fiery",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "100",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "5",
+      "slayerXp": [
+        "111",
+        "133.5",
+        "153.5"
+      ],
+      "assignedBy": "krystilia,vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Fire Giants",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "8 May 2002",
+        "9 June 2016"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Fire_giant"
+    },
+    "wild_hellhounds": {
+      "combatLevel": [
+        "122",
+        "127",
+        "136"
+      ],
+      "hitpoints": [
+        "116",
+        "150"
+      ],
+      "maxHit": [
+        "11",
+        "13"
+      ],
+      "attackStyle": "Stab",
+      "attribute": "demon",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "50",
+      "aggressive": [
+        "Yes",
+        "Yes, unless wearing a Zamorak-affiliated item"
+      ],
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "116",
+        "150"
+      ],
+      "assignedBy": [
+        "krystilia,vannaka,chaeldar,konar,nieve,duradel",
+        "krystilia,vannaka,chaeldar,nieve,duradel"
+      ],
+      "category": "Hellhounds",
+      "membersOnly": "Yes",
+      "releaseDate": [
+        "27 February 2002",
+        "17 October 2013",
+        "23 November 2017"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Hellhound"
+    },
+    "wild_spiders": {
+      "combatLevel": [
+        "1",
+        "24"
+      ],
+      "hitpoints": [
+        "2",
+        "22"
+      ],
+      "maxHit": [
+        "0",
+        "1",
+        "6"
+      ],
+      "attackStyle": "Stab",
+      "elementalWeaknessType": "Fire",
+      "elementalWeaknessPercent": "50",
+      "aggressive": [
+        "No",
+        "Yes"
+      ],
+      "poisonous": "No",
+      "attackSpeed": "4",
+      "slayerXp": [
+        "2",
+        "22"
+      ],
+      "assignedBy": "turael,spria,krystilia",
+      "category": "Spiders",
+      "membersOnly": [
+        "No",
+        "Yes"
+      ],
+      "releaseDate": [
+        "4 January 2001",
+        "15 April 2004",
+        "4 July 2006"
+      ],
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Spider"
+    },
+    "cerberus": {
+      "combatLevel": "318",
+      "hitpoints": "600",
+      "maxHit": "23",
+      "attackStyle": "Stab, Ranged, Magic",
+      "attribute": "demon",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "40",
+      "aggressive": "Yes",
+      "poisonous": "No",
+      "attackSpeed": "6",
+      "slayerLevel": "91",
+      "slayerXp": "690",
+      "assignedBy": "vannaka,chaeldar,konar,nieve,duradel",
+      "category": "Hellhounds, Bosses",
+      "membersOnly": "Yes",
+      "releaseDate": "27 August 2015",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Cerberus"
+    },
+    "thermonuclear_smoke_devil": {
+      "combatLevel": "301",
+      "hitpoints": "240",
+      "maxHit": "8",
+      "attackStyle": "Typeless Magical ranged",
+      "elementalWeaknessType": "Air",
+      "elementalWeaknessPercent": "20",
+      "aggressive": "No",
+      "poisonous": "No",
+      "attackSpeed": "2",
+      "slayerLevel": "93",
+      "slayerXp": "240",
+      "assignedBy": "konar,nieve,duradel",
+      "category": "Bosses, Smoke Devils",
+      "membersOnly": "Yes",
+      "releaseDate": "10 April 2014",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Thermonuclear_smoke_devil"
+    },
+    "king_black_dragon": {
+      "combatLevel": "276",
+      "hitpoints": "240",
+      "maxHit": "25 (Melee), 65 (Dragonfire)",
+      "attackStyle": "Stab, Dragonfire",
+      "attribute": "dragon,fiery",
+      "elementalWeaknessType": "Water",
+      "elementalWeaknessPercent": "50",
+      "aggressive": "Yes",
+      "poisonous": "Yes (8)",
+      "attackSpeed": "4",
+      "slayerXp": "258",
+      "assignedBy": "konar,nieve,duradel",
+      "category": "Black Dragons, Bosses",
+      "membersOnly": "Yes",
+      "releaseDate": "24 September 2002",
+      "sourceUrl": "https://oldschool.runescape.wiki/w/King_Black_Dragon"
+    }
+  },
+  "warnings": []
+}

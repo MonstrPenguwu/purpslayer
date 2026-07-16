@@ -1,0 +1,34 @@
+name: Update wiki data
+
+on:
+  schedule:
+    # Every Monday at 09:00 UTC
+    - cron: "0 9 * * 1"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch latest OSRS Wiki data
+        run: python scripts/fetch_wiki_data.py
+
+      - name: Commit changes if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/monster-facts.json
+          git diff --cached --quiet || git commit -m "Auto-update: refresh monster data from OSRS Wiki"
+          git push
