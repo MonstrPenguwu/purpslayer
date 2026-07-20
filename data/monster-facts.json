@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T19:50:06Z",
+  "generatedAt": "2026-07-20T11:48:44Z",
   "source": "https://oldschool.runescape.wiki",
   "monsters": {
     "banshees": {
@@ -660,7 +660,7 @@
     "zombies": {
       "combatLevel": "13",
       "hitpoints": "22",
-      "maxHit": "3",
+      "maxHit": "2",
       "attackStyle": "Crush",
       "attribute": "undead",
       "elementalWeaknessType": "Fire",
@@ -1000,7 +1000,7 @@
         "105",
         "130"
       ],
-      "assignedBy": "krystilia,vannaka,chaeldar,konar,nieve,duradel,krystilia",
+      "assignedBy": "krystilia,vannaka,chaeldar,konar,nieve,duradel",
       "category": "Dust Devils",
       "membersOnly": "Yes",
       "releaseDate": [
