@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T11:48:44Z",
+  "generatedAt": "2026-07-27T12:27:21Z",
   "source": "https://oldschool.runescape.wiki",
   "monsters": {
     "banshees": {
@@ -1782,8 +1782,8 @@
     "fossilwyverns": {
       "combatLevel": "152",
       "hitpoints": "200",
-      "maxHit": "13 (Melee), 10 (Magic), 10 (Icy breath with Elemental shield)",
-      "attackStyle": "Slash, Typeless Magic, Icy breath",
+      "maxHit": "13 (Melee), 10 (Ranged), 10 (Icy breath with Elemental shield)",
+      "attackStyle": "Slash, Typeless Ranged, Icy breath",
       "attribute": "dragon",
       "elementalWeaknessType": "Air",
       "elementalWeaknessPercent": "25",
@@ -1869,7 +1869,7 @@
       ],
       "hitpoints": "255",
       "maxHit": "28",
-      "attackStyle": "Typeless Magic",
+      "attackStyle": "Magic (100% prayer penetration)",
       "elementalWeaknessType": [
         "None",
         "Earth"
@@ -2194,7 +2194,7 @@
       "combatLevel": "301",
       "hitpoints": "240",
       "maxHit": "8",
-      "attackStyle": "Typeless Magical ranged",
+      "attackStyle": "Magical ranged (100% prayer penetration)",
       "elementalWeaknessType": "Air",
       "elementalWeaknessPercent": "20",
       "aggressive": "No",
