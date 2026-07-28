@@ -1,47 +1,194 @@
 {
-  "generatedAt": "2026-07-28T06:28:08Z",
+  "generatedAt": "2026-07-28T06:58:51Z",
   "source": "Derived from recommended-gear.json (wiki-sourced) + curated baseline",
   "tiers": {
-    "crush": [
-      "Scythe of vitur",
-      "Granite hammer",
-      "Soulreaper axe",
-      "Inquisitor's mace",
-      "Dual macuahuitl",
-      "Abyssal bludgeon",
-      "Ursine chainmace (u)",
-      "Zamorakian hasta",
-      "Saradomin sword",
-      "Sarachnis cudgel",
-      "Glacial temotli",
-      "Zombie axe",
-      "Osmumten's fang",
-      "Barronite mace",
-      "Dragon mace"
-    ],
-    "slash": [
-      "Soulreaper axe",
-      "Abyssal whip",
-      "Scythe of vitur",
-      "Blade of saeldor",
-      "Abyssal tentacle",
-      "Zombie axe",
-      "Noxious halberd",
-      "Dragon scimitar",
-      "Rune scimitar"
-    ],
-    "stab": [
-      "Soulreaper axe",
-      "Scythe of vitur",
-      "Dragon hunter lance",
-      "Ghrazi rapier",
-      "Zamorakian hasta",
-      "Abyssal tentacle",
-      "Abyssal dagger",
-      "Abyssal whip",
-      "Arkan blade",
-      "Belle's folly",
-      "Dual macuahuitl"
-    ]
+    "crush": {
+      "weapons": [
+        "Scythe of vitur",
+        "Granite hammer",
+        "Soulreaper axe",
+        "Inquisitor's mace",
+        "Dual macuahuitl",
+        "Abyssal bludgeon",
+        "Ursine chainmace (u)",
+        "Zamorakian hasta",
+        "Saradomin sword",
+        "Sarachnis cudgel",
+        "Glacial temotli",
+        "Zombie axe",
+        "Osmumten's fang",
+        "Barronite mace",
+        "Dragon mace"
+      ],
+      "gearTemplate": [
+        {
+          "slot": "Head",
+          "item": "Slayer helmet (i) / Torva full helm / Inquisitor's great helm / Blood moon helm / Neitiznot faceguard / Oathplate helm / Serpentine helm / Helm of neitiznot"
+        },
+        {
+          "slot": "Neck",
+          "item": "Amulet of rancour / Amulet of torture / Amulet of blood fury / Amulet of fury / Amulet of glory / Amulet of strength"
+        },
+        {
+          "slot": "Cape",
+          "item": "Infernal cape / Fire cape / Mythical cape / Ardougne cloak 4 / Cape of Accomplishment (t)"
+        },
+        {
+          "slot": "Body",
+          "item": "Torva platebody / Inquisitor's hauberk / Oathplate chest / Sunfire fanatic cuirass / Justiciar chestguard / Proselyte hauberk"
+        },
+        {
+          "slot": "Legs",
+          "item": "Torva platelegs / Inquisitor's plateskirt / Oathplate legs / Obsidian platelegs / Eclipse moon tassets / Blue moon tassets / Sunfire fanatic chausses / Proselyte cuisse / Verac's plateskirt"
+        },
+        {
+          "slot": "Weapon",
+          "item": "Scythe of vitur / Granite hammer / Soulreaper axe / Inquisitor's mace / Dual macuahuitl / Abyssal bludgeon / Ursine chainmace (u) / Zamorakian hasta / Saradomin sword / Sarachnis cudgel / Glacial temotli / Zombie axe / Osmumten's fang / Barronite mace / Dragon mace"
+        },
+        {
+          "slot": "Shield",
+          "item": "Avernic defender / Dragon defender / Dragonfire shield / Antler guard / Book of war / Unholy book"
+        },
+        {
+          "slot": "Ammo",
+          "item": "Rada's blessing 4 / God blessing / Rada's blessing 3"
+        },
+        {
+          "slot": "Hands",
+          "item": "Ferocious gloves / Barrows gloves / Dragon gloves / Rune gloves / Regen bracelet"
+        },
+        {
+          "slot": "Feet",
+          "item": "Avernic treads (max) / Primordial boots / Dragon boots / Guardian boots / Rune boots"
+        },
+        {
+          "slot": "Ring",
+          "item": "Ultor ring / Berserker ring (i) / Lightbearer / Brimstone ring / Tyrannical ring (i) / Ring of shadows / Ring of wealth"
+        }
+      ],
+      "sourceTask": "gargoyles"
+    },
+    "slash": {
+      "weapons": [
+        "Soulreaper axe",
+        "Abyssal whip",
+        "Scythe of vitur",
+        "Blade of saeldor",
+        "Abyssal tentacle",
+        "Zombie axe",
+        "Noxious halberd",
+        "Dragon scimitar",
+        "Rune scimitar"
+      ],
+      "gearTemplate": [
+        {
+          "slot": "Head",
+          "item": "Slayer helmet (i)"
+        },
+        {
+          "slot": "Neck",
+          "item": "Amulet of rancour / Amulet of torture / Amulet of strength / Amulet of fury / Amulet of glory"
+        },
+        {
+          "slot": "Cape",
+          "item": "Infernal cape / Fire cape / Mythical cape / Ardougne cloak 4 / Max cape / Hitpoints cape"
+        },
+        {
+          "slot": "Ammo",
+          "item": "Rada's blessing 4 / God blessing / Rada's blessing 3 / Rada's blessing 2"
+        },
+        {
+          "slot": "Body",
+          "item": "Torva platebody / Oathplate chest / Bandos chestplate / Obsidian platebody / Eclipse moon chestplate / Mixed hide top"
+        },
+        {
+          "slot": "Legs",
+          "item": "Torva platelegs / Oathplate legs / Bandos tassets / Blood moon tassets / Obsidian platelegs / Eclipse moon tassets / Blue moon tassets / Mixed hide legs"
+        },
+        {
+          "slot": "Weapon",
+          "item": "Emberlight / Soulreaper axe / Arclight / Abyssal whip"
+        },
+        {
+          "slot": "Shield",
+          "item": "Avernic defender / Dragon defender / Rune defender"
+        },
+        {
+          "slot": "Hands",
+          "item": "Ferocious gloves / Bracelet of slaughter / Barrows gloves / Regen bracelet"
+        },
+        {
+          "slot": "Feet",
+          "item": "Avernic treads (max) / Primordial boots / Dragon boots / Spiked manacles / Aranea boots / Echo boots / Mixed hide boots / Climbing boots"
+        },
+        {
+          "slot": "Ring",
+          "item": "Ultor ring / Berserker ring (i) / Ring of shadows / Ring of suffering (ri)"
+        }
+      ],
+      "sourceTask": "nechryael"
+    },
+    "stab": {
+      "weapons": [
+        "Soulreaper axe",
+        "Scythe of vitur",
+        "Dragon hunter lance",
+        "Ghrazi rapier",
+        "Zamorakian hasta",
+        "Abyssal tentacle",
+        "Abyssal dagger",
+        "Abyssal whip",
+        "Arkan blade",
+        "Belle's folly",
+        "Dual macuahuitl"
+      ],
+      "gearTemplate": [
+        {
+          "slot": "Head",
+          "item": "Slayer helmet (i) / Torva full helm / Neitiznot faceguard / Blood moon helm / Helm of neitiznot"
+        },
+        {
+          "slot": "Neck",
+          "item": "Amulet of rancour / Amulet of torture / Amulet of fury / Amulet of glory / Amulet of strength"
+        },
+        {
+          "slot": "Cape",
+          "item": "Infernal cape / Fire cape / Ardougne cloak 4"
+        },
+        {
+          "slot": "Body",
+          "item": "Torva platebody / Bandos chestplate / Blood moon chestplate / Eclipse moon chestplate / Fighter torso"
+        },
+        {
+          "slot": "Legs",
+          "item": "Torva platelegs / Bandos tassets / Blood moon tassets / Eclipse moon tassets / Obsidian platelegs"
+        },
+        {
+          "slot": "Weapon",
+          "item": "Soulreaper axe / Scythe of vitur / Dragon hunter lance / Ghrazi rapier / Zamorakian hasta / Abyssal tentacle / Abyssal dagger / Abyssal whip / Arkan blade / Belle's folly / Dual macuahuitl"
+        },
+        {
+          "slot": "Shield",
+          "item": "Avernic defender / Dragon defender / Rune defender"
+        },
+        {
+          "slot": "Ammo",
+          "item": "Rada's blessing 4 / God blessing / Rada's blessing 3 / Rada's blessing 2"
+        },
+        {
+          "slot": "Hands",
+          "item": "Ferocious gloves / Barrows gloves / Regen bracelet / Combat bracelet"
+        },
+        {
+          "slot": "Feet",
+          "item": "Avernic treads (max) / Primordial boots / Dragon boots / Boots of brimstone / Granite boots / Boots of stone"
+        },
+        {
+          "slot": "Ring",
+          "item": "Ultor ring / Berserker ring (i) / Brimstone ring"
+        }
+      ],
+      "sourceTask": "wyrms"
+    }
   }
 }

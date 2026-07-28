@@ -106,20 +106,27 @@ def weakness_to_tier_key(fallback_weak: str) -> str | None:
     return None
 
 
-def derive_from_recommended_gear(gear_by_id: dict, rec: dict) -> dict[str, list[str]]:
+def derive_from_recommended_gear(gear_by_id: dict, rec: dict) -> dict:
     """
     For each style (crush/slash/stab), find the task in recommended-gear.json
-    that has the most weapon options AND a matching fallbackWeak, then use that
-    weapon string as the tier list.
+    with the most weapon options AND a matching fallbackWeak.  Store both the
+    ranked weapon list AND the reference task's complete gear template so that
+    augmented tasks get BiS gear for every slot, not just the weapon.
 
-    Returns e.g. {"crush": ["Scythe of vitur", "Abyssal bludgeon", ...], ...}
+    Output shape per style:
+        {
+          "weapons":      ["Weapon A", "Weapon B", ...],  # ranked best-to-worst
+          "gearTemplate": [{"slot": "Head", "item": "..."}, ...],  # all slots
+          "sourceTask":   "gargoyles"
+        }
     """
-    tiers: dict[str, list[str]] = {}
+    tiers: dict = {}
     tasks = rec.get("tasks", {})
 
     for tier_key in ("crush", "slash", "stab"):
         best_task_id: str | None = None
         best_weapons: list[str] = []
+        best_gear_template: list[dict] = []
         best_count = 0
 
         for task_id, task_data in tasks.items():
@@ -130,7 +137,6 @@ def derive_from_recommended_gear(gear_by_id: dict, rec: dict) -> dict[str, list[
             if weakness_to_tier_key(gear_entry.get("fallbackWeak", "")) != tier_key:
                 continue
 
-            # Find the Weapon slot in this task's melee gear
             weapon_entry = next(
                 (e for e in melee.get("gear", []) if e.get("slot") == "Weapon"),
                 None,
@@ -146,17 +152,21 @@ def derive_from_recommended_gear(gear_by_id: dict, rec: dict) -> dict[str, list[
                 best_count = len(weapons)
                 best_task_id = task_id
                 best_weapons = weapons
+                best_gear_template = melee.get("gear", [])
 
         if best_weapons:
-            tiers[tier_key] = best_weapons
             source = f"'{best_task_id}' ({best_count} weapons)"
             if best_count < MIN_DERIVED:
-                # Supplement with baseline weapons not already in the list
                 existing = set(best_weapons)
                 extra = [w for w in BASELINE.get(tier_key, []) if w not in existing]
-                tiers[tier_key] = best_weapons + extra
+                best_weapons = best_weapons + extra
                 source += f" + {len(extra)} baseline"
-            print(f"  {tier_key}: {source}")
+            print(f"  {tier_key}: {source}, {len(best_gear_template)} gear slots in template")
+            tiers[tier_key] = {
+                "weapons": best_weapons,
+                "gearTemplate": best_gear_template,
+                "sourceTask": best_task_id,
+            }
         else:
             print(f"  {tier_key}: no reference task found, will use baseline")
 
@@ -181,11 +191,15 @@ def main():
     print("Deriving weapon tiers from recommended-gear.json...")
     tiers = derive_from_recommended_gear(gear_by_id, rec)
 
-    # Fill any missing styles from the baseline
-    for style, weapons in BASELINE.items():
+    # Fill any missing styles from baseline (weapons only, no template)
+    for style in ("crush", "slash", "stab"):
         if style not in tiers:
-            tiers[style] = weapons
-            print(f"  {style}: using baseline ({len(weapons)} weapons)")
+            tiers[style] = {
+                "weapons": BASELINE.get(style, []),
+                "gearTemplate": [],
+                "sourceTask": None,
+            }
+            print(f"  {style}: using baseline ({len(BASELINE.get(style, []))} weapons)")
 
     output = {
         "generatedAt": __import__("time").strftime("%Y-%m-%dT%H:%M:%SZ", __import__("time").gmtime()),
@@ -194,8 +208,9 @@ def main():
     }
     OUT_PATH.write_text(json.dumps(output, indent=2) + "\n", encoding="utf-8")
     print(f"\nWrote weapon tiers to {OUT_PATH}")
-    for style, weapons in tiers.items():
-        print(f"  {style}: {', '.join(weapons[:5])}{'...' if len(weapons) > 5 else ''}")
+    for style, data in tiers.items():
+        w = data["weapons"]
+        print(f"  {style}: {', '.join(w[:5])}{'...' if len(w) > 5 else ''} ({len(data['gearTemplate'])} template slots)")
 
 
 if __name__ == "__main__":

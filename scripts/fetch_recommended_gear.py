@@ -188,11 +188,19 @@ def augment_melee_weapons(task_styles: dict, gear_entry: dict,
                            weapon_tiers: dict | None) -> dict:
     """
     For tasks where the wiki template returned some styles but melee is either
-    absent or lacks a Weapon slot, fill in the Weapon slot using the weapon
-    tier list that matches the monster's weakness.
+    absent or lacks a Weapon slot, fill in melee gear using the tier data that
+    matches the monster's weakness.
 
-    Only augments melee — ranged/magic weapon choice is driven by different
-    factors (ammo type, spell type) that don't map cleanly to a tier list.
+    Two cases:
+    - Style present, Weapon slot missing → inject weapon only (other slots are
+      already sourced from the wiki for this task).
+    - Style entirely absent → inject the full gear template from the reference
+      task (e.g. gargoyles' full crush BiS setup for head/body/legs/ring/etc.)
+      plus this task's weapon list.  Any special non-weapon gear from gear.json
+      (e.g. a required shield) is merged on top of the template.
+
+    Only augments melee — ranged/magic weapon choice depends on ammo type, spell
+    choice, and other task-specific factors that don't map to a simple tier list.
     """
     if not weapon_tiers or not gear_entry:
         return task_styles
@@ -201,7 +209,8 @@ def augment_melee_weapons(task_styles: dict, gear_entry: dict,
     if not tier_key:
         return task_styles
 
-    weapons = weapon_tiers.get("tiers", {}).get(tier_key, [])
+    tier_data = weapon_tiers.get("tiers", {}).get(tier_key, {})
+    weapons = tier_data.get("weapons", [])
     if not weapons:
         return task_styles
 
@@ -209,7 +218,7 @@ def augment_melee_weapons(task_styles: dict, gear_entry: dict,
     result = dict(task_styles)
 
     if "melee" in result:
-        # Style present but check if Weapon slot is missing
+        # Style present — only add weapon if the slot is missing
         slots = {e["slot"] for e in result["melee"]["gear"]}
         if "Weapon" not in slots:
             result["melee"] = {
@@ -217,13 +226,21 @@ def augment_melee_weapons(task_styles: dict, gear_entry: dict,
                 "gear": result["melee"]["gear"] + [{"slot": "Weapon", "item": weapon_str}],
             }
     else:
-        # Style entirely absent from wiki template — add it using tier weapons.
-        # Only include non-weapon slots from gear.json (e.g. special required items
-        # like leaf-bladed weapons for kurask); leave head/body/etc to GENERIC_GEAR.
+        # Style absent — build a full gear set from the reference task's template.
+        # The template is all slots from the reference (e.g. gargoyles for crush),
+        # which includes weakness-appropriate BiS for head, body, ring, etc.
+        template = [e for e in tier_data.get("gearTemplate", []) if e.get("slot") != "Weapon"]
+
+        # Overlay any special non-weapon slots from gear.json for this task
+        # (e.g. a required shield). Template slots take priority unless gear.json
+        # has something the template doesn't.
+        template_slot_names = {e["slot"] for e in template}
         base_gear = gear_entry.get("melee", [])
-        special_slots = [e for e in base_gear if e.get("slot") != "Weapon"]
+        extra = [e for e in base_gear
+                 if e.get("slot") != "Weapon" and e["slot"] not in template_slot_names]
+
         result["melee"] = {
-            "gear": special_slots + [{"slot": "Weapon", "item": weapon_str}],
+            "gear": template + extra + [{"slot": "Weapon", "item": weapon_str}],
             "_tierSource": tier_key,
         }
 
