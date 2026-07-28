@@ -64,13 +64,20 @@ the site loads same-origin.
 1. Push this repo to GitHub.
 2. Repo Settings → Pages → Deploy from branch → `main` / root. Fully static,
    no build step.
-3. To populate live wiki facts locally:
+3. To populate live wiki facts locally (run in this order):
    ```bash
    pip install requests
    python scripts/fetch_wiki_data.py
    python scripts/fetch_task_locations.py
+   python scripts/fetch_weapon_tiers.py
    python scripts/fetch_recommended_gear.py
    ```
+   `fetch_weapon_tiers.py` must run before `fetch_recommended_gear.py` — it
+   queries the wiki's equipment cargo table to build crush/slash/stab weapon
+   tier lists (`data/weapon-tiers.json`), which `fetch_recommended_gear.py`
+   uses to fill in Weapon slots when the wiki's strategy page doesn't cover a
+   combat style (e.g. trolls: wiki only has magic, so melee weapons are filled
+   from the crush tier list based on the monster's `fallbackWeak`).
    Commit the resulting JSON files.
 4. (Optional) `.github/workflows/update-data.yml` re-runs the scripts every
    Monday and auto-commits any changes. Enable Actions and it runs itself.
@@ -104,9 +111,11 @@ data/gear.json                        hand-curated gear recommendations per mons
 data/recommended-gear.json            strategy-page gear suggestions (fetch_recommended_gear.py)
 data/monster-facts.json               generated combat facts (fetch_wiki_data.py)
 data/task-locations.json              location access requirements (fetch_task_locations.py)
+data/weapon-tiers.json                crush/slash/stab weapon tier lists (fetch_weapon_tiers.py)
 scripts/fetch_wiki_data.py            pulls monster facts from the OSRS Wiki
 scripts/fetch_task_locations.py       pulls location/access data from the OSRS Wiki
-scripts/fetch_recommended_gear.py     pulls gear loadout suggestions from wiki Strategies pages
+scripts/fetch_weapon_tiers.py         pulls weapon tier lists from wiki cargo DB (run before fetch_recommended_gear)
+scripts/fetch_recommended_gear.py     pulls gear loadout suggestions; augments missing weapon slots from weapon-tiers
 .github/workflows/update-data.yml     weekly auto-refresh via GitHub Actions
 ```
 

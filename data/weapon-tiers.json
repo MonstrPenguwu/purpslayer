@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-07-28T06:28:08Z",
+  "source": "Derived from recommended-gear.json (wiki-sourced) + curated baseline",
+  "tiers": {
+    "crush": [
+      "Scythe of vitur",
+      "Granite hammer",
+      "Soulreaper axe",
+      "Inquisitor's mace",
+      "Dual macuahuitl",
+      "Abyssal bludgeon",
+      "Ursine chainmace (u)",
+      "Zamorakian hasta",
+      "Saradomin sword",
+      "Sarachnis cudgel",
+      "Glacial temotli",
+      "Zombie axe",
+      "Osmumten's fang",
+      "Barronite mace",
+      "Dragon mace"
+    ],
+    "slash": [
+      "Soulreaper axe",
+      "Abyssal whip",
+      "Scythe of vitur",
+      "Blade of saeldor",
+      "Abyssal tentacle",
+      "Zombie axe",
+      "Noxious halberd",
+      "Dragon scimitar",
+      "Rune scimitar"
+    ],
+    "stab": [
+      "Soulreaper axe",
+      "Scythe of vitur",
+      "Dragon hunter lance",
+      "Ghrazi rapier",
+      "Zamorakian hasta",
+      "Abyssal tentacle",
+      "Abyssal dagger",
+      "Abyssal whip",
+      "Arkan blade",
+      "Belle's folly",
+      "Dual macuahuitl"
+    ]
+  }
+}

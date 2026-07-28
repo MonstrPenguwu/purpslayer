@@ -38,6 +38,7 @@ from fetch_task_locations import strip_remaining_templates, clean_wiki_markup
 
 ROOT = Path(__file__).resolve().parent.parent
 GEAR_PATH = ROOT / "data" / "gear.json"
+WEAPON_TIERS_PATH = ROOT / "data" / "weapon-tiers.json"
 OUT_PATH = ROOT / "data" / "recommended-gear.json"
 
 SLOT_MAP = {
@@ -166,12 +167,86 @@ def parse_all_recommended_equipment(wikitext):
     return styles if styles else None
 
 
+def weakness_to_tier_key(fallback_weak: str) -> str | None:
+    """
+    Map a gear.json fallbackWeak string to a weapon-tiers.json key.
+    Returns None for 'Varies', 'Anything', etc. where no clear mapping exists.
+    """
+    if not fallback_weak:
+        return None
+    w = fallback_weak.lower()
+    if "crush" in w:
+        return "crush"
+    if "slash" in w:
+        return "slash"
+    if "stab" in w:
+        return "stab"
+    return None
+
+
+def augment_melee_weapons(task_styles: dict, gear_entry: dict,
+                           weapon_tiers: dict | None) -> dict:
+    """
+    For tasks where the wiki template returned some styles but melee is either
+    absent or lacks a Weapon slot, fill in the Weapon slot using the weapon
+    tier list that matches the monster's weakness.
+
+    Only augments melee — ranged/magic weapon choice is driven by different
+    factors (ammo type, spell type) that don't map cleanly to a tier list.
+    """
+    if not weapon_tiers or not gear_entry:
+        return task_styles
+
+    tier_key = weakness_to_tier_key(gear_entry.get("fallbackWeak", ""))
+    if not tier_key:
+        return task_styles
+
+    weapons = weapon_tiers.get("tiers", {}).get(tier_key, [])
+    if not weapons:
+        return task_styles
+
+    weapon_str = " / ".join(weapons)
+    result = dict(task_styles)
+
+    if "melee" in result:
+        # Style present but check if Weapon slot is missing
+        slots = {e["slot"] for e in result["melee"]["gear"]}
+        if "Weapon" not in slots:
+            result["melee"] = {
+                **result["melee"],
+                "gear": result["melee"]["gear"] + [{"slot": "Weapon", "item": weapon_str}],
+            }
+    else:
+        # Style entirely absent from wiki template — add it using tier weapons.
+        # Only include non-weapon slots from gear.json (e.g. special required items
+        # like leaf-bladed weapons for kurask); leave head/body/etc to GENERIC_GEAR.
+        base_gear = gear_entry.get("melee", [])
+        special_slots = [e for e in base_gear if e.get("slot") != "Weapon"]
+        result["melee"] = {
+            "gear": special_slots + [{"slot": "Weapon", "item": weapon_str}],
+            "_tierSource": tier_key,
+        }
+
+    return result
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--debug", help="print parsed gear for one monster id and exit")
     args = ap.parse_args()
 
     gear = json.loads(GEAR_PATH.read_text(encoding="utf-8"))
+    gear_by_id = {e["id"]: e for e in gear}
+
+    weapon_tiers = None
+    if WEAPON_TIERS_PATH.exists():
+        try:
+            weapon_tiers = json.loads(WEAPON_TIERS_PATH.read_text(encoding="utf-8"))
+            print(f"Loaded weapon tiers for styles: {list(weapon_tiers.get('tiers', {}).keys())}")
+        except Exception as e:
+            print(f"Warning: could not load weapon-tiers.json ({e}) — augmentation skipped")
+    else:
+        print("Note: weapon-tiers.json not found — run fetch_weapon_tiers.py first for weapon augmentation")
 
     if args.debug:
         target = next((g for g in gear if g["id"] == args.debug), None)
@@ -179,7 +254,9 @@ def main():
             print(f"No slayerTaskTitle mapped for id '{args.debug}'")
             return
         wt = fetch_wikitext(target["slayerTaskTitle"])
-        print(json.dumps(parse_all_recommended_equipment(wt), indent=2))
+        styles = parse_all_recommended_equipment(wt)
+        styles = augment_melee_weapons(styles or {}, target, weapon_tiers)
+        print(json.dumps(styles, indent=2))
         return
 
     facts = {}
@@ -196,7 +273,8 @@ def main():
                 continue
             styles = parse_all_recommended_equipment(wt)
             if styles is None:
-                continue  # no Recommended equipment template on this page -- not a warning, just not present
+                continue  # no Recommended equipment template on this page — not a warning
+            styles = augment_melee_weapons(styles, entry, weapon_tiers)
             facts[entry["id"]] = {
                 "sourceUrl": f"https://oldschool.runescape.wiki/w/{title.replace(' ', '_')}",
                 **styles,

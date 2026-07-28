@@ -2167,12 +2167,12 @@
     "tier": "Mid",
     "wikiTitle": "Mountain troll",
     "fallbackLvl": "69-88",
-    "fallbackWeak": "Varies",
-    "note": "Ice trolls in Trollheim can be safespotted; regular trolls are melee-only weak spots.",
+    "fallbackWeak": "Crush",
+    "note": "Mountain trolls have very low crush defence — use crush weapons. Ice trolls in Trollheim can be safespotted.",
     "melee": [
       {
         "slot": "Weapon",
-        "item": "Rune scimitar / whip"
+        "item": "Abyssal bludgeon / Granite hammer / Dragon mace / Barronite mace"
       }
     ],
     "ranged": [
