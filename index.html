@@ -193,6 +193,12 @@
   .equip-slot.has-pick.active .equip-slot-box{border-color:var(--ember);}
   .equip-slot-abbr{font-size:0.65rem;font-weight:700;letter-spacing:0.05em;color:var(--text-dim);}
   .equip-slot-img{width:44px;height:44px;object-fit:contain;image-rendering:pixelated;}
+  /* Slot icon: dark wiki image → visible on dark bg via strong brightness boost */
+  .equip-slot-icon{
+    filter:brightness(5) saturate(0.2);
+    opacity:0.6;
+    width:40px;height:40px;
+  }
   .equip-slot.has-pick .equip-slot-img{filter:none;opacity:1;}
   .equip-slot-label{
     font-size:0.58rem;color:var(--text-dim);
@@ -890,6 +896,19 @@ const SLOT_ABBRS = {
   Head:"HE", Cape:"CP", Neck:"NK", Ammo:"AM", Weapon:"WP",
   Body:"BD", Shield:"SH", Legs:"LG", Hands:"HN", Feet:"FT", Ring:"RG"
 };
+const SLOT_ICONS = {
+  Head:   "https://oldschool.runescape.wiki/images/Head_slot.png",
+  Cape:   "https://oldschool.runescape.wiki/images/Cape_slot.png",
+  Neck:   "https://oldschool.runescape.wiki/images/Neck_slot.png",
+  Ammo:   "https://oldschool.runescape.wiki/images/Ammo_slot.png",
+  Weapon: "https://oldschool.runescape.wiki/images/Weapon_slot.png",
+  Body:   "https://oldschool.runescape.wiki/images/Body_slot.png",
+  Shield: "https://oldschool.runescape.wiki/images/Shield_slot.png",
+  Legs:   "https://oldschool.runescape.wiki/images/Legs_slot.png",
+  Hands:  "https://oldschool.runescape.wiki/images/Hands_slot.png",
+  Feet:   "https://oldschool.runescape.wiki/images/Feet_slot.png",
+  Ring:   "https://oldschool.runescape.wiki/images/Ring_slot.png",
+};
 // OSRS paper-doll layout: row-major, null = empty grid cell
 const PAPER_DOLL = [
   [null,    "Head",   null    ],
@@ -983,10 +1002,26 @@ function renderGearGrid(){
         };
         box.appendChild(img);
       } else {
-        const abbr = document.createElement('span');
-        abbr.className = 'equip-slot-abbr';
-        abbr.textContent = SLOT_ABBRS[slot] || slot.substring(0,2).toUpperCase();
-        box.appendChild(abbr);
+        const iconUrl = SLOT_ICONS[slot];
+        if(iconUrl){
+          const img = document.createElement('img');
+          img.className = 'equip-slot-img equip-slot-icon';
+          img.alt = slot;
+          img.src = iconUrl;
+          img.onerror = ()=>{
+            img.remove();
+            const abbr = document.createElement('span');
+            abbr.className = 'equip-slot-abbr';
+            abbr.textContent = SLOT_ABBRS[slot] || slot.substring(0,2).toUpperCase();
+            box.appendChild(abbr);
+          };
+          box.appendChild(img);
+        } else {
+          const abbr = document.createElement('span');
+          abbr.className = 'equip-slot-abbr';
+          abbr.textContent = SLOT_ABBRS[slot] || slot.substring(0,2).toUpperCase();
+          box.appendChild(abbr);
+        }
       }
 
       const lbl = document.createElement('div');
