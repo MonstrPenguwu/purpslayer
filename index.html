@@ -172,6 +172,70 @@
     margin-left:6px;vertical-align:middle;
   }
 
+  /* ---- Equipment paper-doll ---- */
+  .equip-panel-wrap{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap;margin-bottom:4px;}
+  .equip-doll{
+    display:grid;grid-template-columns:repeat(3,72px);
+    grid-auto-rows:auto;gap:6px;flex:0 0 auto;
+  }
+  .equip-slot{
+    display:flex;flex-direction:column;align-items:center;gap:4px;
+    cursor:pointer;user-select:none;
+  }
+  .equip-slot-box{
+    width:64px;height:64px;background:var(--surface2);border:1px solid var(--line);
+    border-radius:8px;display:flex;align-items:center;justify-content:center;
+    overflow:hidden;transition:border-color .12s,background .12s;
+  }
+  .equip-slot:hover .equip-slot-box{border-color:var(--ember-dim);background:rgba(224,121,44,0.08);}
+  .equip-slot.active .equip-slot-box{border-color:var(--ember);background:rgba(224,121,44,0.12);box-shadow:0 0 0 1px var(--ember) inset;}
+  .equip-slot.has-pick .equip-slot-box{border-color:var(--moss);background:rgba(121,162,96,0.08);}
+  .equip-slot.has-pick.active .equip-slot-box{border-color:var(--ember);}
+  .equip-slot-abbr{font-size:0.65rem;font-weight:700;letter-spacing:0.05em;color:var(--text-dim);}
+  .equip-slot-img{width:44px;height:44px;object-fit:contain;image-rendering:pixelated;}
+  .equip-slot-label{
+    font-size:0.58rem;color:var(--text-dim);
+    max-width:72px;overflow:hidden;text-overflow:ellipsis;
+    white-space:nowrap;text-align:center;line-height:1.2;
+  }
+  .equip-slot.has-pick .equip-slot-label{color:var(--text);}
+  /* Picker panel */
+  .equip-picker-panel{
+    flex:1;min-width:200px;max-width:400px;
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);overflow:hidden;max-height:450px;overflow-y:auto;
+  }
+  .picker-head{
+    padding:9px 14px;font-size:0.68rem;text-transform:uppercase;
+    letter-spacing:0.1em;color:var(--gold);font-weight:700;
+    border-bottom:1px solid var(--line);background:var(--surface2);
+    display:flex;align-items:center;justify-content:space-between;
+    position:sticky;top:0;z-index:1;
+  }
+  .picker-clear{
+    font-size:0.65rem;color:var(--text-dim);cursor:pointer;
+    text-transform:none;letter-spacing:0;padding:2px 7px;
+    border-radius:5px;border:1px solid var(--line);background:none;
+    font-family:'Inter',sans-serif;transition:border-color .1s,color .1s;
+  }
+  .picker-clear:hover{border-color:var(--danger);color:var(--danger);}
+  .picker-item{
+    display:flex;align-items:center;gap:10px;padding:9px 14px;
+    cursor:pointer;font-size:0.83rem;color:var(--text-dim);
+    border-bottom:1px solid var(--line);transition:background .1s,color .1s;
+  }
+  .picker-item:last-child{border-bottom:none;}
+  .picker-item:hover{background:rgba(224,121,44,0.1);color:var(--text);}
+  .picker-item.selected{color:var(--moss);background:rgba(121,162,96,0.05);}
+  .picker-item.selected:hover{background:rgba(121,162,96,0.1);}
+  .picker-rank{
+    font-family:'JetBrains Mono',monospace;font-size:0.62rem;
+    color:var(--text-dim);flex:0 0 18px;text-align:right;
+  }
+  .picker-name{flex:1;line-height:1.35;}
+  .picker-check{color:var(--moss);font-size:0.75rem;flex:0 0 auto;}
+  .picker-hint{padding:28px 16px;color:var(--text-dim);font-size:0.83rem;text-align:center;font-style:italic;}
+
   .section-title{font-family:'Cinzel',serif;font-size:0.95rem;margin:0 0 10px;font-weight:700;display:flex;align-items:center;gap:8px;}
   .section-title .count{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-dim);font-weight:400;}
 
@@ -439,6 +503,9 @@ let ownedItems = new Set();
 let loadouts = [];
 let currentInventory = [];
 let editingLoadoutId = null;
+let slotSelections = {};   // { slot: itemName } — explicit pick per slot for current view
+let activeSlot = null;     // slot whose picker is currently open
+let _gearClickSetup = false;
 
 /* ============ LOCAL STORAGE (works on GitHub Pages, no backend needed) ============ */
 function loadLocal(){
@@ -569,6 +636,8 @@ function renderMonsterList(filter=""){
 function selectMonster(id){
   selectedMonster = GEAR.find(m=>m.id===id);
   activeStyle = "melee";
+  slotSelections = {};
+  activeSlot = null;
   editingLoadoutId = null;
   currentInventory = [...selectedMonster.inv];
   renderMonsterList(document.getElementById('searchInput').value);
@@ -763,7 +832,7 @@ function renderStyleTabs(){
     const tab = document.createElement('div');
     tab.className = 'style-tab' + (activeStyle===styleKey ? ' active':'');
     tab.innerHTML = `<span class="dot" style="background:${meta.color}"></span>${meta.label}`;
-    tab.onclick = ()=>{ activeStyle = styleKey; renderStyleTabs(); renderGearGrid(); };
+    tab.onclick = ()=>{ activeStyle = styleKey; slotSelections = {}; activeSlot = null; renderStyleTabs(); renderGearGrid(); };
     tabsEl.appendChild(tab);
   });
 }
@@ -779,6 +848,33 @@ function renderBaneCallout(){
     : "";
 }
 
+/* ---- Equipment paper-doll constants ---- */
+const SLOT_ABBRS = {
+  Head:"HE", Cape:"CP", Neck:"NK", Ammo:"AM", Weapon:"WP",
+  Body:"BD", Shield:"SH", Legs:"LG", Hands:"HN", Feet:"FT", Ring:"RG"
+};
+// OSRS paper-doll layout: row-major, null = empty grid cell
+const PAPER_DOLL = [
+  [null,    "Head",   null    ],
+  ["Cape",  "Neck",  "Ammo"  ],
+  ["Weapon","Body",  "Shield"],
+  [null,    "Legs",   null    ],
+  ["Hands", null,    "Feet"  ],
+  [null,    "Ring",   null    ],
+];
+const DOLL_SLOTS = new Set(PAPER_DOLL.flat().filter(Boolean));
+
+function shortName(name){
+  return name.length > 20 ? name.substring(0, 18) + '…' : name;
+}
+
+function getSlotPick(slot, slotItems){
+  if(slotSelections[slot]) return slotSelections[slot];
+  const owned = slotItems.filter(({item})=>ownedItems.has(item));
+  if(!owned.length) return null;
+  return owned.reduce((a,b)=>a.rank<=b.rank ? a : b).item;
+}
+
 function renderGearGrid(){
   renderBaneCallout();
   const sourceEl = document.getElementById('gearSourceNote');
@@ -788,10 +884,8 @@ function renderGearGrid(){
       ? `<div class="gear-source">Gear tiers sourced live from the <a href="${task.sourceUrl}" target="_blank" rel="noopener">OSRS Wiki</a>${RECOMMENDED_GEAR.generatedAt ? ' · fetched ' + new Date(RECOMMENDED_GEAR.generatedAt).toLocaleDateString() : ''}</div>`
       : `<div class="gear-source curated">Curated gear list — not yet backed by a live wiki gear table for this task</div>`;
   }
-  const grid = document.getElementById('gearGrid');
-  const rawItems = getSlotEntries(selectedMonster, activeStyle);
-  grid.innerHTML = "";
 
+  const rawItems = getSlotEntries(selectedMonster, activeStyle);
   const bySlot = {};
   rawItems.forEach(entry=>{
     const parts = splitItems(entry.item);
@@ -799,59 +893,174 @@ function renderGearGrid(){
     parts.forEach((p,rank)=>bySlot[entry.slot].push({item:p, rank}));
   });
 
+  const grid = document.getElementById('gearGrid');
+
+  if(Object.keys(bySlot).length === 0){
+    grid.innerHTML = '<div style="color:var(--text-dim);font-size:0.85rem;">No specific gear needed for this style — anything works.</div>';
+    document.getElementById('ownedCount').textContent = "";
+    return;
+  }
+
   let totalItems = 0, ownedCount = 0;
-  const orderedSlots = Object.keys(bySlot).sort((a,b)=>{
-    const ai = SLOT_ORDER.indexOf(a), bi = SLOT_ORDER.indexOf(b);
-    return (ai===-1?99:ai) - (bi===-1?99:bi);
-  });
+  Object.values(bySlot).forEach(items=>items.forEach(({item})=>{ totalItems++; if(ownedItems.has(item)) ownedCount++; }));
+  document.getElementById('ownedCount').textContent = totalItems ? `${ownedCount}/${totalItems} picked` : "";
 
-  orderedSlots.forEach(slot=>{
-    const group = document.createElement('div');
-    group.className = 'slot-group';
-    const header = document.createElement('div');
-    header.className = 'slot-header';
-    header.textContent = slot;
-    group.appendChild(header);
+  grid.innerHTML = "";
+  const wrap = document.createElement('div');
+  wrap.className = 'equip-panel-wrap';
+  wrap.onclick = e=>e.stopPropagation();
 
-    const row = document.createElement('div');
-    row.className = 'slot-row';
+  // --- Paper doll grid ---
+  const doll = document.createElement('div');
+  doll.className = 'equip-doll';
 
-    const ownedRanks = bySlot[slot].filter(o=>ownedItems.has(o.item)).map(o=>o.rank);
-    const bestOwnedRank = ownedRanks.length ? Math.min(...ownedRanks) : null;
+  PAPER_DOLL.forEach((row, ri)=>{
+    row.forEach((slot, ci)=>{
+      const cell = document.createElement('div');
+      cell.style.gridRow = ri + 1;
+      cell.style.gridColumn = ci + 1;
+      if(!slot || !bySlot[slot]){
+        cell.style.cssText = 'width:72px;height:72px;';
+        doll.appendChild(cell);
+        return;
+      }
+      const slotItems = bySlot[slot];
+      const pick = getSlotPick(slot, slotItems);
+      const isActive = activeSlot === slot;
+      cell.className = 'equip-slot' + (pick ? ' has-pick':'') + (isActive ? ' active':'');
 
-    bySlot[slot].forEach(({item, rank})=>{
-      totalItems++;
-      const isOwned = ownedItems.has(item);
-      if(isOwned) ownedCount++;
-      const isPick = bestOwnedRank!==null && rank===bestOwnedRank && isOwned;
-      const card = document.createElement('div');
-      card.className = 'gear-card' + (isOwned ? ' owned':'') + (isPick ? ' pick':'');
-      card.innerHTML = `
-        <input type="checkbox" ${isOwned?'checked':''}>
-        <div><div class="g-item">${item}${isPick?' <span class="pick-badge">use this</span>':''}</div></div>
-      `;
-      card.querySelector('input').onchange = (e)=>{
-        if(e.target.checked) ownedItems.add(item); else ownedItems.delete(item);
-        persistOwned();
+      const box = document.createElement('div');
+      box.className = 'equip-slot-box';
+
+      if(pick){
+        const img = document.createElement('img');
+        img.className = 'equip-slot-img';
+        img.alt = pick;
+        img.src = `https://oldschool.runescape.wiki/images/${encodeURIComponent(pick.replace(/ /g,'_'))}.png`;
+        img.onerror = ()=>{
+          img.remove();
+          const abbr = document.createElement('span');
+          abbr.className = 'equip-slot-abbr';
+          abbr.textContent = SLOT_ABBRS[slot] || slot.substring(0,2).toUpperCase();
+          box.appendChild(abbr);
+        };
+        box.appendChild(img);
+      } else {
+        const abbr = document.createElement('span');
+        abbr.className = 'equip-slot-abbr';
+        abbr.textContent = SLOT_ABBRS[slot] || slot.substring(0,2).toUpperCase();
+        box.appendChild(abbr);
+      }
+
+      const lbl = document.createElement('div');
+      lbl.className = 'equip-slot-label';
+      lbl.textContent = pick ? shortName(pick) : slot;
+
+      cell.appendChild(box);
+      cell.appendChild(lbl);
+      cell.onclick = (e)=>{
+        e.stopPropagation();
+        activeSlot = activeSlot === slot ? null : slot;
         renderGearGrid();
       };
-      card.onclick = (e)=>{
-        if(e.target.tagName.toLowerCase()==='input') return;
-        const cb = card.querySelector('input');
-        cb.checked = !cb.checked;
-        cb.dispatchEvent(new Event('change'));
-      };
-      row.appendChild(card);
+      doll.appendChild(cell);
     });
-
-    group.appendChild(row);
-    grid.appendChild(group);
   });
 
-  if(totalItems===0){
-    grid.innerHTML = '<div style="color:var(--text-dim);font-size:0.85rem;">No specific gear needed for this style — anything works.</div>';
+  wrap.appendChild(doll);
+
+  // --- Picker panel ---
+  const pickerPanel = document.createElement('div');
+  pickerPanel.className = 'equip-picker-panel';
+
+  if(activeSlot && bySlot[activeSlot]){
+    const slotItems = bySlot[activeSlot];
+    const pick = getSlotPick(activeSlot, slotItems);
+
+    const head = document.createElement('div');
+    head.className = 'picker-head';
+    const headTitle = document.createElement('span');
+    headTitle.textContent = activeSlot;
+    head.appendChild(headTitle);
+    if(pick){
+      const clr = document.createElement('button');
+      clr.className = 'picker-clear';
+      clr.textContent = 'Clear';
+      clr.onclick = (e)=>{
+        e.stopPropagation();
+        delete slotSelections[activeSlot];
+        renderGearGrid();
+      };
+      head.appendChild(clr);
+    }
+    pickerPanel.appendChild(head);
+
+    slotItems.forEach(({item, rank})=>{
+      const isSelected = item === pick;
+      const row = document.createElement('div');
+      row.className = 'picker-item' + (isSelected ? ' selected':'');
+      row.innerHTML = `<span class="picker-rank">${rank+1}</span><span class="picker-name">${esc(item)}</span>${isSelected?'<span class="picker-check">✓</span>':''}`;
+      row.onclick = (e)=>{
+        e.stopPropagation();
+        if(isSelected){
+          delete slotSelections[activeSlot];
+        } else {
+          slotSelections[activeSlot] = item;
+          ownedItems.add(item);
+          persistOwned();
+        }
+        renderGearGrid();
+      };
+      pickerPanel.appendChild(row);
+    });
+  } else {
+    pickerPanel.innerHTML = '<div class="picker-hint">Click a slot in the equipment panel to see gear options for that slot.</div>';
   }
-  document.getElementById('ownedCount').textContent = totalItems ? `${ownedCount}/${totalItems} owned` : "";
+
+  wrap.appendChild(pickerPanel);
+  grid.appendChild(wrap);
+
+  // Any slots not in the doll (e.g. "Other") — render as cards below
+  const extraSlots = Object.keys(bySlot)
+    .filter(s=>!DOLL_SLOTS.has(s))
+    .sort((a,b)=>(SLOT_ORDER.indexOf(a)||99)-(SLOT_ORDER.indexOf(b)||99));
+  if(extraSlots.length){
+    const extraDiv = document.createElement('div');
+    extraDiv.style.marginTop = '16px';
+    extraSlots.forEach(slot=>{
+      const group = document.createElement('div');
+      group.className = 'slot-group';
+      const header = document.createElement('div');
+      header.className = 'slot-header';
+      header.textContent = slot;
+      group.appendChild(header);
+      const row = document.createElement('div');
+      row.className = 'slot-row';
+      bySlot[slot].forEach(({item})=>{
+        const isOwned = ownedItems.has(item);
+        const card = document.createElement('div');
+        card.className = 'gear-card' + (isOwned?' owned':'');
+        card.innerHTML = `<input type="checkbox" ${isOwned?'checked':''}><div><div class="g-item">${esc(item)}</div></div>`;
+        card.querySelector('input').onchange = e=>{
+          if(e.target.checked) ownedItems.add(item); else ownedItems.delete(item);
+          persistOwned(); renderGearGrid();
+        };
+        card.onclick = e=>{ if(e.target.tagName.toLowerCase()==='input') return; const cb=card.querySelector('input'); cb.checked=!cb.checked; cb.dispatchEvent(new Event('change')); };
+        row.appendChild(card);
+      });
+      group.appendChild(row);
+      extraDiv.appendChild(group);
+    });
+    grid.appendChild(extraDiv);
+  }
+
+  // One-time document click handler to close the picker when clicking outside
+  if(!_gearClickSetup){
+    _gearClickSetup = true;
+    document.addEventListener('click', ()=>{
+      if(activeSlot){ activeSlot = null; renderGearGrid(); }
+    });
+  }
 }
 
 function renderInvTags(){
