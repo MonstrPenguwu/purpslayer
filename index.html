@@ -193,8 +193,8 @@
   .equip-slot.has-pick.active .equip-slot-box{border-color:var(--ember);}
   .equip-slot-abbr{font-size:0.65rem;font-weight:700;letter-spacing:0.05em;color:var(--text-dim);}
   .equip-slot-img{width:44px;height:44px;object-fit:contain;image-rendering:pixelated;}
-  .equip-slot-icon{opacity:0.45;filter:brightness(0.9);}
-  .equip-slot.has-pick .equip-slot-img{opacity:1;filter:none;}
+  .equip-slot-icon{filter:brightness(3.5) saturate(0.4);opacity:0.75;}
+  .equip-slot.has-pick .equip-slot-img{filter:none;opacity:1;}
   .equip-slot-label{
     font-size:0.58rem;color:var(--text-dim);
     max-width:72px;overflow:hidden;text-overflow:ellipsis;
@@ -1127,21 +1127,32 @@ function renderInvGrid(){
   const grid = document.getElementById('invGrid');
   if(!grid) return;
   grid.innerHTML = "";
-  const total = Math.max(28, Math.ceil((currentInventory.length + 4) / 4) * 4);
-  for(let i = 0; i < total; i++){
+  const MAX_SLOTS = 28;
+  for(let i = 0; i < MAX_SLOTS; i++){
     const item = currentInventory[i] || null;
     const cell = document.createElement('div');
     cell.className = 'inv-cell' + (item ? ' has-item' : '');
     if(item){
       const img = document.createElement('img');
+      // Strip parenthetical qualifiers like "(if no slayer helm)" for URL lookup
+      const wikiName = item.split('(')[0].trim().replace(/ /g,'_') || item.replace(/ /g,'_');
       img.src = `https://oldschool.runescape.wiki/images/${encodeURIComponent(item.replace(/ /g,'_'))}.png`;
       img.alt = item;
       img.onerror = ()=>{
-        img.remove();
-        const fb = document.createElement('span');
-        fb.className = 'inv-cell-fallback';
-        fb.textContent = item.substring(0,4);
-        cell.appendChild(fb);
+        // Try simplified name (first word group before any parens/slash)
+        const simplified = wikiName.split('/')[0].trim();
+        if(img.dataset.tried !== '1' && simplified !== item.replace(/ /g,'_')){
+          img.dataset.tried = '1';
+          img.src = `https://oldschool.runescape.wiki/images/${encodeURIComponent(simplified)}.png`;
+        } else {
+          img.remove();
+          const fb = document.createElement('span');
+          fb.className = 'inv-cell-fallback';
+          // Show short readable label (first word or first 8 chars)
+          const label = item.replace(/\s*\(.*\)$/, '').trim();
+          fb.textContent = label.length > 9 ? label.substring(0,8)+'…' : label;
+          cell.appendChild(fb);
+        }
       };
       cell.appendChild(img);
       const tip = document.createElement('div');
@@ -1154,6 +1165,7 @@ function renderInvGrid(){
       rmv.onclick = (e)=>{ e.stopPropagation(); currentInventory.splice(i,1); renderInvGrid(); };
       cell.appendChild(rmv);
     } else {
+      cell.title = 'Click to add item';
       cell.onclick = ()=>{ const inp=document.getElementById('invAddInput'); if(inp) inp.focus(); };
     }
     grid.appendChild(cell);
@@ -1164,6 +1176,7 @@ function addInvItem(){
   const input = document.getElementById('invAddInput');
   const val = input.value.trim();
   if(!val) return;
+  if(currentInventory.length >= 28){ showToast("Inventory is full (28 slots max)"); return; }
   currentInventory.push(val);
   input.value = "";
   renderInvGrid();
@@ -1211,6 +1224,7 @@ function renderInvSuggest(){
   box.classList.add('show');
   box.querySelectorAll('.suggest-item').forEach(el=>{
     el.onclick = ()=>{
+      if(currentInventory.length >= 28){ showToast("Inventory is full (28 slots max)"); closeInvSuggest(); return; }
       currentInventory.push(el.dataset.name);
       document.getElementById('invAddInput').value = "";
       renderInvGrid();
